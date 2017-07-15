@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:300,800');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Raleway');
+
+html,body,div,span,applet,object,iframe,
+h1,h2,h3,h4,h5,h6,p,blockquote,pre,
+a,abbr,acronym,address,big,cite,code,
+del,dfn,em,img,ins,kbd,q,s,samp,
+small,strike,strong,sub,sup,tt,var,
+b,u,i,center,
+dl,dt,dd,ol,ul,li,
+fieldset,form,label,legend,
+table,caption,tbody,tfoot,thead,tr,th,td,
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary,
+time,mark,audio,video{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section{
+  display:block;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.site-container {
+  position: relative;
+  left: 60px;
+  width: -webkit-calc(100% - 60px);
+  width: -moz-calc(100% - 60px);
+  width: calc(100% - 60px);
+}
+
+.site-container::after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+  line-height:1.6;
+}
+
+ol,ul{
+  list-style:none;
+}
+
+blockquote,q{
+    quotes:none;
+}
+
+blockquote:before,blockquote:after,
+q:before,q:after{
+    content:’’;
+    content:none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+h1 {
+	font-size: 24px;
+	font-size: 2.4rem;
+}
+
+h2 {
+	font-size: 20px;
+	font-size: 2rem;
+}
+
+h3 {
+	font-size: 16px;
+	font-size: 1.6rem;
+}
+
+h4 {
+	font-size: 14px;
+	font-size: 1.4rem;
+}
+
+p {
+  font-size: 18px;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.site-container {
+  overflow-x:hidden;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a {
+  text-decoration: none;
+}

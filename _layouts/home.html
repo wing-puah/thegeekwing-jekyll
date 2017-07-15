@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="{{site.url}}/style.css">
+</head>
+<body>
+  {% include navbar.html %}
+  <section class="homepage site-container flex-col">
+    <div class="flex vert-centered" id="home1">
+      {% include home/row1.html %}
+    </div>
+    <div id="home2">
+      {% include home/row2.html %}
+    </div>
+    <div id="home3">
+      {% include home/row3.html %}
+    </div>
+    <div id="home4">
+      {% include home/row4.html %}
+    </div>
+  </section>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="{{site.url}}/plugins/vertCarousel.js" charset="utf-8"></script>
+  <script src="{{site.url}}/plugins/base.js" charset="utf-8"></script>
+  <script src="{{site.url}}/plugins/homeAnimation.js" charset="utf-8"></script>
+  <script src="{{site.url}}/plugins/galaxy.js" charset="utf-8"></script>
+
+</body>

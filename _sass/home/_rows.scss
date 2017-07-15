@@ -1,0 +1,79 @@
+.homepage .btn {
+  width: 350px;
+}
+
+#home1 {
+  @include mobile {
+    @include linear-gradient(45deg, #D0A98F, #6D2E46);
+    height: 250px;
+    padding: 3rem 1rem;
+    background-color: #fff;
+  }
+
+  height: 90vh;
+  overflow: hidden;
+
+  h1 {
+    @include mobile {margin-top: 30px;}
+    color: #ffffff;
+    font-family: $homeheading;
+    font-weight: 300;
+  }
+
+  .home-video {
+    @include mobile { display: none; };
+    position: relative;
+    top: 0;
+    object-fit: cover;
+    width: 100vw;
+    z-index: -5;
+    overflow: hidden;
+  }
+}
+
+.video-container {
+  position: absolute;
+  left: 0;
+  height: 450px;
+  overflow: hidden;
+}
+
+#home2 {
+  h2 { color: darken( $primaryCol, 10% ) }
+}
+
+.parallax img {
+  object-fit: cover;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  height: 100%;
+  z-index: -10;
+}
+
+#home3 {
+  position: relative;
+
+  .bg-sec {
+    overflow: auto;
+  }
+
+  .btn {
+    float: right;
+  }
+}
+
+#home4 {
+  height: 400px;
+  overflow: hidden;
+
+  h2 {
+    font-family: $font-thin;
+    line-height: 1.6;
+  }
+
+  span {
+    background-color: #FFF4E4;
+    color: #666666;
+  }
+}

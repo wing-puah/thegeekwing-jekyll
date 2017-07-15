@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Jura:300,400,500|Tangerine');
+
+header {
+  text-align: right;
+  padding-right: 20px;
+
+  h1.site-title {
+  	font: 500 45px 'Jura', sans-serif;
+    margin-bottom: 0;
+  }
+  .site-description {
+  	font: 35px 'Tangerine', cursive;
+  }
+
+}
+
+footer {
+  clear: both;
+  background-color: $footerBg;
+
+  .wrap {
+    width: 95%;
+    padding: 20px 0;
+  }
+
+  .col {
+    color: white;
+  }
+
+  h4 {
+    color: white;
+  }
+
+  a.btn{
+    color: white;
+  }
+
+}

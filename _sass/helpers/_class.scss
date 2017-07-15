@@ -1,0 +1,201 @@
+.wrap {
+  width: 95%;
+  margin: auto;
+  @include notmobile {
+    width: 90%;
+  }
+}
+
+.small-padding {
+  padding: 30px 0;
+  margin: auto;
+}
+
+.big-padding {
+  @include mobile {
+    padding: 10px 0;
+  }
+  padding: 80px 0;
+}
+
+.top-margin {
+  margin-top: 50px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.flex {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+}
+
+.flex-col {
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  padding: 40px 0;
+}
+
+.padded-container {
+  display: block;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.col {
+  margin: 10px;
+}
+
+.col-1,
+.row-1 {
+  flex: 1;
+}
+
+.col-2,
+.row-2 {
+  flex: 2;
+}
+
+.col-3,
+.row-3 {
+  flex: 3;
+}
+
+.col-4,
+.row-4 {
+  flex: 4;
+}
+
+.col-5,
+.row-5 {
+  flex: 5;
+}
+
+.col-6,
+.row-6 {
+  flex: 6;
+}
+
+.bg-pri {
+  background-color: $primaryCol;
+}
+
+.bg-sec{
+  background-color: $secondaryCol;
+  color: black;
+}
+
+.bg-grey {
+  background-color: $greyBg;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.priCol {
+  color: $primaryCol;
+}
+
+.secCol {
+  color: $secondaryCol;
+}
+
+.whiteCol {
+  color: white;
+}
+
+.centered {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.vert-centered {
+  align-items: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.btn {
+  padding: 20px;
+  background-color: $btn-priCol;
+  color: white;
+  border: 2px solid $btn-priCol;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+
+  &:hover {
+    background-color: white;
+    color: darken( $btn-priCol, 20% );
+  }
+}
+
+.btn-border {
+  border: 3px solid $secondaryCol;
+}
+
+.btn-clear {
+  background-color: transparent;
+}
+
+.rdCorner {
+  border-radius: 5px;
+}
+
+.round {
+  border-radius: 100%;
+}
+
+.sm-img {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+}
+
+.md-img {
+  height: 200px;
+  width: 200px;
+  object-fit: contain;
+}
+
+.box-fade {
+  background-color: rgba(white, 0.8);
+  padding: 60px 40px;
+}
+
+.box-margin {
+  margin: 40px 0;
+}
+
+.full-img {
+  object-fit: cover;
+}
+
+.full-page {
+  width: 100vw;
+  height: 100vh;
+  z-index: -5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+}
+
+.hide {@include opacity(0);}

@@ -1,0 +1,16 @@
+subpages:
+
+  - page: "Home"
+    url: "/"
+
+  - page: "Blog"
+    url: "{{site.url}}/blog"
+
+  - page: "Portofolio"
+    url: "{{site.url}}/portfolio"
+
+  - page: "About wing"
+    url: "{{site.url}}/about-wing"
+
+  - page: "Hire me"
+    url: "{{site.url}}/hire-me"

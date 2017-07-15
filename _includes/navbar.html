@@ -1,0 +1,14 @@
+<nav class="nav-pri uppercase bg-white">
+  <ul class="parent"><h2>M e n u</h2>
+
+    <ul class="sub-menu flex flex-col centered">
+      {% for item in site.data.navlist.subpages %}
+      <li class="col col-1 {% if item.url == page.url %}active{% endif %}">
+        <a class="flex vert-centered" href="{{item.url}}">{{item.page}}</a>
+      </li>
+      {% endfor %}
+    </ul>
+
+  </ul>
+
+</nav>
