@@ -1,0 +1,46 @@
+---
+layout: default
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+
+    <div class="centered box-fade container">
+
+      <h1 class="post-title" itemprop="name headline">
+        {{ page.title | escape }}
+      </h1>
+
+      <p class="post-meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+          {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
+          {{ page.date | date: date_format }}
+        </time><br/>
+        <a class="txtdeco-none greyFont" href="{{site.url}}/category/{{ category | first }}">{{page.categories}}</a>
+      </p>
+
+    </div>
+
+    <img class="full-img full-width" src="{{page.banner}}" alt="">
+
+  </header>
+
+  <div class="post-content wrap padding-small" itemprop="articleBody">
+    {{ content }}
+  </div>
+
+  <div class="entry-footer wrap">
+
+    <h4 class="margin-top">Enjoy this post? Subscribe for more geekiness!</h4>
+    {% include mailchimp.html %}
+
+    {% include relatedposts.html %}
+  </div>
+
+  {% include socialmediasharing.html %}
+
+  {% if site.disqus.shortname %}
+    {% include disqus_comments.html %}
+  {% endif %}
+</article>

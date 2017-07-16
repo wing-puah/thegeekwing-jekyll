@@ -4,13 +4,13 @@ subpages:
     url: "/"
 
   - page: "Blog"
-    url: "{{site.url}}/blog"
+    url: "/blog/"
 
   - page: "Portofolio"
-    url: "{{site.url}}/portfolio"
+    url: "/portfolio/"
 
   - page: "About wing"
-    url: "{{site.url}}/about-wing"
+    url: "/about-wing/"
 
   - page: "Hire me"
-    url: "{{site.url}}/hire-me"
+    url: "/hire-me/"

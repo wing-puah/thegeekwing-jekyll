@@ -1,0 +1,25 @@
+---
+layout: postarchives
+title: "Blog"
+permalink: /blog/
+---
+
+{% for post in site.posts %}
+  {% assign currentDate = post.date | date: "%Y" %}
+  {% if currentDate != myDate %}
+    {% unless forloop.first %}{% endunless %}
+    <ul class="flex flex-wrap margin-top post-list">
+       {% assign myDate = currentDate %}
+      {% endif %}
+
+      <li class="col-1">
+        <div class="col centered">
+          <a href="{{ post.url }}">
+            <img class="img-thumbnail full-img rdCorner" src="{{ post.banner }}" alt="">
+            {{ post.title }}
+        </div>
+      </li>
+
+    {% if forloop.last %}
+  </ul>{% endif %}
+{% endfor %}

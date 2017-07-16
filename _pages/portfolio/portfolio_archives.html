@@ -1,0 +1,26 @@
+---
+layout: default
+title: "Portfolio"
+permalink: /portfolio/
+---
+
+<section class="archive-portfolio-list container">
+
+  <div class="wrap flex">
+
+  {% for page in site.pages %}
+    {% if page.page-type contains 'portfolio' %}
+
+    <div class="col-1 centered">
+      <a href="{{page.url}}">
+        <img class="img-thumbnail full-img" src="{{page.banner}}" alt="">
+        <h3 id="portfolio-title" class="box-fade centered full-width padding-small">{{page.title}}</h3>
+        <h4 id="portfolio-genre" class="centered full-width">{{page.genre}}</h4>
+      </a>
+    </div>
+
+    {% endif %}
+  {% endfor %}
+  </div>
+
+</section>

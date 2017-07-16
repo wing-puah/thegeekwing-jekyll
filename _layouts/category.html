@@ -1,0 +1,25 @@
+---
+layout: postarchives
+---
+
+<div class="cat-page">
+
+  <h1 class="margin-top greyFont">{{ page.tag }}</h1>
+
+  <ul class="flex flex-wrap post-list">
+
+    {% for post in site.categories[page.tag] %}
+
+    <li class="col-1">
+      <div class="col centered">
+        <a href="{{ post.url }}">
+          <img class="img-thumbnail full-img rdCorner" src="{{ post.banner }}" alt="">
+          {{ post.title }}
+      </div>
+    </li>
+
+    {% endfor %}
+
+  </ul>
+
+</div>

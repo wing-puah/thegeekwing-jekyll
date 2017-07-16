@@ -32,10 +32,12 @@ nav {
   }
 
   .sub-menu {
-    left: -9999px;
+    @include transition( all 1s );
+    left: -340px;
     position: absolute;
     height: 100vh;
     width: 300px;
+    border-right: 2px solid $greyBg;
 
     &:hover {
       left: 0;

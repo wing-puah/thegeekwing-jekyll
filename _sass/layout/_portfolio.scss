@@ -1,0 +1,55 @@
+.archive-portfolio-list {
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:hover {
+
+      > img {
+        @include opacity(0.6);
+      }
+
+      > #portfolio-title {
+        font-size: 1.2rem;
+      }
+
+      > #portfolio-genre {
+        @include transform( translateY(-50px) );
+        @include opacity(1);
+      }
+
+    }
+
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  .col-1 {
+    flex: 1 0 30%;
+    position: relative;
+    height: 300px;
+
+    img {
+      height: 300px;
+    }
+
+    #portfolio-title {
+      @include transition( all 0.5s linear);
+      position: absolute;
+      bottom: 0;
+      margin-bottom: 0;
+    }
+
+    #portfolio-genre {
+      @include transition( all 1s linear);
+      @include opacity(0);
+      position: absolute;
+      top: 60%;
+    }
+
+  }
+
+}

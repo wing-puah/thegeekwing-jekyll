@@ -1,0 +1,3 @@
+{% for tag in page.tags %}
+  <a class="tag bg-grey rdCorner" href="/blog/tag/#{{ tag | slugify }}">{{ tag }}</a>
+{% endfor %}

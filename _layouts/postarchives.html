@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<section class="archive-post-list container archive">
+
+  <div class="wrap">
+    <div class="flex centered cat-list">
+
+    {% for category in site.categories %}
+      <a class="col col-1 bg-grey rdCorner padding-small-box" href="{{site.url}}/category/{{ category | first }}">
+        <h3>{{ category | first }}</h3>
+      </a>
+    {% endfor %}
+
+    </div>
+
+
+    {{content}}
+
+  </div>
+
+</section>

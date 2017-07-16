@@ -1,0 +1,34 @@
+---
+layout: default
+permalink: /about-wing/
+---
+
+<div class="aboutme-page">
+
+  <div class="role-list">
+    <ul class="flex padding-small centered">
+    {% for role in site.data.aboutwinglist.roles %}
+
+    <li class="col-1 col centered">
+
+      <h4 class="round flex vert-centered bg-grey secCol">
+        {{ role.title }}
+      </h4>
+
+    </li>
+
+    {% endfor %}
+    </ul>
+  </div>
+
+  {% for role in site.data.aboutwinglist.roles %}
+  <div class="col-1 flex flex-col">
+
+    <img class="full-width full-img" src="{{role.image}}" alt="">
+    <h2 class="padding-small-box block">{{role.title}}</h2>
+    <p class="box-fade padding-small-box block">{{role.details}}</p>
+
+  </div>
+  {% endfor %}
+
+</div>

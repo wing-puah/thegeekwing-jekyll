@@ -1,0 +1,17 @@
+.hireme {
+
+  .content {position: relative;}
+
+  .img-strip {
+    @include opacity(0.2);
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%;
+
+    img {
+      height: 170px;
+    }
+  }
+}
