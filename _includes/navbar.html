@@ -4,7 +4,7 @@
     <ul class="sub-menu flex flex-col centered">
       {% for item in site.data.navlist.subpages %}
       <li class="col col-1 {% if item.url == page.url %}active{% endif %}">
-        <a class="flex vert-centered" href="{{item.url}}">{{item.page}}</a>
+        <a class="flex vert-centered" href="{{site.baseurl}}{{item.url}}">{{item.page}}</a>
       </li>
       {% endfor %}
     </ul>

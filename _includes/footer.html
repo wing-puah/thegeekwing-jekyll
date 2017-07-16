@@ -8,7 +8,7 @@
       {% for post in site.posts limit:6 %}
         {% assign post = site.posts.first %}
         <li>
-          <a class="txtdeco-none whiteCol" href="{{page.url}}">
+          <a class="txtdeco-none whiteCol" href="{{site.baseurl}}{{page.url}}">
             {{ post.title }}
           </a>
         </li>
@@ -22,13 +22,13 @@
 
       <div class="social-media-icons">
         <a href="https://www.facebook.com/thegeekwing/" target="_blank">
-          <img src="{{site.url}}/assets/social-media/facebook.png" />
+          <img src="{{site.baseurl}}/assets/social-media/facebook.png" />
         </a>
         <a href="https://twitter.com/wing_phy" target="_blank">
-          <img src="{{site.url}}/assets/social-media/twitter.png" />
+          <img src="{{site.baseurl}}/assets/social-media/twitter.png" />
         </a>
         <a href="https://www.linkedin.com/in/puahhuiying/" target="_blank">
-          <img src="{{site.url}}/assets/social-media/linkedin.png" />
+          <img src="{{site.baseurl}}/assets/social-media/linkedin.png" />
         </a>
       </div>
 

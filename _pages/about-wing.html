@@ -24,7 +24,7 @@ permalink: /about-wing/
   {% for role in site.data.aboutwinglist.roles %}
   <div class="col-1 flex flex-col">
 
-    <img class="full-width full-img" src="{{role.image}}" alt="">
+    <img class="full-width full-img" src="{{site.baseurl}}{{role.image}}" alt="">
     <h2 class="padding-small-box block">{{role.title}}</h2>
     <p class="box-fade padding-small-box block">{{role.details}}</p>
 
