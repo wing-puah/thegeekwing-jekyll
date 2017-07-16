@@ -1,16 +1,16 @@
 subpages:
 
   - page: "Home"
-    url: "/"
+    url: "https://wing-puah.github.io/thegeekwing-jekyll/"
 
   - page: "Blog"
-    url: "/blog/"
+    url: "https://wing-puah.github.io/thegeekwing-jekyll/blog/"
 
   - page: "Portofolio"
-    url: "/portfolio/"
+    url: "https://wing-puah.github.io/thegeekwing-jekyll/portfolio/"
 
   - page: "About wing"
-    url: "/about-wing/"
+    url: "https://wing-puah.github.io/thegeekwing-jekyll/about-wing/"
 
   - page: "Hire me"
-    url: "/hire-me/"
+    url: "https://wing-puah.github.io/thegeekwing-jekyll/hire-me/"

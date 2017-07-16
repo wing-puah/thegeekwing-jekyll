@@ -1,8 +1,8 @@
 ---
-permalink: "/portfolio/singapore-vienna-boys-choir.html"
+permalink: "https://wing-puah.github.io/thegeekwing-jekyll/portfolio/singapore-vienna-boys-choir.html"
 layout: portfolio
 page-type: [ portfolio ]
-banner: "/assets/portfolio/svbc-page-design.jpg"
+banner: "https://wing-puah.github.io/thegeekwing-jekyll/assets/portfolio/svbc-page-design.jpg"
 title: "Singapore Vienna Boys Choir"
 date: "Apr 2017"
 genre: "Website management"
