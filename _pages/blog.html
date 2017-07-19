@@ -3,23 +3,18 @@ layout: postarchives
 title: "Blog"
 permalink: /blog/
 ---
-
+<ul class="flex flex-wrap post-list margin-top">
 {% for post in site.posts %}
-  {% assign currentDate = post.date | date: "%Y" %}
-  {% if currentDate != myDate %}
-    {% unless forloop.first %}{% endunless %}
-    <ul class="flex flex-wrap margin-top post-list">
-       {% assign myDate = currentDate %}
-      {% endif %}
+  {% assign post = site.posts.first %}
 
-      <li class="col-1">
+      <li class="col-1 article-loop">
         <div class="col centered">
           <a href="{{site.baseurl}}{{ post.url }}">
-            <img class="img-thumbnail full-img rdCorner" src="{{site.baseurl}}{{ post.banner }}" alt="">
+            <img class="img-thumbnail full-img rdCorner" src="{{site.baseurl}}/assets{{ post.banner }}" alt="">
             {{ post.title }}
+          </a>
         </div>
       </li>
 
-    {% if forloop.last %}
-  </ul>{% endif %}
 {% endfor %}
+</ul>

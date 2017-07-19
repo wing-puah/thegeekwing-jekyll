@@ -8,7 +8,7 @@ layout: default
 
     <div class="centered box-fade container">
 
-      <h1 class="post-title" itemprop="name headline">
+      <h1 class="post-title wrap" itemprop="name headline">
         {{ page.title | escape }}
       </h1>
 
@@ -17,12 +17,12 @@ layout: default
           {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
           {{ page.date | date: date_format }}
         </time><br/>
-        <a class="txtdeco-none greyFont" href="{{site.baseurl}}/category/{{ category | first }}">{{page.categories}}</a>
+        <a class="txtdeco-none greyFont" href="{{site.baseurl}}/category/{{ page.categories }}">{{page.categories}}</a>
       </p>
 
     </div>
 
-    <img class="full-img full-width" src="{{site.baseurl}}{{page.banner}}" alt="">
+    <img class="full-img full-width" src="{{site.baseurl}}/assets{{page.banner}}" alt="">
 
   </header>
 

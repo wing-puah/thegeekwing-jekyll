@@ -1,4 +1,4 @@
 ---
 tag: Personal development
-permalink: "/category/personal development"
+permalink: "/category/Personal development/"
 ---

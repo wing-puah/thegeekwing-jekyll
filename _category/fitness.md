@@ -1,4 +1,4 @@
 ---
 tag: Fitness
-permalink: "/category/fitness"
+permalink: "/category/Fitness/"
 ---

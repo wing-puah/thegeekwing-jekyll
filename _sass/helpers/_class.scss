@@ -244,3 +244,19 @@ a.greyFont:hover { color: $primaryCol; }
 .twenty {
   width: 20%;
 }
+
+.pagination-button {
+  padding: 20px;
+  margin: 10px;
+
+  &:hover {
+    background-color: darken($greyBg, 10%);
+    color: $primaryCol;
+    cursor: pointer;
+  }
+
+  &.active {
+    background-color: $btn-priCol;
+  }
+
+}

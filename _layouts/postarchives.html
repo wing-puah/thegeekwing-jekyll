@@ -8,7 +8,7 @@ layout: default
     <div class="flex centered cat-list">
 
     {% for category in site.categories %}
-      <a class="col col-1 bg-grey rdCorner padding-small-box" href="{{site.baseurl}}/category/{{ category | first }}">
+      <a class="col col-1 bg-grey rdCorner padding-small-box" href="{{site.baseurl}}/category/{{ category | first }}/">
         <h3>{{ category | first }}</h3>
       </a>
     {% endfor %}

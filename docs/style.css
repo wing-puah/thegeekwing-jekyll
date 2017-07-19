@@ -203,6 +203,16 @@ a.greyFont:hover {
 .twenty {
   width: 20%; }
 
+.pagination-button {
+  padding: 20px;
+  margin: 10px; }
+  .pagination-button:hover {
+    background-color: #c9cbcc;
+    color: #5874ac;
+    cursor: pointer; }
+  .pagination-button.active {
+    background-color: #9CADCE; }
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -228,8 +238,12 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+em {
+  font-style: italic; }
+
 p {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-size: 20px; }
 
 .site-container,
 footer {
@@ -287,9 +301,6 @@ h4 {
   font-size: 14px;
   font-size: 1.4rem; }
 
-p {
-  font-size: 18px; }
-
 strong {
   font-weight: bold; }
 
@@ -313,6 +324,21 @@ a {
   text-decoration: none; }
   a:hover {
     color: #6d1220; }
+
+blockquote {
+  position: relative;
+  padding: 10px;
+  display: grid;
+  padding: 20px 40px;
+  margin: 20px;
+  font-size: 20px;
+  font-style: italic;
+  background-color: #e3e4e5; }
+  blockquote::before {
+    content: '';
+    border-left: 10px solid #410B13;
+    height: 100%;
+    position: absolute; }
 
 header h1.site-title {
   font: 500 45px 'Jura', sans-serif;
@@ -409,6 +435,11 @@ nav {
 .post .wrap {
   width: 80%; }
 
+.post-content h2, .post-content h3, .post-content h4, .post-content h5 {
+  margin-top: 50px; }
+.post-content p {
+  margin-bottom: 20px; }
+
 .social-wrapper {
   position: fixed;
   top: 180px;
@@ -444,7 +475,7 @@ nav {
 .archive .flex {
   flex-wrap: wrap; }
   .archive .flex .col-1 {
-    flex: 1 0 20%;
+    flex: 1 0 25%;
     margin-bottom: 10px; }
   .archive .flex .col {
     margin: 5px;
@@ -684,7 +715,8 @@ canvas#stars {
     object-fit: cover;
     width: 100vw;
     z-index: -5;
-    overflow: hidden; }
+    overflow: hidden;
+    height: 90vh; }
     @media (max-width: 768px) {
       #home1 .home-video {
         display: none; } }
@@ -692,8 +724,9 @@ canvas#stars {
 .video-container {
   position: absolute;
   left: 0;
-  height: 450px;
-  overflow: hidden; }
+  height: 90vh;
+  overflow: hidden;
+  top: 0; }
 
 #home2 h2 {
   color: #455d8c; }

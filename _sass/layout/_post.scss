@@ -21,6 +21,11 @@
   width: 80%;
 }
 
+.post-content {
+  h2, h3, h4, h5 {margin-top: 50px;}
+  p {margin-bottom: 20px;}
+}
+
 .social-wrapper {
   position: fixed;
   top: 180px;
@@ -30,7 +35,7 @@
   .twitter-button {
     margin-top: 5px;
   }
-  
+
 }
 
 .social-media-icons {
@@ -74,7 +79,7 @@
     flex-wrap: wrap;
 
     .col-1 {
-      flex: 1 0 20%;
+      flex: 1 0 25%;
       margin-bottom: 10px;
     }
 

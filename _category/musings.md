@@ -1,4 +1,4 @@
 ---
 tag: Musings
-permalink: "/category/musings"
+permalink: "/category/Musings/"
 ---

@@ -28,14 +28,16 @@
     width: 100vw;
     z-index: -5;
     overflow: hidden;
+    height: 90vh;
   }
 }
 
 .video-container {
   position: absolute;
   left: 0;
-  height: 450px;
+  height: 90vh;
   overflow: hidden;
+  top: 0;
 }
 
 #home2 {
