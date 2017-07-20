@@ -5,7 +5,7 @@ date:  2015-03-25 06:40:16 +0800
 categories:
   - "Personal development"
 banner: "/blog/2015/04/calm-manage-stress.jpg"
-tags: [balanced living, yoga, emotional health]
+tags: [balanced living, yoga, emotional health, mindfulness]
 ---
 Do you have endless deadlines to meet? Are you in debt? Do you feel overwhelmed with work and family commitments?
 

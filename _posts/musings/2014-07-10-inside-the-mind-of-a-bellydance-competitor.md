@@ -5,7 +5,7 @@ date:  2014-07-10 20:46:50 +0800
 categories:
   - "Musings"
 banner: "/blog/2014/07/belly-dance-competition.jpg"
-tags: [passion, living your dream]
+tags: [passion, live your dream]
 ---
 "And the next contestant, number twenty two, Puah Hui Ying."
 
