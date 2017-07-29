@@ -1,5 +1,7 @@
 .homepage .btn {
-  width: 350px;
+  @include notmobile {
+    width: 350px;
+  }
 }
 
 #home1 {
@@ -54,14 +56,21 @@
 }
 
 #home3 {
+  @include mobile {
+    text-align: center;
+  }
   position: relative;
 
   .bg-sec {
     overflow: auto;
   }
 
+  p {text-align: left;}
+
   .btn {
-    float: right;
+    @include notmobile {
+      float: right;
+    }
   }
 }
 

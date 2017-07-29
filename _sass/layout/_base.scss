@@ -37,10 +37,14 @@ p {
 .site-container,
 footer {
   position: relative;
-  left: 60px;
-  width: -webkit-calc(100% - 60px);
-  width: -moz-calc(100% - 60px);
-  width: calc(100% - 60px);
+
+  @include notmobile {
+    left: 60px;
+    width: -webkit-calc(100% - 60px);
+    width: -moz-calc(100% - 60px);
+    width: calc(100% - 60px);
+  }
+
 }
 
 .site-container::after {
@@ -77,6 +81,7 @@ h1,
 h2,
 h3,
 h4 {
+  @include mobile {line-height: 1.2;}
   font-family: 'Exo', sans-serif;
   margin-bottom: 20px;
   line-height: 1;

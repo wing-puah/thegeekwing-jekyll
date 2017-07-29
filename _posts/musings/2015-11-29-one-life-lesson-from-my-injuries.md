@@ -4,7 +4,7 @@ title: "An important life lesson from 1 burn, 2 fractured bones and 3 laceration
 date:  2015-11-29 19:56:21 +0800
 categories:
   - "Musings"
-banner: "/blog/2015/11/knee injury.jpg"
+banner: "/blog/2015/11/knee_injury.jpg"
 tags: [reflection, live your dream]
 ---
 ## 24 Novmeber 2015. I crash.

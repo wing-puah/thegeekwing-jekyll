@@ -1,5 +1,12 @@
 .hireme {
 
+  @include mobile {
+    .reveal-container {
+      display: none;
+      height: 0;
+    }
+  }
+
   .content {position: relative;}
 
   .img-strip {
@@ -11,7 +18,7 @@
     height: 100%;
 
     img {
-      height: 170px;
+      max-height: 170px;
     }
   }
 }

@@ -22,5 +22,8 @@ function homeEdit(){
   });
 }
 
-if( windowWidth > 768)
-  homeEdit();
+function fullOpacity(el){
+  el.style.opacity = 1;
+}
+
+windowWidth > 768 ? homeEdit() : fullOpacity(document.getElementById('w-story'));

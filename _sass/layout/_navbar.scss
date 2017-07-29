@@ -1,9 +1,13 @@
 nav {
   position: fixed;
-  top: 0;
-  z-index: 10;
   height: 100vh;
   width: 60px;
+  top: 0;
+  z-index: 10;
+  @include mobile {
+    height: 60px;
+    width: 100vw;
+  }
 
   h2,
   a {
@@ -16,16 +20,26 @@ nav {
   .parent {
     display: table;
     text-align: center;
+    background-color: white;
     border-right: 2px solid $greyBg;
 
     h2 {
+      @include mobile {
+        height: 60px;
+        width: 100vw;
+      }
       height: 100vh;
+      width: 60px;
       display: table-cell;
       vertical-align: middle;
       padding: 10px;
     }
 
     &:hover > .sub-menu {
+      @include mobile {
+        display: block;
+      }
+      top: 0;
       left: 0;
     }
 
@@ -33,19 +47,31 @@ nav {
 
   .sub-menu {
     @include transition( all 1s );
-    left: -340px;
     position: absolute;
-    height: 100vh;
-    width: 300px;
-    border-right: 2px solid $greyBg;
-
-    &:hover {
+    @include mobile {
+      top: 0;
       left: 0;
+      width: 100vw;
+      margin-top: 60px;
+      background-color: rgba($primaryCol, 0.7);
+      display: none;
+    }
+
+    @include notmobile {
+      left: -340px;
+      width: 300px;
+      border-right: 2px solid $greyBg;
+      height: 100vh;
     }
 
     .col {
+      @include mobile {
+        padding: 15px 10px;
+      }
       margin: 0;
-      background-color: white;
+      @include notmobile {
+        background-color: white;
+      }
     }
 
     li {

@@ -2,7 +2,7 @@
 permalink: "/portfolio/singapore-vienna-boys-choir.html"
 layout: portfolio
 page-type: [ portfolio ]
-banner: "/assets/portfolio/svbc-page-design.jpg"
+banner: "/portfolio/svbc-page-design.jpg"
 title: "Singapore Vienna Boys Choir"
 date: "Apr 2017"
 genre: "Website management"

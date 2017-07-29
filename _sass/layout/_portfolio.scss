@@ -28,9 +28,11 @@
   }
 
   .col-1 {
-    flex: 1 0 30%;
     position: relative;
     height: 300px;
+    @include notmobile {
+      flex: 1 0 30%;
+    }
 
     img {
       height: 300px;

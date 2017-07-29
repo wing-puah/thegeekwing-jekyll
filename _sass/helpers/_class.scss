@@ -20,7 +20,7 @@
 
 .padding-small-box {
   @include mobile {
-    padding: 10px 0;
+    padding: 10px 5px;
   }
   padding: 30px;
   margin: auto;
@@ -28,7 +28,7 @@
 
 .padding-big {
   @include mobile {
-    padding: 10px 0;
+    padding: 25px 5px;
   }
   padding: 80px 0;
 }
@@ -41,7 +41,10 @@
 }
 
 .margin-top {
-  margin-top: 50px;
+  margin-top: 20px;
+  @include notmobile {
+    margin-top: 50px;
+  }
 }
 
 .margin-box {
@@ -50,6 +53,14 @@
 
 .uppercase {
   text-transform: uppercase;
+}
+
+.mobile-flex {
+  @include mobile {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  }
 }
 
 .flex {
@@ -89,37 +100,55 @@
 }
 
 .col {
-  margin: 10px;
+  margin: 10px 0;
+  width: 100%;
+  @include notmobile {
+    margin: 10px;
+  }
 }
 
-.col-1,
-.row-1 {
-  flex: 1;
+@include mobile {
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6 {
+    flex: 0 0 auto;
+  }
+
 }
 
-.col-2,
-.row-2 {
-  flex: 2;
-}
+@include notmobile{
+  .col-1,
+  .row-1 {
+    flex: 1;
+  }
 
-.col-3,
-.row-3 {
-  flex: 3;
-}
+  .col-2,
+  .row-2 {
+    flex: 2;
+  }
 
-.col-4,
-.row-4 {
-  flex: 4;
-}
+  .col-3,
+  .row-3 {
+    flex: 3;
+  }
 
-.col-5,
-.row-5 {
-  flex: 5;
-}
+  .col-4,
+  .row-4 {
+    flex: 4;
+  }
 
-.col-6,
-.row-6 {
-  flex: 6;
+  .col-5,
+  .row-5 {
+    flex: 5;
+  }
+
+  .col-6,
+  .row-6 {
+    flex: 6;
+  }
 }
 
 .bg-pri {
@@ -252,6 +281,10 @@ a.greyFont:hover { color: $primaryCol; }
 }
 
 .pagination-button {
+  @include mobile {
+    padding: 10px;
+    margin: 5px;
+  }
   padding: 20px;
   margin: 10px;
 

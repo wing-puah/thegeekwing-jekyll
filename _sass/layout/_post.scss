@@ -18,7 +18,17 @@
 }
 
 .post .wrap {
-  width: 80%;
+  width: 90%;
+  @include notmobile {
+    width: 80%;
+  }
+}
+
+.post iframe {
+  @include mobile {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .post-content {
@@ -27,6 +37,8 @@
 }
 
 .social-wrapper {
+  @include mobile {display: none;}
+  display: block;
   position: fixed;
   top: 180px;
   right: 10px;
@@ -43,8 +55,11 @@
 }
 
 .relatedPosts {
+
   .col-1 {
-    flex: 1 0 25%;
+    @include notmobile {
+      flex: 1 0 25%;
+    }
   }
 
   .col {
@@ -79,14 +94,18 @@
     flex-wrap: wrap;
 
     .col-1 {
-      flex: 1 0 25%;
       margin-bottom: 10px;
+      @include notmobile {
+        flex: 1 0 25%;
+      }
     }
 
     .col {
-      margin: 5px;
-      padding: 5px;
-      overflow: hidden;
+      @include notmobile {
+        margin: 5px;
+        padding: 5px;
+        overflow: hidden;
+      }
 
       &:hover {
         background-color: lighten( $greyBg, 5% );
