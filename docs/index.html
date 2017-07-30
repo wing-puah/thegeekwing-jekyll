@@ -9,9 +9,9 @@
 </head>
 <body>
   <nav class="nav-pri uppercase bg-white">
-  <ul class="parent"><h2>M e n u</h2>
+  <ul class="parent" id="navParent"><h2 id="navMenu">M e n u</h2>
 
-    <ul class="sub-menu flex flex-col centered">
+    <ul class="sub-menu flex flex-col centered" id="navSub">
       
       <li class="col col-1 active">
         <a class="flex vert-centered" href="/">Home</a>
@@ -56,9 +56,10 @@
 
 </div>
 <div class="video-container">
-  <video class="home-video" autoplay="autoplay" loop="loop" muted="">
-  <source src="http://res.cloudinary.com/thegeekwing/video/upload/home/compressed-wing-video.mp4" type="video/mp4" />
-  </video>
+  <div class="home-video">
+    <iframe  src="https://www.youtube.com/embed/4nXY_CUiMmI?autoplay=1&controls=0&loop=1&playlist=4nXY_CUiMmI&amp;showinfo=0" frameborder="0" allowfullscreen>
+    </iframe>
+  </div>
 </div>
 
     </div>
@@ -106,8 +107,8 @@
   </section>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="/plugins/vertCarousel.js" charset="utf-8"></script>
   <script src="/plugins/base.js" charset="utf-8"></script>
+  <script src="/plugins/vertCarousel.js" charset="utf-8"></script>
   <script src="/plugins/homeAnimation.js" charset="utf-8"></script>
   <script src="/plugins/galaxy.js" charset="utf-8"></script>
 

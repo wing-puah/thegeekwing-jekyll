@@ -8,7 +8,7 @@ function homeEdit(){
   h3row.parentNode.insertBefore(newDiv, h3row);
 
   document.addEventListener( 'scroll', function(){
-    var visible = isInViewport(h3row) ? startAnim() : console.log("nah");
+    var visible = isInViewport(h3row) ? startAnim() : console.log("");
 
     function startAnim(){
       cover.classList.add('h3anim');
