@@ -5,20 +5,24 @@ layout: defaultWOHeader
 <div class="project-header">
 
   <img src="{{site.imgurl}}{{page.banner}}" alt="" class="full-width full-img">
-  <h1 class="entry-title centered">
-    {{page.title}}
-  </h1>
 
-  <div class="wrap bg-white centered padding-small">
+  <div class="header-info bg-white">
 
-    <div class="inlineblock col">
-      <span class="greyFont col">Date</span>
-      {{page.date}}
-    </div>
+    <h1 class="entry-title centered">
+      {{page.title}}
+    </h1>
 
-    <div class="inlineblock col">
-      <span class="greyFont col">Genre</span>
-      {{page.genre}}
+    <div class="wrap centered padding-small">
+
+      <div class="inlineblock fifty">
+        <span class="greyFont col">Date</span>
+        {{page.date}}
+      </div><!--
+
+      --><div class="inlineblock fifty">
+        <span class="greyFont col">Genre</span>
+        {{page.genre}}
+      </div>
     </div>
 
   </div>
@@ -26,7 +30,7 @@ layout: defaultWOHeader
 
 <div class="entry-content wrap">
 
-  <div class="project-info wrap flex flex-wrap">
+  <div class=" wrap flex flex-wrap">
 
     <div class="col col-1">
       <span class="greyFont block">Project</span>
@@ -39,13 +43,22 @@ layout: defaultWOHeader
     </div>
   </div>
 
-  <div class="project-info padding-big centered">
+  <div class="padding-big centered">
     <h2>{{page.info}}</h2>
   </div>
 
-  <div class="container">
-    video here with some description
-    {{page.mddscrpt}}
+  <div class="project-info container">
+
+    <div class="fifty video-wrapper inlineblock">
+      <iframe  src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=1&controls=0&loop=1&playlist={{page.youtube}}&amp;showinfo=0" frameborder="0" allowfullscreen>
+      </iframe>
+    </div><!--
+
+    --><div class="fifty inlineblock padding-small-box vert-top">
+      <h3>Features</h3>
+      <h4>{{page.mdcaption}}</h4>
+    </div>
+
   </div>
 
   <div class="padding-big flex flex-wrap">

@@ -28,3 +28,46 @@ function scrollTo(el){ //script will return true even when el is out of viewport
 
   return ( posFromTop - windowHeight <= 0 ); //return bool
 }
+
+const nav = document.getElementById('navSub');
+
+function navCross(){
+  var newSpan = document.createElement('span');
+
+  newSpan.setAttribute('id', 'cross');
+  newSpan.innerText = 'X';
+
+  if (window.innerWidth < 650) {
+    nav.insertBefore(newSpan, nav.childNodes[0]);
+  };
+};
+
+
+function crossMobileNav(){
+  var cross = document.getElementById('cross');
+  cross.addEventListener('touchstart', function(e){
+    e.preventDefault();
+    nav.style.opacity = 0;
+    nav.style.top = "-100vh";
+  });
+}
+
+function navMobile(){
+  var navMenu = document.getElementById('navMenu');
+
+  if (window.innerWidth < 650) {
+    navMenu.innerText = "\u{2630} Menu"
+    navCross();
+    navMenu.addEventListener( 'touchstart', function(e){
+      e.preventDefault();
+      e.stopPropagation();
+      nav.style.opacity = 1;
+      nav.style.top = 0;
+    });
+  }
+  crossMobileNav();
+}
+
+if (window.innerWidth < 650) {
+  navMobile();
+}

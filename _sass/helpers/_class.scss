@@ -11,33 +11,34 @@
 }
 
 .padding-small {
-  @include mobile {
-    padding: 10px 0;
+  padding: 10px 0;
+
+  @include notmobile {
+    padding: 30px 0;
+    margin: auto;
   }
-  padding: 30px 0;
-  margin: auto;
 }
 
 .padding-small-box {
-  @include mobile {
-    padding: 10px 5px;
+  padding: 10px 5px;
+  @include notmobile {
+    padding: 30px;
+    margin: auto;
   }
-  padding: 30px;
-  margin: auto;
 }
 
 .padding-big {
-  @include mobile {
-    padding: 25px 5px;
+  padding: 25px 5px;
+  @include notmobile {
+    padding: 80px 0;
   }
-  padding: 80px 0;
 }
 
 .padding-big-box {
-  @include mobile {
-    padding: 10px;
+  padding: 10px;
+  @include notmobile {
+    padding: 80px 30px;
   }
-  padding: 80px 30px;
 }
 
 .margin-top {
@@ -53,14 +54,6 @@
 
 .uppercase {
   text-transform: uppercase;
-}
-
-.mobile-flex {
-  @include mobile {
-    display: -webkit-flex;
-    display: -ms-flex;
-    display: flex;
-  }
 }
 
 .flex {
@@ -107,16 +100,19 @@
   }
 }
 
-@include mobile {
-  .col-1,
-  .col-2,
-  .col-3,
-  .col-4,
-  .col-5,
-  .col-6 {
-    flex: 0 0 auto;
-  }
-
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.row-1,
+.row-2,
+.row-3,
+.row-4,
+.row-5,
+.row-6 {
+  flex: 0 0 auto;
 }
 
 @include notmobile{
@@ -204,6 +200,10 @@ a.greyFont:hover { color: $primaryCol; }
   align-items: center;
 }
 
+.vert-top {
+  vertical-align: top;
+}
+
 .bold {
   font-weight: bold;
 }
@@ -280,6 +280,13 @@ a.greyFont:hover { color: $primaryCol; }
   width: 20%;
 }
 
+.fifty {
+  width: 100%;
+  @include notmobile {
+    width: 50%;
+  }
+}
+
 .pagination-button {
   @include mobile {
     padding: 10px;
@@ -298,4 +305,22 @@ a.greyFont:hover { color: $primaryCol; }
     background-color: $btn-priCol;
   }
 
+}
+
+.video-wrapper {
+  position: relative;
+  height: 150px;
+  overflow: hidden;
+  border: 5px solid $grey;
+  @include notmobile {
+    height: 300px;
+  }
+
+  iframe {
+    position: absolute;
+    top: -25%;
+    left: -25%;
+    width: 150%;
+    height: 150%;
+  }
 }
