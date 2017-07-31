@@ -10,6 +10,12 @@ header {
   }
 }
 
+#ribbon img{
+  @include mobile {
+    height: 130px;
+  }
+}
+
 footer {
   clear: both;
   background-color: $footerBg;
