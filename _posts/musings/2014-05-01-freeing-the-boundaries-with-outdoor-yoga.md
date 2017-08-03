@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Freeing the boundaries with outdoor yoga"
 date:  2014-05-01 18:54:35 +0800
 categories:

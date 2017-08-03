@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A Motivational Read for 25-Year-Old"
 date:  2015-12-05 18:56:21 +0800
 categories:

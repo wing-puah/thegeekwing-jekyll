@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "5 reasons being mindful makes you better at work"
 date:  2015-08-30 22:14:01 +0800
 categories:

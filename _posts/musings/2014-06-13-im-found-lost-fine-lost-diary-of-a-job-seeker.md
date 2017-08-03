@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "I'm found, lost, fine. Diary of a jobseeker."
 date:  2014-06-13 16:26:28 +0800
 categories:

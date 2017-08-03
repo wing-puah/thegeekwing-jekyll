@@ -1,7 +1,7 @@
 ---
 permalink: "/portfolio/gcns-youth-forum/"
 layout: portfolio
-page-type: [ portfolio ]
+type: [ portfolio ]
 banner: "/portfolio/gcns-youth-forum-banner.jpg"
 title: "GCNS Youth Forum 2017"
 date: "Jan 2017"

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A guide to integrating the 8 limbs of yoga: Part 2"
 date:  2015-02-21 12:41:44 +0800
 categories:

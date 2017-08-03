@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "An important life lesson from 1 burn, 2 fractured bones and 3 lacerations"
 date:  2015-11-29 19:56:21 +0800
 categories:

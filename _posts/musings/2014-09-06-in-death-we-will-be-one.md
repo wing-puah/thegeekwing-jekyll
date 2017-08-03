@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "In death we will be one"
 date:  2014-09-06 14:36:21 +0800
 categories:

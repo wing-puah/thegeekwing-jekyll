@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Let go and be free"
 date:  2015-10-05 18:36:21 +0800
 categories:

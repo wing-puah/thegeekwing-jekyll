@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "How weight lifting saves my life"
 date:   2016-03-26 13:54:35 +0800
 categories:

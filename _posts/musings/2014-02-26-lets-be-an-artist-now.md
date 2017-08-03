@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Lets be an artist now"
 date:  2016-02-21 18:54:35 +0800
 categories:

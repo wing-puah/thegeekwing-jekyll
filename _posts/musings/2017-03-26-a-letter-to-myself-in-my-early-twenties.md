@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A letter to myself in my early 20s. What will yours look like?"
 date:  2017-03-26 14:56:21 +0800
 categories:

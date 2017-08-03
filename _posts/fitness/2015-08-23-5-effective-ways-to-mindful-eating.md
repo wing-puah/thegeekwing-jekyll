@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "5 effective ways to mindful eating"
 date:  2015-08-23 21:17:26 +0800
 categories:

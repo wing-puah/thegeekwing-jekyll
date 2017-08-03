@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "3 exercise science that all yoga practitioners should know"
 date:  2015-05-24 16:23:52 +0800
 categories:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Can yoga help in weight loss? 5 facts you need to know"
 date:  2015-06-28 16:23:52 +0800
 categories:

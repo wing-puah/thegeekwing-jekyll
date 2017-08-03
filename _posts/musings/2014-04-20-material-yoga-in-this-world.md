@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Yoga: Not beyond the material"
 date:  2014-04-20 18:54:35 +0800
 categories:

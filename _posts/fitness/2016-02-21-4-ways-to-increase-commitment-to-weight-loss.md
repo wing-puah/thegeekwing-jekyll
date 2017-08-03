@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "4 ways to increase your commitment to weight management program"
 date:   2016-02-21 18:54:35 +0800
 categories:

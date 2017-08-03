@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "I wander from the 26th storey"
 date:   2013-05-05 07:36:49 +0800
 categories:

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "30 seconds ninja mindfulness technique to apply at your workplace"
 date:  2015-08-02 22:14:01 +0800
 categories:

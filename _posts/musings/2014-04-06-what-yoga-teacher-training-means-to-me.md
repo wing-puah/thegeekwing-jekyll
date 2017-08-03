@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "What yoga teacher training means to me"
 date:  2014-04-06 21:11:25 +0800
 categories:

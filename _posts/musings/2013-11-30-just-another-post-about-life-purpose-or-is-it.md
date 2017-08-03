@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Just another post about life purpose. Or is it?"
 date:   2013-11-30 16:41:40 +0800
 categories:

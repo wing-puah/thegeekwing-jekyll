@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "5 facts about our spine to prevent yoga injuries - Part 2"
 date:  2015-06-07 15:05:18 +0800
 categories:

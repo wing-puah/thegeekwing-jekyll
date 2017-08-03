@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "5 yoga techniques to manage your stress in 5 minutes: Part 2"
 date:  2015-04-05 14:22:16 +0800
 categories:

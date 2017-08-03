@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Inside the mind of a bellydance competitor"
 date:  2014-07-10 20:46:50 +0800
 categories:

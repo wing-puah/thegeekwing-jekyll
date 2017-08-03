@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Miss Au Naturel"
 date:  2014-08-16 23:39:31 +0800
 categories:

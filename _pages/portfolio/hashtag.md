@@ -1,7 +1,7 @@
 ---
 permalink: "/portfolio/hashtag/"
 layout: portfolio
-page-type: [ portfolio ]
+type: [ portfolio ]
 banner: "/portfolio/hashtag-banner.jpg"
 title: "Hashtag Enterprise"
 date: "Jul 2016"

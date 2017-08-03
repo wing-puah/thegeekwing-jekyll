@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "I'm a broke, ohm-chanting and time-altering dragon"
 date:  2016-02-21 18:54:35 +0800
 categories:

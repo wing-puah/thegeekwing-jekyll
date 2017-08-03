@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Of a New Year to Come"
 date:  2014-01-09 19:07:32  +0800
 categories:

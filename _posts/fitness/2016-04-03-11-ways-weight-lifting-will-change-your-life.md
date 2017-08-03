@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "11 ways weight lifting will save your life"
 date:   2016-07-14 22:54:35 +0800
 categories:

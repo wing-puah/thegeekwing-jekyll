@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "This blog is now on Jekyll"
 date:  2017-08-02 22:14:01 +0800
 categories:

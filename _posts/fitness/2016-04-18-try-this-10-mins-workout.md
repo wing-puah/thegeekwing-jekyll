@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "Combat your excuses: Try this 10 minutes body weight workout!"
 date:   2016-04-18 13:54:35 +0800
 categories:

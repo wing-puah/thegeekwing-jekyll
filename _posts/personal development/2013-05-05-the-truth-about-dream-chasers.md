@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "The truth about dream chasers"
 date:   2013-05-05 07:36:49 +0800
 categories:

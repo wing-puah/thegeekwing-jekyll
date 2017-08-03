@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "The paradox of freedom"
 date:  2013-04-28 05:10:51 +0800
 categories:

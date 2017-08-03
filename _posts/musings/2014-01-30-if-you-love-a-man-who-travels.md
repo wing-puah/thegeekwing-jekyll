@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "If you love a man who travels"
 date: 2014-01-31 11:36:20 +0800
 categories:

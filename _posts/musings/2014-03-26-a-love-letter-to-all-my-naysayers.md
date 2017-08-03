@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "A love letter to all my naysayers"
 date:  2014-03-26 12:23:47 +0800
 categories:
