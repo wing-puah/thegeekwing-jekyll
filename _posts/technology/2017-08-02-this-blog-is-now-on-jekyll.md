@@ -5,11 +5,12 @@ categories:
   - "Technology"
 banner: "/blog/2017/08/jekyll-blog.jpg"
 tags: [jekyll, blogging, wordpress]
+description: Shfiting from Wordpress to Jekyll and I never looking back.
 ---
 ## Wordpress
 I have been using Wordpress hosted on Hostgator for at least 6 years now.
 
-When I first started blogging, it is a quick and convenient tool for me to get my website up quickly. Want a new website? Sure, within 15 minutes with a few clicks, a wordpress website is up.
+When I first started blogging, it is a quick and convenient tool for me to get my website up quickly. Want a new website? Sure, within 15 minutes and a few clicks, a wordpress website is up.
 
 That is the time when I am not coding much.
 
@@ -64,4 +65,6 @@ I migrated my blog from Wordpress to Jekyll and I love the transition thus far. 
 
 _Yes, me. Control freak._
 
-Jekyll makes blogging a true state of art.
+Jekyll has me addicted to blogging again. I love the way everything is structured with my own code. I love how sleek I could make my site look.
+
+**Truly, Jekyll makes blogging a true state of art.**
