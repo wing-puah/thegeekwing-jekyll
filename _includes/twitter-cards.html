@@ -1,7 +1,6 @@
 <!-- Twitter cards metadatas -->
   <meta name="twitter:card" content="summary">
   <meta name="twitter:site" content="@wing_phy">
-  <meta name="twitter:creator" content="@wing_phy">
 {% if page.title %}
   <meta name="twitter:title" content="{{ page.title }}">
 {% else %}
@@ -16,7 +15,7 @@
   <meta name="twitter:description" content="{{ site.description }}">
 {% endif %}
 {% if page.banner %}
-  <meta name="twitter:image:src" content="{{ site.imgurl }}{{ page.banner }}">
+  <meta name="twitter:image" content="{{ site.imgurl }}{{ page.banner }}">
 {% else %}
- <meta name="twitter:image:src"  content="{{site.imgurl}}/the-geek-wing-logo.png">
+ <meta name="twitter:image"  content="{{site.imgurl}}/the-geek-wing-logo.png">
 {% endif %}
