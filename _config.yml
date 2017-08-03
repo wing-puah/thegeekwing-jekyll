@@ -17,7 +17,7 @@ title: The Geek Wing
 email: puahhuiying@gmail.com
 description: Hacking through life. Your geeky source for technology, fitness and personal development.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "www.thegeekwing.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "thegeekwing.com" # the base hostname & protocol for your site, e.g. http://example.com
 imgurl: "http://res.cloudinary.com/thegeekwing/image/upload"
 
 
