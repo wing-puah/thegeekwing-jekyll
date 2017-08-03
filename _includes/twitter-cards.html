@@ -1,21 +1,7 @@
 <!-- Twitter cards metadatas -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:site" content="@wing_phy">
-{% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }}">
-{% else %}
-  <meta name="twitter:title" content="{{ site.title }}">
-{% endif %}
-{% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-{% endif %}
-{% if page.description %}
-  <meta name="twitter:description" content="{{ page.description }}">
-{% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
-{% if page.banner %}
-  <meta name="twitter:image" content="{{ site.imgurl }}{{ page.banner }}">
-{% else %}
- <meta name="twitter:image"  content="{{site.imgurl}}/the-geek-wing-logo.png">
-{% endif %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@wing_phy">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:url" content="{% if page.url %}{{ site.url }}{{ page.url }}{% else %}{{ site.url }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:image" content="{% if page.banner %}{{ site.imgurl }}{{ page.banner }}{% else %}{{site.imgurl}}/the-geek-wing-logo.png{% endif %}">
