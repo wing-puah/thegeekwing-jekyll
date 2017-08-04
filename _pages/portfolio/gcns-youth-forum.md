@@ -10,8 +10,7 @@ project: "Web developer & co-chair"
 deliverables: "Website wireframing<br/>
 Wordpress dashboard customisation<br/>
 Scripting and front-end development<br/>
-Integration with Eventbrite<br/>
-Co-chair of committee"
+Integration with Eventbrite"
 info: "Part of the committee to conceptualise and coordinate event and website development"
 youtube: 5A13lcuXcbA
 mdcaption: "Advanced Custom Fields to facilitate non-technical users input on website through wordpress dashboard

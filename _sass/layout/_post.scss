@@ -36,6 +36,18 @@
   p {margin-bottom: 20px;}
 }
 
+.inline-share img {
+  height: 20px;
+  webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin: 0 10px;
+
+  &:hover {
+    webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+}
+
 .social-wrapper {
   @include mobile {display: none;}
   display: block;

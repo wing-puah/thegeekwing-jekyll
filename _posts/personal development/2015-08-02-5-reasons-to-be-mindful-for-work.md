@@ -41,7 +41,7 @@ With mindfulness, we start to become aware of such emotions and thoughts. **Whil
 
 Over time, we will build up a higher level of tolerance for unpleasant emotions and thoughts. We will no longer be controlled by our thoughts and emotions but are instead able to use them as information in an objective manner and respond to the situation in hand.
 
-## 3. Build better social relationships</h2>
+## 3. Build better social relationships
 In any workplace, we will have to deal with people, be it colleagues, supervisors, vendors or customers. Sometimes miscommunication might arise. Other time, anger, pride and politics can come in between the cohesion of people. In business, people and relationship play a vital role.
 
 The practice of mindfulness increases our empathy and compassion towards others through growing our own source of inner joy. Like a cup brimming with water, when you have so much joy in yourself, it cannot be helped but to overflow to others.

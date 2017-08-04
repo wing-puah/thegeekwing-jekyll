@@ -4,7 +4,7 @@ date:  2017-08-02 22:14:01 +0800
 categories:
   - "Technology"
 banner: "/blog/2017/08/jekyll-blog.jpg"
-tags: [jekyll, blogging, wordpress]
+tags: [jekyll, blogging, wordpress, reflection]
 description: Shfit my blog from Wordpress to Jekyll. Here is why I am never looking back.
 ---
 ## Wordpress

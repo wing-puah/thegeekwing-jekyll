@@ -560,6 +560,15 @@ nav {
 .post-content p {
   margin-bottom: 20px; }
 
+.inline-share img {
+  height: 20px;
+  webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  margin: 0 10px; }
+  .inline-share img:hover {
+    webkit-filter: grayscale(0);
+    filter: grayscale(0); }
+
 .social-wrapper {
   display: block;
   position: fixed;
