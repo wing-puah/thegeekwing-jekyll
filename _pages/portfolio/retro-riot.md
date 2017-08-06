@@ -10,7 +10,7 @@ deliverables: "1.5 hours thematic performance<br/>
 Guest interaction<br/>
 Talents management<br/>
 Crowd control"
-info: "Local artists gather together to raise funds in a fun way for Cat Welfare Society"
+info: "Local artists gather to raise funds in a fun way for Cat Welfare Society"
 youtube: KshctE-Er9Y
 mdcaption: "Thematic event design
 <br/><br/>
