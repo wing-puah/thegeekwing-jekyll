@@ -9,7 +9,7 @@ permalink: /portfolio/
   <div class="wrap flex flex-wrap">
 
   {% for page in site.pages %}
-    {% if page.type contains 'portfolio' %}
+    {% if page.layout contains 'portfolio' %}
 
     <div class="col-1 centered">
       <a href="{{site.baseurl}}{{page.permalink}}">

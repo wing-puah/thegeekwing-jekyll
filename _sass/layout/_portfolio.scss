@@ -3,6 +3,7 @@
 
   img {
     display: block;
+    height: 70vh;
   }
 
   .header-info {
@@ -46,7 +47,7 @@
     &:hover {
 
       > img {
-        @include opacity(0.6);
+        @include opacity(0.2);
       }
 
       > #portfolio-title {

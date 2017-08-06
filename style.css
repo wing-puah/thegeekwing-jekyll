@@ -632,7 +632,8 @@ nav {
 .project-header {
   position: relative; }
   .project-header img {
-    display: block; }
+    display: block;
+    height: 70vh; }
   .project-header .header-info {
     width: 100%;
     border-bottom: 1px solid #d9d9d9; }
@@ -658,8 +659,8 @@ nav {
   text-decoration: none;
   color: black; }
   .archive-portfolio-list a:hover > img {
-    filter: alpha(opacity=60);
-    opacity: 0.6; }
+    filter: alpha(opacity=20);
+    opacity: 0.2; }
   .archive-portfolio-list a:hover > #portfolio-title {
     font-size: 1.2rem; }
   .archive-portfolio-list a:hover > #portfolio-genre {
