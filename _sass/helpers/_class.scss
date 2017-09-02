@@ -10,6 +10,12 @@
   overflow: hidden;
 }
 
+.pl-10 { padding-left: 10px; }
+
+.pl-15 { padding-left: 15px; }
+
+.pr-10 { padding-right: 10px; }
+
 .padding-small {
   padding: 10px 0;
 
@@ -52,6 +58,18 @@
   margin: 40px 0;
 }
 
+.m-20 {
+  margin: 20px;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
 .uppercase {
   text-transform: uppercase;
 }
@@ -70,6 +88,13 @@
 .flex-wrap {
   -webkit-flex-wrap: wrap; /* Safari 6.1+ */
   flex-wrap: wrap;
+}
+
+.xs-flex-wrap {
+  @include mobile {
+    -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+    flex-wrap: wrap;
+  }
 }
 
 .block {
@@ -112,7 +137,7 @@
 .row-4,
 .row-5,
 .row-6 {
-  flex: 0 0 auto;
+  flex: 0 0 100%;
 }
 
 @include notmobile{
@@ -196,6 +221,10 @@ a.greyFont:hover { color: $primaryCol; }
   text-align: center;
 }
 
+.align-center {
+  justify-content: center;
+}
+
 .vert-centered {
   align-items: center;
 }
@@ -240,6 +269,12 @@ a.greyFont:hover { color: $primaryCol; }
   border-radius: 100%;
 }
 
+.sm-round {
+  @include notmobile {
+    border-radius: 100%;
+  }
+}
+
 .img-thumbnail {
   height: 150px;
   width: 100%;
@@ -260,6 +295,16 @@ a.greyFont:hover { color: $primaryCol; }
   width: 100%;
 }
 
+.full-height {
+  height: 100%;
+}
+
+.sm-full-height {
+  @include notmobile {
+    height: 100%;
+  }
+}
+
 .full-img {
   object-fit: cover;
 }
@@ -275,6 +320,12 @@ a.greyFont:hover { color: $primaryCol; }
 }
 
 .hide {@include opacity(0);}
+
+.sm-d-none {
+  @include notmobile {
+    display: none;
+  }
+}
 
 .twenty {
   width: 20%;
@@ -323,4 +374,27 @@ a.greyFont:hover { color: $primaryCol; }
     width: 150%;
     height: 150%;
   }
+}
+
+.bounce {
+  position: absolute;
+  @include animation(bounce 2s infinite);
+}
+
+@include keyframes(bounce) {
+	0%, 20%, 50%, 80%, 100% {
+    @include transform(translateX(0));
+  }
+	40% {
+    @include transform(translateX(15px));
+  }
+	60% {
+    @include transform(translateX(5px));
+  }
+}
+
+a:hover .bounce {
+  -webkit-animation: 0;
+  animation: 0;
+  @include transform(translateX(15px));
 }

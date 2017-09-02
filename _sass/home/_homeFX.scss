@@ -22,32 +22,3 @@
     position: relative;
   }
 }
-
-#w-story {
-  @include opacity(0);
-}
-
-.h3anim {
-  @include animation(grow 2s linear 1);
-}
-
-@include keyframes(grow){
-  30% { height: 100vh; width: 50px; }
-  49%, 50% { width: 90vw; @include transform( translateX(0) ); }
-  100% { height: 100vh; @include transform( translateX(90vw) ); }
-}
-
-.cover {
-  position: absolute;
-  top: 5rem;
-  z-index: 2;
-  background-color: #F3C969;
-  width: 20px;
-  height: 50px;
-}
-
-canvas#stars {
-  z-index: -1;
-  position: relative;
-  top: -450px;
-}

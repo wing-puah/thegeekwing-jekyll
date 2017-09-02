@@ -1,9 +1,19 @@
-<div class="wrap padding-big centered whiteCol">
-  <h2 class="withbg uppercase">I am an <span>educator</span>, <span>story teller</span> <br />
-  and <span>lover of life</span>.</h2>
-  <a class="btn margin-top" href="{{site.baseurl}}/blog/">
-    Read blog
-  </a>
-</div>
+<div class="bg-sec padding-big">
+  <h2><a class="whiteCol" href="{{site.baseurl}}/portfolio">Featured work <span class="bounce pl-15">&rArr;</span></a></h2>
+  <div class="flex flex-wrap">
+    {% assign count = 0 %}
+    {% for page in site.pages %}
+      {% if page.layout == 'portfolio' and count < 4 %}
+        {% assign count = count | plus: 1 %}
 
-<canvas id="stars"></canvas>
+        <div class="col-1 centered ofhidden">
+          <a href="{{site.baseurl}}{{page.permalink}}">
+            <img class="full-width full-height full-img" src="{{site.imgurl}}{{page.banner}}" alt="" />
+            <h3 class="centered box-fade full-width mb-0 sm-d-none">{{page.title}}</h3>
+          </a>
+        </div>
+
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

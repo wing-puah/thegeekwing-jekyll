@@ -31,7 +31,7 @@
     width: 110vw;
     z-index: -5;
     overflow: hidden;
-    height: 90vh;
+    height: 100vh;
 
     iframe {
       height: 150%;
@@ -48,47 +48,91 @@
   top: 0;
 }
 
-#home2 {
-  h2 { color: darken( $primaryCol, 10% ) }
-}
 
-.parallax img {
-  object-fit: cover;
-  width: 100%;
-  position: fixed;
-  top: 0;
-  height: 100%;
-  z-index: -10;
-}
+#tg-row {
+  height: 300px;
 
-#home3 {
-  text-align: center;
-  position: relative;
+  @include notmobile {
+    .col-1 {
+      @include transition( all 0.1s );
+      margin: 0 10px;
 
-  .bg-sec {
-    overflow: auto;
+      &:hover {
+        border-radius: 0;
+        flex: 2;
+
+        .sm-d-none {
+          display: block;
+        }
+      }
+    }
   }
 
-  p {text-align: left;}
+}
+
+#tg-1 {
+  background: url('https://res.cloudinary.com/thegeekwing/image/upload/home/girl.jpg') 0 0/cover;
+}
+
+#tg-2 {
+  background: url('https://res.cloudinary.com/thegeekwing/image/upload/home/technology.jpg') center/cover;
+}
+
+#tg-3 {
+  background: url('https://res.cloudinary.com/thegeekwing/image/upload/home/event.jpg') 0 100%/cover;
+}
+
+#dt-steps p {
+  border: 3px double $btn-priCol;
+
+  &:hover {
+    background-color: #67597A;
+    color: #F2E7C9;
+  }
+}
+
+#dt-p {
+  background: url('https://res.cloudinary.com/thegeekwing/image/upload/home/leadership_background.jpg') center/cover;
+}
+
+#home4 {
+  text-align: center;
 
   .btn {
     @include notmobile {
       float: right;
     }
   }
+
+  .col-1  {
+    position: relative;
+    @include notmobile {
+      height: 250px;
+
+      &:hover {
+        img {
+          @include filter(grayscale, 80%);
+          @include transform( scale(1.2, 1.2) );
+        }
+        h3 { display: block;}
+      }
+
+      img {
+        @include transition(all 0.2s);
+      }
+    }
+    h3 {
+      position: absolute;
+      bottom: 0;
+      @include notmobile {
+        padding: 20px 0;
+      }
+    }
+  }
 }
 
-#home4 {
-  height: 400px;
-  overflow: hidden;
+#home5 {
+  .flex { justify-content: space-around;}
 
-  h2 {
-    font-family: $font-thin;
-    line-height: 1.6;
-  }
-
-  span {
-    background-color: #FFF4E4;
-    color: #666666;
-  }
+  .col-1 { flex: 0 0 30%; }
 }
