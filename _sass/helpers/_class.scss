@@ -80,6 +80,14 @@
   display: flex;
 }
 
+.sm-flex {
+  @include notmobile {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+  }
+}
+
 .flex-col {
   -webkit-flex-direction: column;
   flex-direction: column;
@@ -130,13 +138,7 @@
 .col-3,
 .col-4,
 .col-5,
-.col-6,
-.row-1,
-.row-2,
-.row-3,
-.row-4,
-.row-5,
-.row-6 {
+.col-6 {
   flex: 0 0 100%;
 }
 

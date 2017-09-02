@@ -72,6 +72,12 @@
   display: -ms-flex;
   display: flex; }
 
+@media (min-width: 768px) {
+  .sm-flex {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex; } }
+
 .flex-col {
   -webkit-flex-direction: column;
   flex-direction: column; }
@@ -115,13 +121,7 @@
 .col-3,
 .col-4,
 .col-5,
-.col-6,
-.row-1,
-.row-2,
-.row-3,
-.row-4,
-.row-5,
-.row-6 {
+.col-6 {
   flex: 0 0 100%; }
 
 @media (min-width: 768px) {
@@ -954,20 +954,21 @@ nav {
   overflow: hidden;
   top: 0; }
 
-#tg-row {
-  height: 300px; }
-  @media (min-width: 768px) {
-    #tg-row .col-1 {
-      -webkit-transition: all 0.1s;
-      -moz-transition: all 0.1s;
-      -o-transition: all 0.1s;
-      transition: all 0.1s;
-      margin: 0 10px; }
-      #tg-row .col-1:hover {
-        border-radius: 0;
-        flex: 2; }
-        #tg-row .col-1:hover .sm-d-none {
-          display: block; } }
+@media (min-width: 768px) {
+  #tg-row {
+    height: 300px; } }
+@media (min-width: 768px) {
+  #tg-row .col-1 {
+    -webkit-transition: all 0.1s;
+    -moz-transition: all 0.1s;
+    -o-transition: all 0.1s;
+    transition: all 0.1s;
+    margin: 0 10px; }
+    #tg-row .col-1:hover {
+      border-radius: 0;
+      flex: 2; }
+      #tg-row .col-1:hover .sm-d-none {
+        display: block; } }
 
 #tg-1 {
   background: url("https://res.cloudinary.com/thegeekwing/image/upload/home/girl.jpg") 0 0/cover; }

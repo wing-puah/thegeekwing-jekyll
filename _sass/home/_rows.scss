@@ -50,7 +50,9 @@
 
 
 #tg-row {
-  height: 300px;
+  @include notmobile {
+    height: 300px;
+  }
 
   @include notmobile {
     .col-1 {
