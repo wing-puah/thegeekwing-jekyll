@@ -57,6 +57,9 @@ nav {
     height: 100vh;
     background-color: rgba($primaryCol, 0.9);
     z-index: 10;
+    @include notmobile {
+      background-color: white;
+    }
 
     @include notmobile {
       top: 0;
@@ -77,13 +80,6 @@ nav {
       top: 10px;
       padding: 5px 10px;
       color: white;
-    }
-
-    .col {
-      margin: 0;
-      @include notmobile {
-        background-color: white;
-      }
     }
 
     li {

@@ -3,18 +3,16 @@ layout: postarchives
 title: "Blog"
 permalink: /blog/
 ---
-<ul class="flex flex-wrap post-list margin-top">
+<ul class="row mt-4 center-xs around-xs" id="post-list">
 {% for post in site.posts %}
   {% assign post = site.posts.first %}
 
-      <li class="col-1 article-loop">
-        <div class="col centered">
-          <a href="{{site.baseurl}}{{ post.url }}">
-            <img class="img-thumbnail full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
-            {{ post.title }}
-          </a>
-        </div>
-      </li>
+  <li class="col-xs-12 col-sm-3 p-1 my-3 article-loop">
+    <a href="{{site.baseurl}}{{ post.url }}">
+      <img class="img-thumbnail full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
+      {{ post.title }}
+    </a>
+  </li>
 
 {% endfor %}
 </ul>

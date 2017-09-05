@@ -3,10 +3,6 @@ header {
   .logo{
     height: 100px;
     display: block;
-    margin-left: 10px;
-    @include notmobile {
-      margin: auto;
-    }
   }
 }
 
@@ -17,25 +13,9 @@ header {
 }
 
 footer {
+
   clear: both;
   background-color: $footerBg;
-
-  .wrap {
-    padding: 20px 0;
-    width: 95%;
-  }
-
-  .col {
-    @include mobile {
-      width: inherit;
-      flex: 0 0 auto;
-    }
-    color: white;
-  }
-
-  h4 {
-    color: white;
-  }
 
   a.btn{
     color: white;

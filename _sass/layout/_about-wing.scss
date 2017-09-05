@@ -1,6 +1,8 @@
-.aboutme-page {
-  .col-1 {
+#role-details {
+
+  .col-xs-12 {
     position: relative;
+    height: 350px;
   }
 
   h2 {
@@ -32,16 +34,12 @@
   }
 }
 
-.role-list {
+#role-list {
 
   .round {
     @include mobile {
       border-radius: 20px;
-      margin: 0 10px;
     }
-    margin-bottom: 0;
-    margin: auto;
-    padding: 5px;
     border: 2px solid $secondaryCol;
     @include notmobile {
       height: 150px;

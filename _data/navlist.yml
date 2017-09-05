@@ -6,7 +6,7 @@ subpages:
   - page: "Blog"
     url: "/blog/"
 
-  - page: "Portofolio"
+  - page: "Portfolio"
     url: "/portfolio/"
 
   - page: "About wing"

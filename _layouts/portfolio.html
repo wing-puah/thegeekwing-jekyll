@@ -8,19 +8,19 @@ layout: noSiteHeader
 
   <div class="header-info bg-white">
 
-    <h1 class="entry-title centered">
+    <h1 class="entry-title centered my-3">
       {{page.title}}
     </h1>
 
-    <div class="wrap centered padding-small">
+    <div class="wrap centered py-3">
 
       <div class="inlineblock fifty">
-        <span class="greyFont col">Date</span>
+        <span class="greyFont mr-3">Date</span>
         {{page.date}}
       </div><!--
 
       --><div class="inlineblock fifty">
-        <span class="greyFont col">Genre</span>
+        <span class="greyFont mr-3">Genre</span>
         {{page.genre}}
       </div>
     </div>
@@ -30,51 +30,51 @@ layout: noSiteHeader
 
 <div class="entry-content wrap">
 
-  <div class=" wrap flex flex-wrap">
+  <div class="wrap row center-xs py-3 py-sm-5">
 
-    <div class="col col-1">
+    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 text-align-left">
       <span class="greyFont block">Project</span>
       {{page.project}}
     </div>
 
-    <div class="col col-1">
+    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 text-align-left">
       <span class="greyFont block">Deliverables</span>
       {{page.deliverables}}
     </div>
   </div>
 
-  <div class="padding-big centered">
+  <div class="py-3 py-sm-6 center-xs">
     <h2>{{page.info}}</h2>
   </div>
 
-  <div class="project-info container">
+  <div class="row py-3">
 
-    <div class="fifty video-wrapper inlineblock">
+    <div class="col-xs-12 col-sm-6 video-wrapper">
       <iframe  src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=1&controls=0&loop=1&playlist={{page.youtube}}&amp;showinfo=0" frameborder="0" allowfullscreen>
       </iframe>
     </div><!--
 
-    --><div class="fifty inlineblock padding-small-box vert-top">
+    --><div class="col-xs-12 col-sm-6 p-3 p-sm-4 vert-top">
       <h3>Features</h3>
       <h4>{{page.mdcaption}}</h4>
     </div>
 
   </div>
 
-  <div class="padding-big flex flex-wrap">
+  <div class="py-3 py-sm-6 row">
 
-    <div class="col-1 col bg-pri padding-small centered flex">
-      <div class="wrap centered">
+    <div class="col-xs-12 col-sm-4 p-2">
+      <div class="bg-pri px-3 py-5 flex centered full-height">
         {{page.pointer1}}
       </div>
     </div>
-    <div class="col-1 col bg-grey padding-small centered flex">
-      <div class="wrap centered">
+    <div class="col-xs-12 col-sm-4 p-2">
+      <div class="bg-grey px-3 py-5 flex centered full-height">
         {{page.pointer2}}
       </div>
     </div>
-    <div class="col-1 col bg-sec whiteCol padding-small flex">
-      <div class="wrap centered">
+    <div class="col-xs-12 col-sm-4 p-2">
+      <div class="bg-sec px-3 py-5 flex centered full-height whiteCol">
         {{page.pointer3}}
       </div>
     </div>

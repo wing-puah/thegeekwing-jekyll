@@ -1,12 +1,12 @@
-<div class="bg-sec padding-big">
-  <h2><a class="whiteCol" href="{{site.baseurl}}/portfolio">Featured work <span class="bounce pl-15">&rArr;</span></a></h2>
-  <div class="flex flex-wrap">
+<div class="bg-sec py-2 py-sm-5">
+  <h2 class="centered"><a class="whiteCol" href="{{site.baseurl}}/portfolio">Featured work <span class="bounce pl-3">&rArr;</span></a></h2>
+  <div class="row">
     {% assign count = 0 %}
     {% for page in site.pages %}
       {% if page.layout == 'portfolio' and count < 4 %}
         {% assign count = count | plus: 1 %}
 
-        <div class="col-1 centered ofhidden">
+        <div class="col-xs-12 col-sm-3 p-0 centered ofhidden">
           <a href="{{site.baseurl}}{{page.permalink}}">
             <img class="full-width full-height full-img" src="{{site.imgurl}}{{page.banner}}" alt="" />
             <h3 class="centered box-fade full-width mb-0 sm-d-none">{{page.title}}</h3>

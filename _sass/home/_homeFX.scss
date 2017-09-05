@@ -1,13 +1,13 @@
 .reveal-container {
+  @include mobile {
+    display: none;
+  }
   overflow: hidden;
   position: relative;
   height: 70px;
 }
 
 .vert-carousel {
-  @include mobile {
-    display: none;
-  }
 
   position: absolute;
   overflow: hidden;

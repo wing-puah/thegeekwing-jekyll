@@ -1,7 +1,7 @@
-<div class="relatedPosts container">
+<div id="relatedPosts" class="py-4">
 
 <h4>You May Also Enjoy</h4>
-<div class="flex flex-wrap">
+<div class="row center-xs">
 {% assign maxRelated = 4 %}
 {% assign minCommonTags =  1 %}
 {% assign maxRelatedCounter = 0 %}
@@ -23,15 +23,13 @@
 
     {% if sameTagCount >= minCommonTags %}
 
-      <div class="col-1">
-        <div class="col centered">
+      <div class="col-xs-12 col-sm-3">
 
           <a class="txtdeco-none greyFont" href="{{ site.baseurl }}{{ post.url }}">
-            <img class ="img-thumbnail  rdCorner ofhidden" src="{{site.imgurl}}{{ post.banner }}" alt="">
+            <img class ="img-thumbnail mt-2 rdCorner ofhidden" src="{{site.imgurl}}{{ post.banner }}" alt="">
             {{ post.title }}
           </a>
 
-        </div>
       </div>
 
       {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}

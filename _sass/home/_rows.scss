@@ -7,8 +7,7 @@
 #home1 {
   @include mobile {
     @include linear-gradient(45deg, #D0A98F, #6D2E46);
-    height: 250px;
-    padding: 3rem 1rem;
+    height: auto;
     background-color: #fff;
   }
 
@@ -16,7 +15,6 @@
   overflow: hidden;
 
   h1 {
-    @include mobile {margin-top: 30px;}
     color: #ffffff;
     font-family: $homeheading;
     font-weight: 300;
@@ -55,13 +53,11 @@
   }
 
   @include notmobile {
-    .col-1 {
+    .col-sm-3 {
       @include transition( all 0.1s );
-      margin: 0 10px;
 
       &:hover {
         border-radius: 0;
-        flex: 2;
 
         .sm-d-none {
           display: block;
@@ -98,15 +94,8 @@
 }
 
 #home4 {
-  text-align: center;
 
-  .btn {
-    @include notmobile {
-      float: right;
-    }
-  }
-
-  .col-1  {
+  .col-sm-3  {
     position: relative;
     @include notmobile {
       height: 250px;
@@ -131,10 +120,4 @@
       }
     }
   }
-}
-
-#home5 {
-  .flex { justify-content: space-around;}
-
-  .col-1 { flex: 0 0 30%; }
 }
