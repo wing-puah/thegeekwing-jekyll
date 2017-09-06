@@ -115,9 +115,6 @@
     h3 {
       position: absolute;
       bottom: 0;
-      @include notmobile {
-        padding: 20px 0;
-      }
     }
   }
 }

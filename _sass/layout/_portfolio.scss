@@ -35,37 +35,40 @@
     text-decoration: none;
     color: black;
 
-    &:hover {
+    @include notmobile {
+      &:hover {
+        > img {
+          @include opacity(0.2);
+        }
 
-      > img {
-        @include opacity(0.2);
+        > #portfolio-title {
+          font-size: 1.2rem;
+        }
+
+        > #portfolio-genre {
+          @include transform( translateY(-50px) );
+          @include opacity(1);
+        }
       }
-
-      > #portfolio-title {
-        font-size: 1.2rem;
-      }
-
-      > #portfolio-genre {
-        @include transform( translateY(-50px) );
-        @include opacity(1);
-      }
-
     }
 
   }
 
-  .col-1 {
+  .col-sm-4 {
     position: relative;
-    height: 300px;
-    width: 100%;
     @include notmobile {
-      flex: 1 0 30%;
-    }
-
-    img {
       height: 300px;
     }
 
+    img {
+      height: 200px;
+      @include notmobile {
+          height: 300px;
+      }
+    }
+  }
+
+  @include notmobile {
     #portfolio-title {
       @include transition( all 0.5s linear);
       position: absolute;
@@ -79,7 +82,6 @@
       position: absolute;
       top: 60%;
     }
-
   }
 
 }

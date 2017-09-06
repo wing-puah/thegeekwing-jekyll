@@ -4,19 +4,17 @@ layout: postarchives
 
 <div class="cat-page">
 
-  <h1 class="margin-top greyFont">{{ page.category }}</h1>
+  <h4 class="margin-top greyFont mb-0 mt-4">{{ page.tag }}</h4>
 
-  <ul class="flex flex-wrap post-list">
+  <ul class="row">
 
     {% for post in site.categories[page.tag] %}
 
-    <li class="col-1 article-loop">
-      <div class="col centered">
-        <a href="{{site.baseurl}}{{ post.url }}">
-          <img class="img-thumbnail full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
-          {{ post.title }}
-        </a>
-      </div>
+    <li class="col-xs-12 col-sm-3 p-1 my-3 article-loop center-xs">
+      <a href="{{site.baseurl}}{{ post.url }}">
+        <img class="img-thumbnail full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
+        {{ post.title }}
+      </a>
     </li>
 
     {% endfor %}
