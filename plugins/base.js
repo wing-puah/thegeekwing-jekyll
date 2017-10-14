@@ -41,33 +41,3 @@ function navCross(){
     nav.insertBefore(newSpan, nav.childNodes[0]);
   };
 };
-
-
-function crossMobileNav(){
-  var cross = document.getElementById('cross');
-  cross.addEventListener('touchstart', function(e){
-    e.preventDefault();
-    nav.style.opacity = 0;
-    nav.style.top = "-100vh";
-  });
-}
-
-function navMobile(){
-  var navMenu = document.getElementById('navMenu');
-
-  if (window.innerWidth < 650) {
-    navMenu.innerText = "\u{2630} Menu"
-    navCross();
-    navMenu.addEventListener( 'touchstart', function(e){
-      e.preventDefault();
-      e.stopPropagation();
-      nav.style.opacity = 1;
-      nav.style.top = 0;
-    });
-  }
-  crossMobileNav();
-}
-
-if (window.innerWidth < 650) {
-  navMobile();
-}

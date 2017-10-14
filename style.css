@@ -1397,7 +1397,7 @@ footer {
   background-color: #3a4e5f; }
   footer a.btn {
     color: white; }
-  footer .social-media-icons img:hover {
+  footer #social img:hover {
     filter: alpha(opacity=70);
     opacity: 0.7; }
 
@@ -1768,14 +1768,14 @@ nav {
   #tg-row {
     height: 300px; } }
 @media (min-width: 768px) {
-  #tg-row .col-sm-3 {
-    -webkit-transition: all 0.1s;
-    -moz-transition: all 0.1s;
-    -o-transition: all 0.1s;
-    transition: all 0.1s; }
-    #tg-row .col-sm-3:hover {
+  #tg-row div[id^="tg"] {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    #tg-row div[id^="tg"]:hover {
       border-radius: 0; }
-      #tg-row .col-sm-3:hover .sm-d-none {
+      #tg-row div[id^="tg"]:hover .sm-d-none {
         display: block; } }
 
 #tg-1 {

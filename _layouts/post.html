@@ -27,13 +27,13 @@ comments: true
 
   </div>
 
-  <div class="post-content wrap padding-small" itemprop="articleBody">
+  <div class="post-content wrap" itemprop="articleBody">
     {{ content }}
   </div>
 
   <div class="entry-footer wrap">
     <div class="inline-share">
-    Share this: 
+    Share this:
       <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank" title="Share on Twitter">
         <img src="/img/twitter.svg" alt="">
       </a>
@@ -44,12 +44,17 @@ comments: true
         <img src="/img/google.svg" alt="">
       </a>
     </div>
-    <h4 class="margin-top">Enjoy this post? Subscribe for more geekiness!</h4>
-    {% include mailchimp.html %}
 
-    {% include relatedposts.html %}
+    <div class="pb-3 pb-sm-5">
+      <h4>Enjoy this post? Subscribe for more geekiness!</h4>
+      {% include mailchimp.html %}
+    </div>
 
-    <div class="padding-small">
+    <div class="pb-3 pb-sm-5">
+      {% include relatedposts.html %}
+    </div>
+
+    <div class="pb-3 pb-sm-5">
       {% include disqus.html %}
     </div>
 

@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: The Geek Wing
 email: puahhuiying@gmail.com
-description: Hacking through life. Your geeky source for technology, fitness and personal development.
+description: The geeky adventures of Wing: Technology, kids development and fitness.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.thegeekwing.com" # the base hostname & protocol for your site, e.g. http://example.com
 imgurl: "https://res.cloudinary.com/thegeekwing/image/upload"
@@ -24,7 +24,7 @@ facebook_app_id: 1452029651542835
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
+plugins_dir:
   - jekyll-feed
 
 include: ["_pages"]

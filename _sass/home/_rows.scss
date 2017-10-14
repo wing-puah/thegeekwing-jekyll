@@ -53,8 +53,8 @@
   }
 
   @include notmobile {
-    .col-sm-3 {
-      @include transition( all 0.1s );
+    div[id^="tg"] {
+      @include transition( all 0.3s );
 
       &:hover {
         border-radius: 0;
