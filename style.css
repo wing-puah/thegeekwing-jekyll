@@ -1729,7 +1729,8 @@ nav {
 
 #home1 {
   height: 90vh;
-  overflow: hidden; }
+  overflow: hidden;
+  position: relative; }
   @media (max-width: 768px) {
     #home1 {
       background: #D0A98F;
@@ -1737,6 +1738,18 @@ nav {
       background: linear-gradient(45deg, #D0A98F, #6D2E46);
       height: auto;
       background-color: #fff; } }
+  #home1:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #f3904f;
+    background: -webkit-linear-gradient(45deg, #f3904f, #3b4371);
+    background: linear-gradient(45deg, #f3904f, #3b4371);
+    filter: alpha(opacity=40);
+    opacity: 0.4; }
   #home1 h1 {
     color: #ffffff;
     font-family: "Open Sans", sans-serif;
@@ -1756,6 +1769,8 @@ nav {
     #home1 .home-video iframe {
       height: 150%;
       width: 100%; }
+  #home1 > .wrap {
+    z-index: 999; }
 
 .video-container {
   position: absolute;

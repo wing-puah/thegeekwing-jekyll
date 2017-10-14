@@ -13,6 +13,18 @@
 
   height: 90vh;
   overflow: hidden;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    @include linear-gradient(45deg, #f3904f, #3b4371);
+    @include opacity(0.4);
+  }
 
   h1 {
     color: #ffffff;
@@ -36,6 +48,8 @@
       width: 100%;
     }
   }
+
+  > .wrap {z-index: 999;}
 }
 
 .video-container {
