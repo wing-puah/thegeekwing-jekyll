@@ -1770,7 +1770,7 @@ nav {
       height: 150%;
       width: 100%; }
   #home1 > .wrap {
-    z-index: 999; }
+    z-index: 5; }
 
 .video-container {
   position: absolute;
