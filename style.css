@@ -1314,7 +1314,10 @@ footer {
 body {
   line-height: 1.6; }
 
-ol, ul {
+ol {
+  list-style-type: decimal; }
+
+ul {
   list-style: none; }
 
 blockquote, q {
