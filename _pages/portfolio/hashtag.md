@@ -3,7 +3,7 @@ permalink: "/portfolio/hashtag/"
 layout: portfolio
 banner: "/portfolio/hashtag-banner.jpg"
 title: "Hashtag Enterprise"
-date: "Jul 2016"
+date: 2016-07-25
 genre: "Website & event management"
 project: "Web developer & resource specialist"
 deliverables: "Management of company<br/>

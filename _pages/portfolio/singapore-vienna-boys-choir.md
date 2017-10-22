@@ -3,7 +3,7 @@ permalink: "/portfolio/singapore-vienna-boys-choir/"
 layout: portfolio
 banner: "/portfolio/svbc-page-design.jpg"
 title: "Singapore Vienna Boys Choir"
-date: "Apr 2017"
+date: 2017-04-22
 genre: "Website management"
 project: "Webmaster"
 deliverables: "Website wireframing<br/>

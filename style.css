@@ -1089,6 +1089,10 @@ a.greyFont:hover {
   .sm-round {
     border-radius: 100%; } }
 
+@media (min-width: 768px) {
+  .sm-square {
+    border: 0; } }
+
 .img-thumbnail {
   height: 150px;
   width: 100%;
@@ -1275,6 +1279,9 @@ time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
+
+html {
+  overflow-x: hidden; }
 
 em {
   font-style: italic; }
@@ -1811,12 +1818,12 @@ nav {
 #dt-p {
   background: url("https://res.cloudinary.com/thegeekwing/image/upload/home/leadership_background.jpg") center/cover; }
 
-#home4 .col-sm-3 {
+#work-row .col-xs-12 {
   position: relative; }
   @media (min-width: 768px) {
-    #home4 .col-sm-3 {
+    #work-row .col-xs-12 {
       height: 250px; }
-      #home4 .col-sm-3:hover img {
+      #work-row .col-xs-12:hover img {
         -webkit-filter: grayscale(80%);
         -moz-filter: grayscale(80%);
         -ms-filter: grayscale(80%);
@@ -1826,14 +1833,14 @@ nav {
         -moz-transform: scale(1.2, 1.2);
         -ms-transform: scale(1.2, 1.2);
         transform: scale(1.2, 1.2); }
-      #home4 .col-sm-3:hover h3 {
+      #work-row .col-xs-12:hover h3 {
         display: block; }
-      #home4 .col-sm-3 img {
+      #work-row .col-xs-12 img {
         -webkit-transition: all 0.2s;
         -moz-transition: all 0.2s;
         -o-transition: all 0.2s;
         transition: all 0.2s; } }
-  #home4 .col-sm-3 h3 {
+  #work-row .col-xs-12 h3 {
     position: absolute;
     bottom: 0; }
 

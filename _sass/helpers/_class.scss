@@ -150,6 +150,12 @@ a.greyFont:hover { color: $primaryCol; }
   }
 }
 
+.sm-square {
+  @include notmobile {
+    border: 0;
+  }
+}
+
 .img-thumbnail {
   height: 150px;
   width: 100%;

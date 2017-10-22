@@ -1,23 +1,22 @@
-<div class="row mx-0">
+<div class="bg-sec py-2 py-sm-5" id="work-row">
+  <h2 class="center-xs"><a class="whiteCol" href="{{site.baseurl}}/portfolio">Featured work <span class="bounce pl-3">&rArr;</span></a></h2>
+  <p class="center-xs p-5">From running my own startup to freelancing</p>
+  <div class="row m-0">
 
-  <div class="col-sm-4 px-0" id="dt-steps">
+    {% assign count = 0 %}
+    {% assign sorted_pages = (site.pages |  where: "layout" , "portfolio" | sort: 'date'  | reverse ) %}
+    {% for page in sorted_pages %}
+      {% if count < 6 %}
+        {% assign count = count | plus: 1 %}
 
-    <div class="row center-xs mx-0 full-height">
-      <p class="col-xs-12 mb-0 flex centered">Empathize</p>
-      <p class="col-xs-12 mb-0 flex centered">Define</p>
-      <p class="col-xs-12 mb-0 flex centered">Ideate</p>
-      <p class="col-xs-12 mb-0 flex centered">Prototype</p>
-      <p class="col-xs-12 mb-0 flex centered">Test</p>
-    </div>
+        <div class="col-xs-12 col-sm-4 p-0 center-xs ofhidden">
+          <a href="{{site.baseurl}}{{page.permalink}}">
+            <img class="full-width full-height full-img" src="{{site.imgurl}}{{page.banner}}" alt="" />
+            <h3 class="centered box-fade full-width mb-0 py-3 sm-d-none">{{page.title}}</h3>
+          </a>
+        </div>
 
+      {% endif %}
+    {% endfor %}
   </div>
-
-  <div class="col-sm-8 align-center" id="dt-p">
-    <div class="box-fade p-2 p-sm-4 m-2 m-sm-4">
-      <h1 class="priCol">The design thinking approach</h1>
-      <p>Design thinking is a proven strategy to solve complex problems and find desirable solutions for the clients. The process involves interviewing, creating user profiles, looking at other existing solutions and creating prototypes. At the heart of design thinking is the user: How do we improve the life of the users?</p>
-      <p class="mb-0">The end result? Innovative and practical solutions crafted to solve your problems and meet your needs.</p>
-    </div>
-  </div>
-
 </div>

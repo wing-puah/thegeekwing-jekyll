@@ -3,7 +3,7 @@ permalink: "/portfolio/retro-riot/"
 layout: portfolio
 banner: "/portfolio/retro-riot.jpg"
 title: "Retro riot"
-date: "Oct 2016"
+date: 2016-10-15
 genre: "Fundraiser & event management"
 project: "Fundraising for Cat Welfare Society and platform for local artists"
 deliverables: "1.5 hours thematic performance<br/>

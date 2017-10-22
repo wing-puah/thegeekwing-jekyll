@@ -107,9 +107,9 @@
   background: url('https://res.cloudinary.com/thegeekwing/image/upload/home/leadership_background.jpg') center/cover;
 }
 
-#home4 {
+#work-row {
 
-  .col-sm-3  {
+  .col-xs-12  {
     position: relative;
     @include notmobile {
       height: 250px;

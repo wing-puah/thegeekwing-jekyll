@@ -3,7 +3,7 @@ permalink: "/portfolio/christmas-at-topiary/"
 layout: portfolio
 banner: "/portfolio/magician-at-topiary.jpg"
 title: "Christmas Fiesta 2016"
-date: "Dec 2016"
+date: 2016-12-17
 genre: "Event design & management"
 project: "Event designer and coordinator"
 deliverables: "Christmas treasure hunt map<br/>

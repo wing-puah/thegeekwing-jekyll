@@ -3,7 +3,7 @@ permalink: "/portfolio/ocean-melody/"
 layout: portfolio
 banner: "/portfolio/ocean-melody.jpg"
 title: "Ocean Melody"
-date: "June 2016"
+date: 2016-06-15
 genre: "Summer camp"
 project: "Event design and facilitation"
 deliverables: "4 days children camp<br/>
