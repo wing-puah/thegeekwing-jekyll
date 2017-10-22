@@ -17,8 +17,7 @@ That is in full contradiction to my perspective of life. I always believe that a
 And don't we all have friends who negate their own work? Most of the time when we are reaching outside our comfort zone, we encounter the imposter syndrome: the feeling that you are just a fraud.
 
 It happens even to the best people:
-> “I had on so much makeup and these big, fluffy, full-on dresses. I’d put my hands on the sink and look at myself in the mirror and say, ‘Who is this?’ I didn’t connect with the person who was looking back at me, and that was a very unsettling feeling.”
-> -- Emma Watson, Actress
+> “I had on so much makeup and these big, fluffy, full-on dresses. I’d put my hands on the sink and look at myself in the mirror and say, ‘Who is this?’ I didn’t connect with the person who was looking back at me, and that was a very unsettling feeling.” <br/> -- Emma Watson, Actress
 
 It is a weird notion that we work hard for our success yet feel inadequate in face of it. We should learn to embrace and celebrate success. So here are 10 ways we could take to defeat the imposter syndrome.
 
