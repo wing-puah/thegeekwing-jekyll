@@ -2,7 +2,7 @@
 title: "A guide to integrating the 8 limbs of yoga: Part 1"
 date:  2015-02-14 04:12:16 +0800
 categories:
-  - "Personal development"
+  - "Lifestyle"
 banner: "/blog/2014/10/yoga-classes.jpg"
 tags: [balanced living, yoga]
 ---

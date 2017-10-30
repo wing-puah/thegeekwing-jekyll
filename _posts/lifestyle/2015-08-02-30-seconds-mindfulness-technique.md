@@ -2,9 +2,9 @@
 title: "30 seconds ninja mindfulness technique to apply at your workplace"
 date:  2015-08-02 22:14:01 +0800
 categories:
-  - "Personal development"
+  - "Lifestyle"
 banner: "/blog/2015/08/zen-stone.jpg"
-tags: [balanced living, yoga, emotional health, mindfulness]
+tags: [balanced living, yoga, emotional health, mindfulness, personal development]
 ---
 When the term meditation comes into mind, some people will still conjure up images of people sitting in lotus position, hands in some kind of mudra, sitting motionlessly on a cushion.
 

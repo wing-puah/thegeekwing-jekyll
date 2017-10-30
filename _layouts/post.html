@@ -6,9 +6,9 @@ comments: true
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="post-header">
-
-    <div class="centered box-fade container">
-
+    <img class="full-img full-width" src="{{site.imgurl}}{{page.banner}}" alt="">
+    
+    <div class="center-xs box-fade full-width py-3 py-sm-4">
       <h1 class="post-title wrap" itemprop="name headline">
         {{ page.title | escape }}
       </h1>
@@ -20,14 +20,10 @@ comments: true
         </time><br/>
         <a class="txtdeco-none greyFont" href="{{site.baseurl}}/category/{{ page.categories }}">{{page.categories}}</a>
       </p>
-
     </div>
-
-    <img class="full-img full-width" src="{{site.imgurl}}{{page.banner}}" alt="">
-
   </div>
 
-  <div class="post-content wrap" itemprop="articleBody">
+  <div class="post-content wrap my-3 my-sm-5" itemprop="articleBody">
     {{ content }}
   </div>
 
@@ -45,7 +41,7 @@ comments: true
       </a>
     </div>
 
-    <div class="pb-3 pb-sm-5">
+    <div class="py-3 py-sm-5">
       <h4>Enjoy this post? Subscribe for more geekiness!</h4>
       {% include mailchimp.html %}
     </div>

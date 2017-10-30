@@ -2,9 +2,9 @@
 title:  "4 ways to increase your commitment to weight management program"
 date:   2016-02-21 18:54:35 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2017/02/setting-goals-for-gym.jpg"
-tags: [weight management program, gym, weight loss]
+tags: [weight management program, gym, weight loss, fitness]
 ---
 
 What is the first thing that you think about when people mention weight loss?

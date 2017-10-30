@@ -1,20 +1,21 @@
 {% include head.html %}
 <body>
   {% include navbar.html %}
+
   <section class="homepage site-container ofhidden">
-    <div class="flex vert-centered" id="home1">
+    <div class="row middle-xs" id="home1">
       {% include home/row1.html %}
     </div>
-    <div id="home2" class="py-3 py-sm-7">
+    <div id="home2" class="p-3 py-sm-7">
       {% include home/row2.html %}
     </div>
     <div id="home3">
       {% include home/row3.html %}
     </div>
-    <div id="home4">
+    <div id="home4" class="p-3 py-sm-6">
       {% include home/row4.html %}
     </div>
-    <div id="home5" class="py-sm-6 p-3">
+    <div id="home5" class="py-sm-6 p-3 home__blog">
       {% include home/row5.html %}
     </div>
   </section>
@@ -22,7 +23,7 @@
   <footer>
     {% include footer.html %}
   </footer>
-  
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="{{site.baseurl}}/plugins/base.js" charset="utf-8"></script>
   <script src="{{site.baseurl}}/plugins/homeAnimation.js" charset="utf-8"></script>

@@ -8,18 +8,18 @@ layout: noSiteHeader
 
   <div class="header-info bg-white">
 
-    <h1 class="entry-title centered my-3">
+    <h1 class="entry-title center-xs my-3">
       {{page.title}}
     </h1>
 
-    <div class="wrap centered py-3">
+    <div class="wrap row center-xs py-3">
 
-      <div class="inlineblock fifty">
+      <div class="col-xs-12 col-sm-6 start-xs">
         <span class="greyFont mr-3">Date</span>
         {{page.date}}
       </div><!--
 
-      --><div class="inlineblock fifty">
+      --><div class="col-xs-12 col-sm-6 start-xs">
         <span class="greyFont mr-3">Genre</span>
         {{page.genre}}
       </div>
@@ -32,12 +32,12 @@ layout: noSiteHeader
 
   <div class="wrap row center-xs py-3 py-sm-5">
 
-    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 text-align-left">
+    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 start-xs">
       <span class="greyFont block">Project</span>
       {{page.project}}
     </div>
 
-    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 text-align-left">
+    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 start-xs">
       <span class="greyFont block">Deliverables</span>
       {{page.deliverables}}
     </div>
@@ -47,14 +47,14 @@ layout: noSiteHeader
     <h2>{{page.info}}</h2>
   </div>
 
-  <div class="row py-3">
+  <div class="row py-3 middle-xs">
 
     <div class="col-xs-12 col-sm-6 video-wrapper">
       <iframe  src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=1&controls=0&loop=1&playlist={{page.youtube}}&amp;showinfo=0" frameborder="0" allowfullscreen>
       </iframe>
-    </div><!--
+    </div>
 
-    --><div class="col-xs-12 col-sm-6 p-3 p-sm-4 vert-top">
+    <div class="col-xs-12 col-sm-6 p-3 p-sm-4">
       <h3>Features</h3>
       <h4>{{page.mdcaption}}</h4>
     </div>
@@ -62,23 +62,23 @@ layout: noSiteHeader
   </div>
 
   <div class="py-3 py-sm-6 row">
-
     <div class="col-xs-12 col-sm-4 p-2">
-      <div class="bg-pri px-3 py-5 flex centered full-height">
+      <div class="bg-pri px-3 py-5 row middle-xs full-height">
         {{page.pointer1}}
       </div>
     </div>
+
     <div class="col-xs-12 col-sm-4 p-2">
-      <div class="bg-grey px-3 py-5 flex centered full-height">
+      <div class="bg-grey px-3 py-5 row middle-xs full-height">
         {{page.pointer2}}
       </div>
     </div>
+
     <div class="col-xs-12 col-sm-4 p-2">
-      <div class="bg-sec px-3 py-5 flex centered full-height whiteCol">
+      <div class="bg-sec px-3 py-5 row middle-xs full-height color--white">
         {{page.pointer3}}
       </div>
     </div>
-
   </div>
 
 </div>

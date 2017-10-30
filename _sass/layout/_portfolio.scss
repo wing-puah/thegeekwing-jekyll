@@ -31,6 +31,8 @@
 
 .archive-portfolio-list {
 
+  @include linear-gradient(125deg, #485563, #29323c);
+
   a {
     text-decoration: none;
     color: black;
@@ -38,16 +40,18 @@
     @include notmobile {
       &:hover {
         > img {
-          @include opacity(0.2);
+          @include filter(brightness, 0.5);
         }
 
         > #portfolio-title {
-          font-size: 1.2rem;
+          font-size: 18px;
+          font-size: 1.8rem;
         }
 
         > #portfolio-genre {
-          @include transform( translateY(-50px) );
+          @include transform( translateY(-30px) );
           @include opacity(1);
+          color: white;
         }
       }
     }
@@ -56,31 +60,25 @@
 
   .col-sm-4 {
     position: relative;
-    @include notmobile {
-      height: 300px;
-    }
 
     img {
-      height: 200px;
-      @include notmobile {
-          height: 300px;
-      }
+      height: 180px;
     }
   }
 
   @include notmobile {
     #portfolio-title {
-      @include transition( all 0.5s linear);
+      @include transition( all 0.3s linear);
       position: absolute;
       bottom: 0;
       margin-bottom: 0;
     }
 
     #portfolio-genre {
-      @include transition( all 1s linear);
+      @include transition( all 0.3s linear);
       @include opacity(0);
       position: absolute;
-      top: 60%;
+      top: 55%;
     }
   }
 

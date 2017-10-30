@@ -28,8 +28,8 @@
     makeItemRound(workItems[toBeRound]);
     makeItemSquare(workItems[count]);
     // console.log(newCount + ', ' + count)
-    console.log(workItems[toBeRound]);
-    console.log('I am looping: ' + count + ' This is to be round: ' + toBeRound);
+    // console.log(workItems[toBeRound]);
+    // console.log('I am looping: ' + count + ' This is to be round: ' + toBeRound);
   }
 
   workAnimation = setInterval( loopSquareAndCircles, 2000);

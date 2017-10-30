@@ -5,7 +5,7 @@ categories:
   - "Technology"
 banner: "/blog/2017/08/jekyll-blog.jpg"
 tags: [jekyll, blogging, wordpress, reflection]
-description: Shfit my blog from Wordpress to Jekyll. Here is why I am never looking back.
+description: Shift my blog from Wordpress to Jekyll. Here is why I am never looking back.
 ---
 ## Wordpress
 I have been using Wordpress hosted on Hostgator for at least 6 years now.

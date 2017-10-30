@@ -2,9 +2,9 @@
 title: "5 reasons being mindful makes you better at work"
 date:  2015-08-30 22:14:01 +0800
 categories:
-  - "Personal development"
+  - "Lifestyle"
 banner: "/blog/2015/12/self-esteem.jpg"
-tags: [emotional health, mindfulness]
+tags: [emotional health, mindfulness, personal development]
 ---
 Can mindfulness work for you? Have you ever find yourself contemplating about learning to become mindful? Or are you still on the fence, waiting for more research papers to be published and more people to practice mindfulness before considering being part of the mindful group? Or are you simply wondering what the term mindfulness is?
 

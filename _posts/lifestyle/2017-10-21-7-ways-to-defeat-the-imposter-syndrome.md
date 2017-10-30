@@ -2,13 +2,14 @@
 title: "7 ways to defeat the imposter syndrome"
 date:  2017-10-21 14:14:01 +0800
 categories:
-  - "Personal development"
+  - "Lifestyle"
 banner: "/blog/2017/10/hidden-man.jpg"
 tags: [emotional health, self improvement]
+description: Stop sabotaging yourself and live the life you deserve
 ---
 ## I feel like a fraud.
 
-I first mention it [here](https://www.thegeekwing.com/fitness/2016/03/26/how-weight-lifting-saves-my-life/). There are times when I have to give classes that I am not fully certified for. There have also been instances when I feel like dying talking to people twice my age about mindfulness. And all the freelance work that I do, I'm always afraid that people will find out that I am not very talented.
+I first mention it [here](https://www.thegeekwing.com/lifestyle/2016/03/26/how-weight-lifting-saves-my-life/). There are times when I have to give classes that I am not fully certified for. There have also been instances when I feel like dying talking to people twice my age about mindfulness. And all the freelance work that I do, I'm always afraid that people will find out that I am not very talented.
 
 ## I am a huge imposter.
 

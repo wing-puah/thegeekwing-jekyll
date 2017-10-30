@@ -2,7 +2,7 @@
 title: "5 yoga techniques to manage your stress in 5 minutes: Part 1"
 date:  2015-03-25 06:40:16 +0800
 categories:
-  - "Personal development"
+  - "Lifestyle"
 banner: "/blog/2015/04/calm-manage-stress.jpg"
 tags: [balanced living, yoga, emotional health, mindfulness]
 ---

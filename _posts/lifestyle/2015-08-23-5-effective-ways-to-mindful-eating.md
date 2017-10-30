@@ -2,9 +2,9 @@
 title: "5 effective ways to mindful eating"
 date:  2015-08-23 21:17:26 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2015/08/mindful-eating.jpg"
-tags: [mindfulness]
+tags: [mindfulness, fitness]
 ---
 Do you struggle with food too? I have.
 

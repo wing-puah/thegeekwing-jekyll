@@ -13,27 +13,37 @@ table,caption,tbody,tfoot,thead,tr,th,td,
 article,aside,canvas,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section,summary,
 time,mark,audio,video{
-    margin:0;
-    padding:0;
-    border:0;
-    outline:0;
-    font-size:100%;
-    font:inherit;
-    vertical-align:baseline;
+  margin:0;
+  padding:0;
+  border:0;
+  outline:0;
+  font:inherit;
+  vertical-align:baseline;
+  line-height: 140%;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,aside,details,figcaption,figure,
 footer,header,hgroup,menu,nav,section{
   display:block;
 }
 
-html {overflow-x: hidden;}
+html {
+  overflow-x: hidden;
+  font-size: 62.5%;
+}
 
 em {font-style: italic;}
 
+div {
+  font-size: 16px;
+  font-size: 1.6rem;
+}
+
 p {
   margin-bottom: 20px;
-  font-size: 20px;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .site-container,
@@ -61,10 +71,6 @@ footer {
     box-sizing: border-box;
 }
 
-body{
-  line-height:1.6;
-}
-
 ol{ list-style-type:decimal; }
 
 ul{ list-style:none; }
@@ -83,30 +89,40 @@ h1,
 h2,
 h3,
 h4 {
-  @include mobile {line-height: 1.2;}
+  @include mobile {line-height: 1.4;}
   font-family: 'Exo', sans-serif;
   margin-bottom: 20px;
-  line-height: 1;
+  line-height: 140%;
+  color: $primaryCol;
 }
 
 h1 {
-	font-size: 24px;
-	font-size: 2.4rem;
+  font-size: 30px;
+  font-size: 3.0rem;
+  @include notmobile {
+    font-size: 40px;
+    font-size: 4rem;
+  }
 }
 
 h2 {
-	font-size: 20px;
-	font-size: 2rem;
+  font-size: 24px;
+  font-size: 2.4rem;
+  @include notmobile {
+    font-size: 32px;
+    font-size: 3.2rem;
+  }
+
 }
 
 h3 {
-	font-size: 16px;
-	font-size: 1.6rem;
+	font-size: 20px;
+	font-size: 2.0rem;
 }
 
 h4 {
-	font-size: 14px;
-	font-size: 1.4rem;
+	font-size: 16px;
+	font-size: 1.6rem;
 }
 
 strong {

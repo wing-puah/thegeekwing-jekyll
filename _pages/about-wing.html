@@ -5,28 +5,26 @@ permalink: /about-wing/
 
 <div id="role-list">
   <ul class="row around-xs center-xs py-4">
+
     {% for role in site.data.aboutwinglist.roles %}
-
-    <li class="col-xs-12 col-sm-2 py-1 py-sm-0">
-
-      <h4 class="round flex centered bg-grey secCol mb-0">
+    <li class="col-xs-12 col-sm py-1 py-sm-0 row center-xs">
+      <h3 class="round bg-grey color--secondary row full-width center-xs middle-xs mb-0">
         {{ role.title }}
-      </h4>
-
+      </h3>
     </li>
-
     {% endfor %}
+
   </ul>
 </div>
 
 <div id="role-details">
+
   {% for role in site.data.aboutwinglist.roles %}
   <div class="col-xs-12 px-0 ofhidden">
-
-    <img class="full-width full-img" src="{{site.imgurl}}{{role.image}}" alt="">
-    <h2 class="p-2 p-sm-4 mb-0 block">{{role.title}}</h2>
-    <p class="box-fade p-2 p-sm-4 block">{{role.details}}</p>
-
+    <img class="full-width full-img block" src="{{site.imgurl}}{{role.image}}" alt="">
+    <h2 class="px-3 py-2 p-sm-4 mb-0 block">{{role.title}}</h2>
+    <p class="box-fade px-3 py-2 p-sm-4 block">{{role.details}}</p>
   </div>
   {% endfor %}
+
 </div>

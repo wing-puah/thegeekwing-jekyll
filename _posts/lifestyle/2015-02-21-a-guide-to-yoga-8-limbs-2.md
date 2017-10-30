@@ -2,11 +2,11 @@
 title: "A guide to integrating the 8 limbs of yoga: Part 2"
 date:  2015-02-21 12:41:44 +0800
 categories:
-  - "Personal development"
+  - "Lifestyle"
 banner: "/blog/2015/03/woman-in-yoga-post-relaxing-manage-stress.jpg"
 tags: [balanced living, yoga]
 ---
-Last week, we talk about the [first 4 limbs of yoga](/personal development/2015/02/14/a-guide-to-yoga-8-limbs/): yamas, niyamas, asana and pranayama. These could be said to form the external or physical practices of yoga.
+Last week, we talk about the [first 4 limbs of yoga](/lifestyle/2015/02/14/a-guide-to-yoga-8-limbs/): yamas, niyamas, asana and pranayama. These could be said to form the external or physical practices of yoga.
 Today, we are going to talk about the next 4 limbs, which are the internal or mind-based practices of yoga. There is no one limb that is more important than the other.
 
 ### Implement the 8 limbs in a way that will be relevant to you.

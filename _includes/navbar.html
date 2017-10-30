@@ -1,14 +1,15 @@
 <nav class="nav-pri uppercase bg-white">
   <ul class="parent" id="navParent"><h2 id="navMenu">M e n u</h2>
 
-    <ul class="sub-menu row flex-col centered m-0" id="navSub">
+    <ul class="sub-menu row center-xs m-0" id="navSub">
       {% for item in site.data.navlist.subpages %}
       <li class="col-xs-12 {% if item.url == page.url %}active{% endif %}">
-        <a class="flex vert-centered" href="{{site.baseurl}}{{item.url}}">{{item.page}}</a>
+        <a class="row full-height middle-xs center-xs" href="{{site.baseurl}}{{item.url}}">
+          <h4 class="mb-0 color--black">{{item.page}}</h4>
+        </a>
       </li>
       {% endfor %}
     </ul>
 
   </ul>
-
 </nav>

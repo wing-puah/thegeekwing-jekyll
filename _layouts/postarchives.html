@@ -8,11 +8,11 @@ layout: default
     <div class="row around-xs" id="cat-list">
 
     {% for category in site.categories %}
-      <a class="col-xs-12 col-sm m-1 p-2 flex centered bg-grey rdCorner" href="{{site.baseurl}}/category/{{ category | first }}/">
+      <a class="col-xs-12 col-sm m-1 p-2 center-xs bg-grey rdCorner" href="{{site.baseurl}}/category/{{ category | first }}/">
         <h3 class="mb-0">{{ category | first }}</h3>
       </a>
     {% endfor %}
-      <a class="col-xs-12 col-sm m-1 p-2 flex centered bg-grey rdCorner" href="{{site.baseurl}}/blog">
+      <a class="col-xs-12 col-sm m-1 p-2 center-xs bg-grey rdCorner" href="{{site.baseurl}}/blog">
         <h3 class="mb-0">All</h3>
       </a>
 

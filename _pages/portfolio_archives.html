@@ -4,17 +4,20 @@ title: "Portfolio"
 permalink: /portfolio/
 ---
 
-<section class="archive-portfolio-list py-3 py-sm-5">
+<section class="archive-portfolio-list py-3 px-sm-4 py-sm-5">
+  <h1 class="center-xs color--white">Portfolio</h1>
 
-  <div class="row mx-2 mx-sm-5">
+  <div class="row around-xs">
   {% assign sorted_pages = (site.pages |  where: "layout" , "portfolio" | sort: 'date'  | reverse ) %}
   {% for page in sorted_pages %}
-    <div class="col-xs-12 col-sm-4 px-sm-0 center-xs">
-      <a href="{{site.baseurl}}{{page.permalink}}">
-        <img class="img-thumbnail full-img" src="{{site.imgurl}}{{page.banner}}" alt="">
-        <h3 id="portfolio-title" class="box-fade full-width py-2 py-sm-4 mb-0">{{page.title}}</h3>
-        <h4 id="portfolio-genre" class="centered full-width py-0 px-0 px-sm-3 mb-2">{{page.genre}}</h4>
-      </a>
+    <div class="col-xs-12 col-sm-4 center-xs ofhidden">
+      <div class="my-4 mx-2 pos--rel">
+        <a href="{{site.baseurl}}{{page.permalink}}">
+          <img class="img-thumbnail full-img" src="{{site.imgurl}}{{page.banner}}" alt="">
+          <h3 id="portfolio-title" class="box-fade full-width py-2 py-sm-4 mb-0">{{page.title}}</h3>
+          <h3 id="portfolio-genre" class="centered full-width color--white py-0 px-0 px-sm-3 mb-2">{{page.genre}}</h3>
+        </a>
+      </div>
     </div>
   {% endfor %}
   </div>

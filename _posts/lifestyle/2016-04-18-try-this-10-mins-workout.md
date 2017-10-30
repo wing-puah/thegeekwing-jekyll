@@ -2,9 +2,9 @@
 title:  "Combat your excuses: Try this 10 minutes body weight workout!"
 date:   2016-04-18 13:54:35 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2017/04/short-burst-of-exercise.jpg"
-tags: [body weight workout, gym, weight loss]
+tags: [body weight workout, gym, weight loss, fitness]
 ---
 
 Which is more precious? Time or health?

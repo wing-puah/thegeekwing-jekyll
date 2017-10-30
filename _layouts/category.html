@@ -4,15 +4,15 @@ layout: postarchives
 
 <div class="cat-page">
 
-  <h4 class="margin-top greyFont mb-0 mt-4">{{ page.tag }}</h4>
+  <h4 class="greyFont mb-0 mt-4 end-sm">{{ page.tag }}</h4>
 
-  <ul class="row">
+  <ul class="row" id="post-list">
 
     {% for post in site.categories[page.tag] %}
 
-    <li class="col-xs-12 col-sm-3 p-1 my-3 article-loop center-xs">
+    <li class="col-xs-12 col-sm-4 p-2 my-3 article-loop center-xs">
       <a href="{{site.baseurl}}{{ post.url }}">
-        <img class="img-thumbnail full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
+        <img class="img--blog full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
         {{ post.title }}
       </a>
     </li>

@@ -1,14 +1,20 @@
 .post-header {
   position: relative;
 
-
   img {
-    height: 350px;
+    width: 100%;
+    height: auto;
+    display: block;
+    @include notmobile {
+      height: 350px;
+    }
   }
 
   .box-fade {
-    position: absolute;
-    bottom: 0;
+    @include notmobile {
+      position: absolute;
+      bottom: 0;
+    }
 
     .post-meta {
       margin-bottom: 0;
@@ -91,12 +97,12 @@
 
 #post-list {
 
-  .col-sm-3:first-child {
+  .article-loop:first-child {
     flex: 1 0 100%;
     max-width: 100%;
   }
 
-  .col-sm-3 {
+  .article-loop {
     &:hover {
       background-color: lighten( $greyBg, 5% );
 

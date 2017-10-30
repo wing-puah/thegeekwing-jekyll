@@ -1,12 +1,16 @@
-<h2><a href="{{site.baseurl}}/blog" class="priCol">Code. Educate. Empower. <span class="bounce pl-3">&rArr;</span></a></h2>
+<h2 class="center-xs">
+  <a href="{{site.baseurl}}/blog" class="priCol">Code. Educate. Empower. <span class="bounce pl-3 xs-d-none">&rArr;</span></a>
+</h2>
+
 <ul class="row center-xs post-list">
-{% for post in site.posts limit:6 %}
+{% for post in site.posts limit:8 %}
   {% assign post = site.posts.first %}
 
-  <li class="col-xs-12 col-sm-4 mb-3">
+  <li class="col-xs-12 col-sm-6 mb-3 px-3">
     <a href="{{site.baseurl}}{{ post.url }}">
       <img class="img-thumbnail full-img" src="{{site.imgurl}}{{ post.banner }}" alt="" />
-        {{ post.title }}
+        <h4 class="start-xs color--primary pl-sm-3 my-3"><strong>{{ post.title }}</strong></h4>
+        <p class="start-xs color--primary pl-sm-3">{{ post.description }}</p>
     </a>
   </li>
 

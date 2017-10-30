@@ -2,9 +2,9 @@
 title:  "How weight lifting saves my life"
 date:   2016-03-26 13:54:35 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2017/03/barbell.jpg"
-tags: [weight lifting, self-esteem, gym, weight loss]
+tags: [weight lifting, self-esteem, gym, weight loss, fitness]
 ---
 
 Have you ever felt that you are not good enough for your role? I have.

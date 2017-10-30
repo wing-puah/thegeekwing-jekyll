@@ -2,9 +2,9 @@
 title: "Can yoga help in weight loss? 5 facts you need to know"
 date:  2015-06-28 16:23:52 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2015/06/yoga-and-weight-loss.jpg"
-tags: [yoga, exercise science, weight loss]
+tags: [yoga, exercise science, weight loss, fitness]
 ---
 Today we will explore the 5 facts that will better inform you on how to manage your weight better through yoga.
 

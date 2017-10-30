@@ -2,11 +2,11 @@
 title: "5 facts about our spine to prevent yoga injuries - Part 2"
 date:  2015-06-07 15:05:18 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2015/06/backbend.jpg"
-tags: [yoga, exercise science]
+tags: [yoga, exercise science, fitness]
 ---
-Last week, we introduce you to part 1 of this series: [five facts about our spine to prevent yoga injuries](/fitness/2015/05/31/5-spine-facts-for-yoga-practitioners/). We touch on the cervical and thoracic spine, which are the neck and the upper back.
+Last week, we introduce you to part 1 of this series: [five facts about our spine to prevent yoga injuries](/lifestyle/2015/05/31/5-spine-facts-for-yoga-practitioners/). We touch on the cervical and thoracic spine, which are the neck and the upper back.
 
 This week, we will move on to explore another 3 exercise sciences that yoga practitioners should know and refer to as a foundation of their practice.  
 

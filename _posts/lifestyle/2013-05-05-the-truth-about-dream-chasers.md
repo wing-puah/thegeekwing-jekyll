@@ -2,7 +2,7 @@
 title:  "The truth about dream chasers"
 date:   2013-05-05 07:36:49 +0800
 categories:
-  - "Personal development"
+  - "Lifestyle"
 banner: "/blog/2012/05/shadows-and-light.jpg"
 tags: [live your dream, passion ]
 ---

@@ -1,19 +1,27 @@
-<div class="bg-sec py-2 py-sm-5" id="work-row">
-  <h2 class="center-xs"><a class="whiteCol" href="{{site.baseurl}}/portfolio">Featured work <span class="bounce pl-3">&rArr;</span></a></h2>
-  <p class="center-xs px-5 pb-5 whiteCol">I freelance, volunteer and run my own startup. You might want to find out more by clicking on the images below.<br/>
-  If you want to collaborate or hire me, feel free to contact me at puahhuiying@gmail.com.</p>
-  <div class="row m-0">
+<div class="pt-2 pt-sm-5" id="work-row">
 
+  <h2 class="px-3 px-sm-5">
+    <a href="{{site.baseurl}}/portfolio" class="color--primary">Recent work <span class="bounce pl-3">&rArr;</span></a>
+  </h2>
+  <p class="px-3 px-sm-5 pb-5">
+    I freelance, volunteer and run my own startup.<br/>
+    If you want to collaborate or hire me, feel free to contact me at puahhuiying@gmail.com.
+  </p>
+
+  <div class="row m-0 px-3 px-sm-0">
     {% assign count = 0 %}
     {% assign sorted_pages = (site.pages |  where: "layout" , "portfolio" | sort: 'date'  | reverse ) %}
     {% for page in sorted_pages %}
-      {% if count < 6 %}
+      {% if count < 3 %}
         {% assign count = count | plus: 1 %}
 
-        <div class="col-xs-12 col-sm-4 p-0 center-xs ofhidden">
+        <div class="col-xs-12 col-sm-4 mb-3 mb-sm-0 p-sm-0 center-xs ofhidden">
           <a href="{{site.baseurl}}{{page.permalink}}">
             <img class="full-width full-height full-img" src="{{site.imgurl}}{{page.banner}}" alt="" />
-            <h3 class="centered box-fade full-width mb-0 py-3 sm-d-none">{{page.title}}</h3>
+            <div class="content--portfolio start-xs full-width p-3 py-sm-5">
+              <p class="text--small color--white mb-2">{{page.genre}}</p>
+              <h2 class="full-width mb-0 color--white">{{page.title}}</h2>
+            </div>
           </a>
         </div>
 

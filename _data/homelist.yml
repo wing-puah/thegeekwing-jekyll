@@ -1,0 +1,25 @@
+work:
+
+  - type: 'Kids & Youth'
+    description: 'Fun activities that integrate holistic development for children of all ages'
+
+  - type: 'Technology'
+    description: 'Complete and affordable web solutions for your enterprise needs & target audience'
+
+  - type: 'Event'
+    description: 'Bespoke events to tailor to various budgets, occasion, target audiences and themes'
+
+
+tech:
+
+  - name: 'Design thinking'
+    image: '/home/planning.svg'
+    description: 'Understand the user, identify the problem and find desirable solutions'
+
+  - name: 'Prototyping/ Design Refining'
+    image: '/home/magnifying_glass.svg'
+    description: 'Wireframes, mockups, plan, analyze, prototype, design'
+
+  - name: 'Service/ product deliverables'
+    image: '/home/target.svg'
+    description: 'Wordpress development, front-end development, kids/youth activities plan, event management'

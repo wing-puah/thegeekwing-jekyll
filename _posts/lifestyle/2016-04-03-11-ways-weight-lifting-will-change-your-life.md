@@ -2,9 +2,9 @@
 title:  "11 ways weight lifting will save your life"
 date:   2016-07-14 22:54:35 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2017/07/weight-lifting-female.jpg"
-tags: [weight lifting, gym, weight loss]
+tags: [weight lifting, gym, weight loss, fitness]
 ---
 
 Weight lifting saves my life. It is not merely about what happen in the gym. It is also about the transformation that occurs in my life. Besides looking better, I gain confidence, become more focus and achieve more in my life.

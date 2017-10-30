@@ -44,7 +44,7 @@ $(document).ready(function($){
 
     createBtns: function(totalPages, currentPage) {
       // create buttons to manipulate current page
-      var pagination = $('<div class="pagination centered margin-top" />');
+      var pagination = $('<div class="pagination center-xs my-3 mt-sm-5" />');
 
       // add a "first" button
       pagination.append('<span class="pagination-button bg-grey rdCorner">&laquo;</span>');

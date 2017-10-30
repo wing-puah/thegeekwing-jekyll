@@ -2,9 +2,9 @@
 title: "5 facts about our spine to prevent yoga injuries - Part 1"
 date:  2015-05-31 12:05:05 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2015/05/yoga-class-spine-twist.jpg"
-tags: [yoga, exercise science]
+tags: [yoga, exercise science, fitness]
 ---
 In yoga, there is a saying, “You are Only as Young as your Spine is Flexible”. Yoga benefits include reducing stress, increasing positive emotions and improving our physical body. However, we are also seeing yoga injuries on the rise as yoga has became increasingly athletic.
 

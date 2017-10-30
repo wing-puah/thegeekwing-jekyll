@@ -2,9 +2,9 @@
 title: "3 exercise science that all yoga practitioners should know"
 date:  2015-05-24 16:23:52 +0800
 categories:
-  - "Fitness"
+  - "Lifestyle"
 banner: "/blog/2015/05/human-body-exercise-science.jpg"
-tags: [yoga, exercise science]
+tags: [yoga, exercise science, fitness]
 ---
 Yoga can be spiritual, physical and/or mental exercise for the practitioners. Some practitioners do mostly pranayama. Some like hand balances and strong posture. Some do raja yoga, the yoga of meditation.
 
