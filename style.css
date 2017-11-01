@@ -1614,9 +1614,9 @@ nav {
   overflow: hidden; }
 
 .archive-portfolio-list {
-  background: #485563;
-  background: -webkit-linear-gradient(-35deg, #485563, #29323c);
-  background: linear-gradient(125deg, #485563, #29323c); }
+  background: #5D4157;
+  background: -webkit-linear-gradient(-75deg, #5D4157, #A8CABA);
+  background: linear-gradient(165deg, #5D4157, #A8CABA); }
   .archive-portfolio-list a {
     text-decoration: none;
     color: black; }
