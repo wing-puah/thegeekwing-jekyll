@@ -6,19 +6,17 @@ comments: true
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <div class="post-header">
-    <img class="full-img full-width" src="{{site.imgurl}}{{page.banner}}" alt="">
-    
-    <div class="center-xs box-fade full-width py-3 py-sm-4">
-      <h1 class="post-title wrap" itemprop="name headline">
+    <div class="center-xs full-width py-3 py-sm-4">
+      <h1 class="post-title" itemprop="name headline">
         {{ page.title | escape }}
       </h1>
 
-      <p class="post-meta">
+      <p class="post-meta wrap py-2 mt-sm-5">
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-          {% assign date_format = site.minima.date_format | default: "%-d %b %Y" %}
-          {{ page.date | date: date_format }}
-        </time><br/>
-        <a class="txtdeco-none greyFont" href="{{site.baseurl}}/category/{{ page.categories }}">{{page.categories}}</a>
+          {% assign date_format = site.minima.date_format | default: "%A, %B %-d, %Y" %}
+          Published on {{ page.date | date: date_format }}
+        </time> under
+        <a class="txtdeco-none greyFont lowercase" href="{{site.baseurl}}/category/{{ page.categories }}">{{page.categories}}</a>
       </p>
     </div>
   </div>
@@ -42,7 +40,7 @@ comments: true
     </div>
 
     <div class="py-3 py-sm-5">
-      <h4>Enjoy this post? Subscribe for more geekiness!</h4>
+      <h3>Enjoy this post? Subscribe for more geekiness!</h3>
       {% include mailchimp.html %}
     </div>
 

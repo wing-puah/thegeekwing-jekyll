@@ -16,10 +16,10 @@ tech:
     image: '/home/planning.svg'
     description: 'Understand the user, identify the problem and find desirable solutions'
 
-  - name: 'Prototyping/ Design Refining'
+  - name: 'Prototyping/ Design refining'
     image: '/home/magnifying_glass.svg'
     description: 'Wireframes, mockups, plan, analyze, prototype, design'
 
-  - name: 'Service/ product deliverables'
+  - name: 'Service/ Product deliverables'
     image: '/home/target.svg'
     description: 'Wordpress development, front-end development, kids/youth activities plan, event management'

@@ -170,3 +170,10 @@ blockquote {
     position: absolute;
   }
 }
+
+.wrap {
+  width: 90%;
+  @include notmobile {
+    width: 80%;
+  }
+}

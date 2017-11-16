@@ -986,6 +986,9 @@
 .uppercase {
   text-transform: uppercase; }
 
+.lowercase {
+  text-transform: lowercase; }
+
 .block {
   display: block; }
 
@@ -1296,13 +1299,13 @@ em {
   font-style: italic; }
 
 div {
-  font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 18px;
+  font-size: 1.8rem; }
 
 p {
   margin-bottom: 20px;
-  font-size: 16px;
-  font-size: 1.6rem; }
+  font-size: 18px;
+  font-size: 1.8rem; }
 
 .site-container,
 footer {
@@ -1414,6 +1417,12 @@ blockquote {
     height: 100%;
     position: absolute; }
 
+.wrap {
+  width: 90%; }
+  @media (min-width: 768px) {
+    .wrap {
+      width: 80%; } }
+
 header .logo {
   height: 100px;
   display: block; }
@@ -1518,25 +1527,24 @@ nav {
 
 .post-header {
   position: relative; }
-  .post-header img {
-    width: 100%;
-    height: auto;
-    display: block; }
+  .post-header .post-meta {
+    margin-bottom: 0;
+    font-style: italic; }
     @media (min-width: 768px) {
-      .post-header img {
-        height: 350px; } }
-  @media (min-width: 768px) {
-    .post-header .box-fade {
-      position: absolute;
-      bottom: 0; } }
-  .post-header .box-fade .post-meta {
-    margin-bottom: 0; }
+      .post-header .post-meta {
+        border-width: 1px 0 1px 0;
+        border-color: #000;
+        border-style: solid; } }
 
-.post .wrap {
-  width: 90%; }
+.post-title {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: black;
+  width: 98%;
+  margin: auto; }
   @media (min-width: 768px) {
-    .post .wrap {
-      width: 80%; } }
+    .post-title {
+      text-transform: uppercase; } }
 
 @media (max-width: 768px) {
   .post iframe {
