@@ -11,7 +11,7 @@
     background-color: #fff;
   }
 
-  height: 90vh;
+  height: 85vh;
   overflow: hidden;
   position: relative;
 
@@ -22,20 +22,18 @@
     left: 0;
     right: 0;
     bottom: 0;
-    @include linear-gradient(45deg, #f3904f, #3b4371);
-    @include opacity(0.4);
+    @include linear-gradient(45deg, #89253e, #3a6186);
+    @include opacity(0.7);
   }
 
   h1 {
     color: #ffffff;
-    font-family: $homeheading;
-    font-weight: 300;
   }
 
   .home-video {
     @include mobile { display: none; };
     position: relative;
-    top: -10%;
+    top: -13%;
     left: -5%;
     object-fit: cover;
     width: 110vw;
@@ -49,7 +47,12 @@
     }
   }
 
-  > .wrap {z-index: 5;}
+  > .wrap {
+    z-index: 5;
+    @include notmobile {
+      width: 50%;
+    }
+  }
 }
 
 .video-container {

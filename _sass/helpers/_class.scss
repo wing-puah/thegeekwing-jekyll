@@ -143,9 +143,10 @@ a.greyFont:hover { color: $primaryCol; }
 }
 
 .img--blog {
-  height: 250px;
+  height: 150px;
   width: 100%;
   object-fit: cover;
+  @include notmobile {height: 250px;}
 }
 
 .img-medium {
@@ -273,3 +274,4 @@ a:hover .bounce {
 
 .text-align-left {text-align: left;}
 .text--small { font-size: 14px; font-size: 1.4rem; }
+.text--heavy {font-weight: 700;}

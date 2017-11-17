@@ -1097,9 +1097,12 @@ a.greyFont:hover {
   object-fit: cover; }
 
 .img--blog {
-  height: 250px;
+  height: 150px;
   width: 100%;
   object-fit: cover; }
+  @media (min-width: 768px) {
+    .img--blog {
+      height: 250px; } }
 
 .img-medium {
   height: 200px;
@@ -1265,6 +1268,9 @@ a:hover .bounce {
 .text--small {
   font-size: 14px;
   font-size: 1.4rem; }
+
+.text--heavy {
+  font-weight: 700; }
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -1764,7 +1770,7 @@ nav {
     width: 350px; } }
 
 #home1 {
-  height: 90vh;
+  height: 85vh;
   overflow: hidden;
   position: relative; }
   @media (max-width: 768px) {
@@ -1781,18 +1787,16 @@ nav {
     left: 0;
     right: 0;
     bottom: 0;
-    background: #f3904f;
-    background: -webkit-linear-gradient(45deg, #f3904f, #3b4371);
-    background: linear-gradient(45deg, #f3904f, #3b4371);
-    filter: alpha(opacity=40);
-    opacity: 0.4; }
+    background: #89253e;
+    background: -webkit-linear-gradient(45deg, #89253e, #3a6186);
+    background: linear-gradient(45deg, #89253e, #3a6186);
+    filter: alpha(opacity=60);
+    opacity: 0.6; }
   #home1 h1 {
-    color: #ffffff;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 300; }
+    color: #ffffff; }
   #home1 .home-video {
     position: relative;
-    top: -10%;
+    top: -13%;
     left: -5%;
     object-fit: cover;
     width: 110vw;
@@ -1807,6 +1811,9 @@ nav {
       width: 100%; }
   #home1 > .wrap {
     z-index: 5; }
+    @media (min-width: 768px) {
+      #home1 > .wrap {
+        width: 50%; } }
 
 .video-container {
   position: absolute;
