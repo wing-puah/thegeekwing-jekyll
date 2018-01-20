@@ -4,7 +4,7 @@ layout: portfolio
 banner: "/portfolio/hashtag-banner.jpg"
 title: "Hashtag Enterprise"
 date: 2016-07-25
-genre: "Website & event management"
+genre: "Event & Website management"
 project: "Web developer & resource specialist"
 deliverables: "Management of company<br/>
 Website design and development<br/>

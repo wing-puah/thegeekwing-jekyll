@@ -1,84 +1,54 @@
 ---
 layout: noSiteHeader
 ---
+<div style="background:{{page.background}}">
+  <div class="project-header row middle-xs center-xs">
+    <div class="prj-header-img">
+      <img src="{{site.imgurl}}{{page.banner}}" alt="" class="full-width full-img">
+    </div>
+    <div class="header-info">
+      <h1 class="entry-title mb-0 text--heavy color--white">
+        {{page.title}}
+      </h1>
+      <h2 class="color--white">{{page.genre}}</h2>
+      <p class="color--white">{{page.info}}</p>
+    </div>
+  </div>
 
-<div class="project-header">
+  <div class="entry-content wrap">
 
-  <img src="{{site.imgurl}}{{page.banner}}" alt="" class="full-width full-img">
+    <div class="row py-3 middle-xs">
 
-  <div class="header-info bg-white">
-
-    <h1 class="entry-title center-xs my-3">
-      {{page.title}}
-    </h1>
-
-    <div class="wrap row center-xs py-3">
-
-      <div class="col-xs-12 col-sm-6 start-xs">
-        <span class="greyFont mr-3">Date</span>
-        {{page.date}}
-      </div><!--
-
-      --><div class="col-xs-12 col-sm-6 start-xs">
-        <span class="greyFont mr-3">Genre</span>
-        {{page.genre}}
+      <div class="col-xs-12 col-sm-6 video-wrapper">
+        <iframe  src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=1&controls=0&loop=1&playlist={{page.youtube}}&amp;showinfo=0" frameborder="0" allowfullscreen>
+        </iframe>
       </div>
-    </div>
 
-  </div>
-</div>
-
-<div class="entry-content wrap">
-
-  <div class="wrap row center-xs py-3 py-sm-5">
-
-    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 start-xs">
-      <span class="greyFont block">Project</span>
-      {{page.project}}
-    </div>
-
-    <div class="col-xs-12 col-sm-5 py-2 py-sm-0 start-xs">
-      <span class="greyFont block">Deliverables</span>
-      {{page.deliverables}}
-    </div>
-  </div>
-
-  <div class="py-3 py-sm-6 center-xs">
-    <h2>{{page.info}}</h2>
-  </div>
-
-  <div class="row py-3 middle-xs">
-
-    <div class="col-xs-12 col-sm-6 video-wrapper">
-      <iframe  src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=1&controls=0&loop=1&playlist={{page.youtube}}&amp;showinfo=0" frameborder="0" allowfullscreen>
-      </iframe>
-    </div>
-
-    <div class="col-xs-12 col-sm-6 p-3 p-sm-4">
-      <h3>Features</h3>
-      <h4>{{page.mdcaption}}</h4>
-    </div>
-
-  </div>
-
-  <div class="py-3 py-sm-6 row">
-    <div class="col-xs-12 col-sm-4 p-2">
-      <div class="bg-pri px-3 py-5 row middle-xs full-height">
-        {{page.pointer1}}
+      <div class="col-xs-12 col-sm-6 p-3 p-sm-4">
+        <h3>Features</h3>
+        <h4>{{page.mdcaption}}</h4>
       </div>
+
     </div>
 
-    <div class="col-xs-12 col-sm-4 p-2">
-      <div class="bg-grey px-3 py-5 row middle-xs full-height">
-        {{page.pointer2}}
+    <div class="py-3 py-sm-6 row">
+      <div class="col-xs-12 col-sm-4 p-2">
+        <div class="bg-pri px-3 py-5 row middle-xs full-height">
+          {{page.pointer1}}
+        </div>
       </div>
-    </div>
 
-    <div class="col-xs-12 col-sm-4 p-2">
-      <div class="bg-sec px-3 py-5 row middle-xs full-height color--white">
-        {{page.pointer3}}
+      <div class="col-xs-12 col-sm-4 p-2">
+        <div class="bg-grey px-3 py-5 row middle-xs full-height">
+          {{page.pointer2}}
+        </div>
+      </div>
+
+      <div class="col-xs-12 col-sm-4 p-2">
+        <div class="bg-sec px-3 py-5 row middle-xs full-height color--white">
+          {{page.pointer3}}
+        </div>
       </div>
     </div>
   </div>
-
 </div>

@@ -4,7 +4,7 @@ layout: portfolio
 banner: "/portfolio/gcns-youth-forum-banner.jpg"
 title: "GCNS Youth Forum 2017"
 date: 2017-04-22
-genre: "Website & event management"
+genre: "Event & Website management"
 project: "Web developer & co-chair"
 deliverables: "Website wireframing<br/>
 Wordpress dashboard customisation<br/>

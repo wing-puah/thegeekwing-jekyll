@@ -2,7 +2,8 @@
 permalink: "/portfolio/christmas-at-topiary/"
 layout: portfolio
 banner: "/portfolio/magician-at-topiary.jpg"
-title: "Christmas Fiesta 2016"
+background: '#012A36'
+title: "Christmas Fiesta"
 date: 2016-12-17
 genre: "Event design & management"
 project: "Event designer and coordinator"

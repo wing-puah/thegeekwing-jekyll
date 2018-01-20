@@ -51,17 +51,6 @@
   background-color: white;
 }
 
-.priCol {
-  color: $primaryCol;
-}
-
-.secCol {
-  color: $secondaryCol;
-}
-
-.whiteCol {
-  color: white;
-}
 
 .color--primary { color: $primaryCol; }
 a.color--primary:hover { color: $secondaryCol; }
@@ -142,11 +131,27 @@ a.greyFont:hover { color: $primaryCol; }
   object-fit: cover;
 }
 
+.img--contain {object-fit: contain;}
+
+.img--overlay {
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    @include linear-gradient(45deg, #89253e, #3a6186);
+    @include opacity(0.7);
+  }
+}
+
 .img--blog {
   height: 150px;
   width: 100%;
   object-fit: cover;
-  @include notmobile {height: 250px;}
 }
 
 .img-medium {
@@ -197,17 +202,6 @@ a.greyFont:hover { color: $primaryCol; }
 .sm-d-none {
   @include notmobile {
     display: none;
-  }
-}
-
-.twenty {
-  width: 20%;
-}
-
-.fifty {
-  width: 100%;
-  @include notmobile {
-    width: 50%;
   }
 }
 
@@ -275,3 +269,4 @@ a:hover .bounce {
 .text-align-left {text-align: left;}
 .text--small { font-size: 14px; font-size: 1.4rem; }
 .text--heavy {font-weight: 700;}
+.text--top {z-index: 5;}

@@ -1,28 +1,41 @@
 .project-header {
   position: relative;
-
-  img {
-    display: block;
-    height: 70vh;
-  }
+  height: 100vh;
 
   .header-info {
-    width: 100%;
-    border-bottom: 1px solid $grey;
+    width: 95%;
+    z-index: 2;
 
     @include notmobile {
-      position: absolute;
-      bottom: 0;
       width: 80%;
-      margin: 0 10%;
     }
 
+    h1 {
+      font-family: 'Roboto', sans-serif;
+      font-size: 8.5rem;
+      letter-spacing: 1.5rem;
+    }
   }
-
 }
 
-.project-info {
+.prj-header-img {
+  display: block;
+  overflow: hidden;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: -100%;
+  width: 100%;
+  @include animation(moveup 1s linear 2s);
+}
 
+@include keyframes(moveup){
+  0% {top:0};
+  100% {top: -100%};
+}
+
+
+.project-info {
   .container {
     height: 300px;
     overflow: hidden;
@@ -63,6 +76,7 @@
 
     img {
       height: 180px;
+      @include notmobile {height: 250px;}
     }
   }
 

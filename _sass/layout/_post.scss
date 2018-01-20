@@ -84,6 +84,16 @@
     flex: 1 0 100%;
     max-width: 100%;
   }
+
+  a:hover {
+    h3 {color: lighten(#6d1220,5%);}
+    background: darken($grey, 10%);
+  }
+
+  .active {
+    background: lighten(#6d1220,5%);
+    h3 {color: darken($grey, 10%);}
+  }
 }
 
 #post-list {

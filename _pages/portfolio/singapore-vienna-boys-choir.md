@@ -4,7 +4,7 @@ layout: portfolio
 banner: "/portfolio/svbc-page-design.jpg"
 title: "Singapore Vienna Boys Choir"
 date: 2017-04-22
-genre: "Website management"
+genre: "Event & Website management"
 project: "Webmaster"
 deliverables: "Website wireframing<br/>
 Wordpress dashboard customisation<br/>
