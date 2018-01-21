@@ -194,6 +194,8 @@ a.greyFont:hover { color: $primaryCol; }
 
 .hide {@include opacity(0);}
 
+.d-none {display: none;}
+
 .xs-d-none {
   @include mobile {
     display: none;

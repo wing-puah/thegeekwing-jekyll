@@ -26,7 +26,7 @@
   left: 0;
   top: -100%;
   width: 100%;
-  @include animation(moveup 1s linear 2s);
+  @include animation(moveup 1s linear);
 }
 
 @include keyframes(moveup){
@@ -39,6 +39,15 @@
   .container {
     height: 300px;
     overflow: hidden;
+  }
+}
+
+.ptf-img {
+  max-height: 1000px;
+  overflow: hidden;
+  
+  img {
+    width: 100%;
   }
 }
 

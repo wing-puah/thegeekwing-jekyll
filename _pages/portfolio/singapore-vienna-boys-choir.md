@@ -1,23 +1,20 @@
 ---
 permalink: "/portfolio/singapore-vienna-boys-choir/"
 layout: portfolio
-banner: "/portfolio/svbc-page-design.jpg"
+banner: "/portfolio/svbc-banner.jpg"
+background: "#142a42"
 title: "Singapore Vienna Boys Choir"
-date: 2017-04-22
+date: 2018-01-10
 genre: "Event & Website management"
 project: "Webmaster"
 deliverables: "Website wireframing<br/>
 Wordpress dashboard customisation<br/>
 Scripting and front-end development<br/>
 Integration with Eventbrite and contact form"
-info: "Delivered fully functional website within 2 weeks, from wireframing, prototyping to integrations with 3rd party software"
-youtube: v65F-sUtMZY
-mdcaption: "Advanced Custom Fields to facilitate non-technical users input on website through wordpress dashboard
-<br/><br/>
-Google analytics reporting"
-pointer1: "Languages used: javascript, html, css, php <br/>
-Javascript framework: jQuery"
-pointer2: "Custom page template, background videos, tabbed navigation and Eventbrite integration "
-pointer3: "CMS used: Wordpress <br/>
-Framework: Genesis"
+info: "Delivered fully functional website within 2 weeks, from wireframing, prototyping to integrations with 3rd party software. Management of a week long event, overseeing manpower, logistics and event flow."
+img1: "portfolio/SVBC_website_1"
+img2: "portfolio/SVBC_website_2"
+img3: "portfolio/SVBC_website_3"
+img4: "portfolio/SVBC_event_1"
+img5: "portfolio/SVBC_event_2"
 ---

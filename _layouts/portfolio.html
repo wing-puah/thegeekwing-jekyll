@@ -1,7 +1,17 @@
 ---
 layout: noSiteHeader
 ---
-<div style="background:{{page.background}}">
+<div class="preloader loading" id="loader">
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
+</div>
+
+<div style="background:{{page.background}}" id="ptf-content" class="d-none pb-6">
+
   <div class="project-header row middle-xs center-xs">
     <div class="prj-header-img">
       <img src="{{site.imgurl}}{{page.banner}}" alt="" class="full-width full-img">
@@ -16,39 +26,29 @@ layout: noSiteHeader
   </div>
 
   <div class="entry-content wrap">
-
-    <div class="row py-3 middle-xs">
-
-      <div class="col-xs-12 col-sm-6 video-wrapper">
-        <iframe  src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=1&controls=0&loop=1&playlist={{page.youtube}}&amp;showinfo=0" frameborder="0" allowfullscreen>
-        </iframe>
-      </div>
-
-      <div class="col-xs-12 col-sm-6 p-3 p-sm-4">
-        <h3>Features</h3>
-        <h4>{{page.mdcaption}}</h4>
-      </div>
-
+    <div class="mb-7 ptf-img">
+      <img src="{{site.imgurl}}/{{page.img1}}" alt="">
+    </div>
+    <div class="mb-7 ptf-img">
+      <img src="{{site.imgurl}}/{{page.img2}}" alt="">
     </div>
 
-    <div class="py-3 py-sm-6 row">
-      <div class="col-xs-12 col-sm-4 p-2">
-        <div class="bg-pri px-3 py-5 row middle-xs full-height">
-          {{page.pointer1}}
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 p-2">
-        <div class="bg-grey px-3 py-5 row middle-xs full-height">
-          {{page.pointer2}}
-        </div>
-      </div>
-
-      <div class="col-xs-12 col-sm-4 p-2">
-        <div class="bg-sec px-3 py-5 row middle-xs full-height color--white">
-          {{page.pointer3}}
-        </div>
-      </div>
+    {% if page.img3 %}
+    <div class="mb-7 ptf-img">
+      <img src="{{site.imgurl}}/{{page.img3}}" alt="">
     </div>
+    {% endif %}
+
+    {% if page.img4 %}
+    <div class="mb-7 ptf-img">
+      <img src="{{site.imgurl}}/{{page.img4}}" alt="">
+    </div>
+    {% endif %}
+
+    {% if page.img5 %}
+    <div class="mb-7 ptf-img">
+      <img src="{{site.imgurl}}/{{page.img5}}" alt="">
+    </div>
+    {% endif %}
   </div>
 </div>

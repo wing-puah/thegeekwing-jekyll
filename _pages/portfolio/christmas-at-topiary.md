@@ -11,14 +11,10 @@ deliverables: "Christmas treasure hunt map<br/>
 Vendors liasion<br/>
 Talents management<br/>
 Crowd control"
-info: "Event core team for bringing the Christmas festive season to the community in Topiary"
-youtube: wyiDsaVm7jw
-mdcaption: "Family oriented event design
-<br/><br/>
-Event management
-<br/><br/>
-Sourcing of vendors"
-pointer1: "Conceptualise and design for kids Christmas treasure hunt as per the value of the event sponsors"
-pointer2: "Coordinating of logistics, vendors and manpower"
-pointer3: "Talent management, magician, balloon sculptor, face painter and emcee"
+info: "Event core team for bringing the a memorable Christmas festive season to the community in Topiary within budget<br/>
+In charge of manpower, logistics and vendor liaison"
+img1: "portfolio/Topiary_event_1"
+img2: "portfolio/Topiary_event_2"
+img3: "portfolio/Topiary_event_3"
+img4: "portfolio/Topiary_event_4"
 ---
