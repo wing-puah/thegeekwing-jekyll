@@ -1,4 +1,5 @@
-nav {
+.nav-pri {
+  @include mobile {border-bottom: 1px solid $grey;}
   position: sticky;
   top: 0;
   z-index: 10;
@@ -8,6 +9,7 @@ nav {
     width: 60px;
     top: 0;
     z-index: 10;
+    background: white;
   }
 
   h2,

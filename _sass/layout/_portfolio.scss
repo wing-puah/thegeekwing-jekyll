@@ -1,8 +1,11 @@
 .project-header {
   position: relative;
-  height: 100vh;
+  @include notmobile {height: 100vh;}
 
   .header-info {
+    @include mobile {
+      padding: 20px 0;
+    }
     width: 95%;
     z-index: 2;
 
@@ -12,8 +15,10 @@
 
     h1 {
       font-family: 'Roboto', sans-serif;
-      font-size: 8.5rem;
-      letter-spacing: 1.5rem;
+      @include notmobile {
+        font-size: 8.5rem;
+        letter-spacing: 1.5rem;
+      }
     }
   }
 }
@@ -21,12 +26,14 @@
 .prj-header-img {
   display: block;
   overflow: hidden;
-  height: 100vh;
-  position: absolute;
   left: 0;
-  top: -100%;
-  width: 100%;
-  @include animation(moveup 1s linear);
+  @include notmobile {
+    height: 100vh;
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    @include animation(moveup 1s linear);
+  }
 }
 
 @include keyframes(moveup){
@@ -45,7 +52,7 @@
 .ptf-img {
   max-height: 1000px;
   overflow: hidden;
-  
+
   img {
     width: 100%;
   }
@@ -53,7 +60,10 @@
 
 .archive-portfolio-list {
 
-  @include linear-gradient(165deg, #5D4157, #A8CABA);
+  @include notmobile {
+    h1, #portfolio-genre {color: white;}
+    @include linear-gradient(165deg, #5D4157, #A8CABA);
+  }
 
   a {
     text-decoration: none;
