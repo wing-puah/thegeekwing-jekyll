@@ -2028,14 +2028,19 @@ blockquote p {
   .homepage .btn {
     width: 350px; } }
 
+@media (max-width: 768px) {
+  #portrait {
+    display: none; } }
 @media (min-width: 768px) {
   #portrait {
     height: 85vh;
     width: 100%; } }
 
 .portrait-content {
-  position: absolute;
   top: 0; }
+  @media (min-width: 768px) {
+    .portrait-content {
+      position: absolute; } }
 
 #home1 {
   height: 85vh;

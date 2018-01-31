@@ -5,6 +5,7 @@
 }
 
 #portrait {
+  @include mobile {display: none;}
   @include notmobile {
     height: 85vh;
     width: 100%;
@@ -12,7 +13,7 @@
 }
 
 .portrait-content {
-  position: absolute;
+  @include notmobile { position: absolute; }
   top: 0;
 }
 

@@ -57,7 +57,7 @@ function getRandom(min,max){
     window.sr = ScrollReveal({ reset: true });
 
     if (appear) {sr.reveal( appear, { duration: 2000 } );}
-    if (appearDelay) {sr.reveal( appearDelay, { origin: 'left', duration: 1500 }, 100 );}
+    if (appearDelay) {sr.reveal( appearDelay, { origin: 'left', duration: 1500 }, 80 );}
   }
 
 })();
