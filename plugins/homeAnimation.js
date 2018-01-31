@@ -1,37 +1,35 @@
 (function(){
-  var workRow = document.getElementById('tg-row'),
-      workItems = document.getElementsByClassName('work-item'),
-      itemsLength = workItems.length,
-      count = 0;
 
-  function makeItemSquare(elem){
-    var itemPara = elem.getElementsByTagName('div')[0].getElementsByTagName('p')[0];
+  var img = new Image(),
+      portrait = document.getElementById('portrait'),
+      canvas = portrait.getContext('2d'),
+      count = 0,
+      animate = setInterval(glitch,150);
 
-    elem.classList.remove('sm-round');
-    elem.classList.add('sm-square');
-    itemPara.classList.remove('sm-d-none');
+  img.src = 'http://res.cloudinary.com/thegeekwing/image/upload/home/wing_image_cover.jpg';
+  img.onload = function() {
+    draw(this);
+    animate;
+  };
+
+  // document.getElementById('ptrt-row').addEventListener('mouseenter', function(){
+  //   clearInterval(animate);
+  //   canvas.clearRect(0,0,canvas.width, canvas.height);
+  //   draw(img);
+  // });
+
+  function draw(cimage) {
+    portrait.setAttribute("width", cimage.width);
+    portrait.setAttribute("height", cimage.height);
+    canvas.drawImage(cimage,0,0);
   }
 
-  function makeItemRound(elem){
-    var itemPara = elem.getElementsByTagName('div')[0].getElementsByTagName('p')[0];
-
-    elem.classList.remove('sm-square');
-    elem.classList.add('sm-round');
-    itemPara.classList.add('sm-d-none');
+  function glitch(){
+    var verticalSlices = Math.round(img.height / 20);
+    var maxHorizOffset = 5;
+    for (var i = 0; i < verticalSlices; i++)  {
+      var horizOffset = getRandom(-Math.abs(maxHorizOffset), maxHorizOffset);
+      canvas.drawImage(img, 0, i * verticalSlices, img.width, i * verticalSlices + verticalSlices, horizOffset, i * verticalSlices, img.width, i * verticalSlices + verticalSlices);
+    }
   }
-
-  function loopSquareAndCircles(){
-    count = count < itemsLength - 1 ? count+1 : 0;
-    var newCount = count,
-        toBeRound = newCount == 0 ? itemsLength - 1 : count-1;
-
-    makeItemRound(workItems[toBeRound]);
-    makeItemSquare(workItems[count]);
-    // console.log(newCount + ', ' + count)
-    // console.log(workItems[toBeRound]);
-    // console.log('I am looping: ' + count + ' This is to be round: ' + toBeRound);
-  }
-
-  workAnimation = setInterval( loopSquareAndCircles, 2000);
-
 })();

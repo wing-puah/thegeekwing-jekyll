@@ -7,10 +7,10 @@ permalink: /portfolio/
 <section class="archive-portfolio-list py-3 px-sm-4 py-sm-7">
   <h1 class="center-xs">Portfolio</h1>
 
-  <div class="row around-xs">
+  <div class="row start-xs">
   {% assign sorted_pages = (site.pages |  where: "layout" , "portfolio" | sort: 'date'  | reverse ) %}
   {% for page in sorted_pages %}
-    <div class="col-xs-12 col-sm-4 center-xs ofhidden">
+    <div class="col-xs-12 col-sm-4 center-xs ofhidden appear-delay">
       <div class="my-2 pos--rel">
         <a href="{{site.baseurl}}{{page.permalink}}">
           <img class="img-thumbnail full-img" src="{{site.imgurl}}{{page.banner}}" alt="">

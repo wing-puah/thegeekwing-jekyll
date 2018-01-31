@@ -6,7 +6,7 @@
 {% for post in site.posts limit:8 %}
   {% assign post = site.posts.first %}
 
-  <li class="col-xs-12 col-sm-6 mb-3 px-3">
+  <li class="col-xs-12 col-sm-6 mb-3 px-3 appear-delay">
     <a href="{{site.baseurl}}{{ post.url }}">
       <img class="img-thumbnail full-img" src="{{site.imgurl}}{{ post.banner }}" alt="" />
         <h4 class="start-xs color--primary pl-sm-3 my-3"><strong>{{ post.title }}</strong></h4>

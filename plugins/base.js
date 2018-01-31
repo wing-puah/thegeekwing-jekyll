@@ -41,3 +41,23 @@ function navCross(){
     nav.insertBefore(newSpan, nav.childNodes[0]);
   };
 };
+
+function getRandom(min,max){
+  return Math.floor(Math.random() * (max-min +1)) + min;
+}
+
+
+(function() {
+  let appear = document.getElementsByClassName('appear'),
+      appearDelay = document.getElementsByClassName('appear-delay');
+
+  if ( !appear || !appearDelay ) {
+    return;
+  }  else {
+    window.sr = ScrollReveal({ reset: true });
+
+    if (appear) {sr.reveal( appear, { duration: 2000 } );}
+    if (appearDelay) {sr.reveal( appearDelay, { origin: 'left', duration: 1500 }, 100 );}
+  }
+
+})();

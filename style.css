@@ -2028,11 +2028,19 @@ blockquote p {
   .homepage .btn {
     width: 350px; } }
 
+@media (min-width: 768px) {
+  #portrait {
+    height: 85vh;
+    width: 100%; } }
+
+.portrait-content {
+  position: absolute;
+  top: 0; }
+
 #home1 {
   height: 85vh;
   overflow: hidden;
-  position: relative;
-  background: url("https://res.cloudinary.com/thegeekwing/image/upload/home/geek-wing-home-background.jpg"); }
+  position: relative; }
   @media (max-width: 768px) {
     #home1 {
       height: auto;

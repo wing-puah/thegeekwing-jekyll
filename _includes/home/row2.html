@@ -9,11 +9,11 @@
   {% for role in site.data.homelist.work %}
   {% assign count = count | plus: 1 %}
 
-  <div class="col-xs-12 col-sm pb-3 p-sm-3">
-    <div class="row middle-xs center-xs full-height ofhidden sm-round work-item" id="tg-{{count}}">
+  <div class="col-xs-12 col-sm pb-3 p-sm-3 appear">
+    <div class="row middle-xs center-xs full-height ofhidden work-item" id="tg-{{count}}">
       <div class="color--primary box-fade full-width py-3">
         <h2 class="mb-0">{{role.type}}</h2>
-        <p class="sm-d-none mb-0 pl-1 pr-1">{{role.description}}</p>
+        <p class="mb-0 pl-1 pr-1">{{role.description}}</p>
       </div>
     </div>
   </div>
