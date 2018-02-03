@@ -1,30 +1,113 @@
 ---
-layout: default
+layout: noSiteHeader
 permalink: /about-wing/
 ---
 
-<div id="role-list">
-  <ul class="row around-xs center-xs py-4">
-
-    {% for role in site.data.aboutwinglist.roles %}
-    <li class="col-xs-12 col-sm py-1 py-sm-0 row center-xs">
-      <h3 class="round bg-grey color--secondary row full-width center-xs middle-xs mb-0">
-        {{ role.title }}
-      </h3>
-    </li>
-    {% endfor %}
-
-  </ul>
+<div class="preloader loading" id="loader">
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
+  <span class="slice"></span>
 </div>
 
-<div id="role-details">
-
-  {% for role in site.data.aboutwinglist.roles %}
-  <div class="col-xs-12 px-0 ofhidden">
-    <img class="full-width full-img block" src="{{site.imgurl}}{{role.image}}" alt="">
-    <h2 class="px-3 py-2 p-sm-4 mb-0 block">{{role.title}}</h2>
-    <p class="box-fade px-3 py-2 p-sm-4 block">{{role.details}}</p>
+<div id="loader-content" class="about-pg" style="background: #f7f7f7;">
+<div class="skewed--bottom skewed__first row middle-xs center-xs" style="background: #F5F7DC;">
+  <div class="about__hero p-5">
+    <h2 class="text--heavy mb-0">I am Wing</h2>
+    <h1 class="text--heavy mb-0 about-header"> Creator</h1>
   </div>
-  {% endfor %}
+</div>
 
+
+<div class="skewed--top" style="background:#e6e6e6;">
+  <div class="skewed--top__content">
+    <h2 class="center-xs">About</h2>
+    <div class="row px-md-5 between-sm">
+      <div class="col-sm-3 xs-d-none">
+        <img src="{{site.imgurl}}/about-wing/wing-img.jpg"/ class="round">
+      </div>
+      <div class="col-xs-12 col-sm-8">
+        <p><strong>Do you try to set up on your own website and just couldn't get the things you want to be fully integrated to your website?</strong></p>
+        <p><strong>Do you feel frustrated talking to techies only to be confused by all the jargons?</strong></p>
+        <p>If you answer yes to the questions above, let me help you. </p>
+        I love to get your message heard online. Not having the necessary tech skills shouldn't stop you from running your own website. If only running a website is as simple and intuitive as clicking a few buttons.</p>
+        <p>Talk to me today to discuss how we could create a website that can achieve your objectives.</p>
+        <div>
+          {% for media in site.data.socialmedia.socialmedia %}
+          <a href="{{media.link}}" target="_blank" class="pr-4">
+            <i class="fab {{media.icon}} fa-lg"></i>
+          </a>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="skewed--bottom center-xs" id="timeline">
+  <div class="skewed--bottom__content">
+    <h2>My life</h2>
+    <div>
+      {% for role in site.data.aboutwing.timeline %}
+      <div class="exp appear">
+        <div class="icon-square row middle-xs center-xs">
+          <div class="border"></div>
+          <i class="fas fa-code fa-sm"></i>
+        </div>
+        <div class="exp-details px-3 pb-5">
+          <h3 class="mb-0">{{ role.year }}</h3>
+          <h4 class="mb-0">{{ role.title }}</h4>
+          <p>{{ role.description }}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="skewed--top-r" id="services" style="background:#222;">
+  <div class="skewed--top-r__content center-xs color--white">
+    <h2 class="color--white mb-2">Services</h2>
+    <p>Creating an impactful online presence is not just about having a website. </p>
+    <p>There is copy, design, marketing tools and many other things to consider. Speaking to different vendors might cause frustration, miscommunciation and project delays. And engaging a digtial agency might not be the most cost effective solution. </p>
+    <p>That's why I curate and handpicked my team mates to bring you quality yet affordable full-fledged digital services.</p>
+    <div class="row mt-6">
+      {% for service in site.data.aboutwing.services %}
+      <div class="col-xs-12 col-sm mb-6 mb-sm-0 appear">
+        <div class="icon--star"><i class="fas {{ service.icon }}"></i></div>
+        <h3 class="color--white mb-3">{{ service.type }}</h3>
+        <em class="color--white">{{ service.description }}</em>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div id="projects" class="center-xs skewed--bottom-r" style="background:#e6e6e6;">
+  <div class="skewed--bottom-r__content center-xs">
+    <h2>Projects</h2>
+    <div class="row m-0 px-3 px-sm-0 pt-sm-5">
+      {% assign count = 0 %}
+      {% assign sorted_pages = (site.pages |  where: "layout" , "portfolio" | sort: 'date'  | reverse ) %}
+      {% for page in sorted_pages %}
+        {% if count < 6 %}
+          {% assign count = count | plus: 1 %}
+
+          <a href="{{site.baseurl}}{{page.permalink}}" id="project__item" class="col-xs-12 col-sm-4 mb-5 mb-sm-7 appear">
+            <div class="center-xs circle-flip">
+              <div class="front">
+                <img class="full-width full-height full-img round" src="{{site.imgurl}}{{page.banner}}" alt="" />
+              </div>
+              <div class="back row center-xs middle-sm round p-3">
+                <h2 class="mb-0">{{page.title}}</h2>
+              </div>
+            </div>
+          </a>
+
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </div>

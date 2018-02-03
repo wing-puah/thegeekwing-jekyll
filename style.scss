@@ -1,16 +1,21 @@
 @import '_sass/helpers/variables';
 @import '_sass/helpers/mixins';
+@import '_sass/helpers/flexMixins';
 @import '_sass/helpers/spacing';
 @import '_sass/helpers/class';
+@import '_sass/helpers/fx';
 
 @import '_sass/layout/base';
-@import '_sass/layout/loader';
-@import '_sass/layout/headNFoot';
-@import '_sass/layout/navbar';
+
+@import '_sass/components/contact';
+@import '_sass/components/loader';
+@import '_sass/components/headNFoot';
+@import '_sass/components/navbar';
+@import '_sass/components/mailchimp';
+
 @import '_sass/layout/post';
 @import '_sass/layout/portfolio';
 @import '_sass/layout/about-wing';
-@import '_sass/layout/mailchimp';
 @import '_sass/layout/hireme';
 
 @import '_sass/home/homeFX';

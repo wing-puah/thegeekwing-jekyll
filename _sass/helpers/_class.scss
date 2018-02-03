@@ -51,6 +51,7 @@
   background-color: white;
 }
 
+.bg-clear {background-color: transparent;}
 
 .color--primary { color: $primaryCol; }
 a.color--primary:hover { color: $secondaryCol; }
@@ -58,24 +59,13 @@ a.color--primary:hover { color: $secondaryCol; }
 .color--secondary { color: $secondaryCol; }
 
 .color--black { color:black; }
-a.color--black:hover, a .color--black:hover { color: darken($primaryCol, 10%); }
+a.color--black:hover,
+a .color--black:hover { color: darken($primaryCol, 10%); }
 
 .color--white { color: white; }
-a.color--white:hover, a .color--white:hover { color: lighten( $greyFont, 20% ); }
+a.color--white:hover,
+a .color--white:hover { color: lighten( $greyFont, 20% ); }
 
-a.whiteCol:hover {
-  color: lighten( $greyFont, 20% );
-}
-
-.greyCol {
-  color: $grey;
-}
-
-.greyFont {
-  color: $greyFont
-}
-
-a.greyFont:hover { color: $primaryCol; }
 
 .bold {
   font-weight: bold;
@@ -272,3 +262,34 @@ a:hover .bounce {
 .text--small { font-size: 14px; font-size: 1.4rem; }
 .text--heavy {font-weight: 700;}
 .text--top {z-index: 5;}
+
+.icon--star {
+  border: 5px double #C02425;
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: 2.2rem;
+  width: 65px;
+  height: 65px;
+  margin: 0 auto 35px;
+  @include flexbox();
+  @include justify-content(center);
+  @include align-items(center);
+  @include transform(rotate(20deg));
+
+  svg {
+    @include transform(rotate(-20deg));
+    z-index: 5;
+  }
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    height: 65px;
+    width: 65px;
+    border: 5px double #C02425;
+    @include transform(rotate(135deg));
+  }
+}

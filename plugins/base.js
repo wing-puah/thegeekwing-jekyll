@@ -48,16 +48,13 @@ function getRandom(min,max){
 
 
 (function() {
-  let appear = document.getElementsByClassName('appear'),
-      appearDelay = document.getElementsByClassName('appear-delay');
+  let appear = document.getElementsByClassName('appear');
 
-  if ( !appear || !appearDelay ) {
+  if ( !appear ) {
     return;
   }  else {
     window.sr = ScrollReveal({ reset: true });
-
     if (appear) {sr.reveal( appear, { duration: 2000 } );}
-    if (appearDelay) {sr.reveal( appearDelay, { origin: 'left', duration: 1500 }, 80 );}
   }
 
 })();

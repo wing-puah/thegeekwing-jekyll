@@ -1,0 +1,33 @@
+@include mobile {
+  .circle-flip h2 {color: #C02425;}
+}
+
+@include notmobile {
+  .circle-flip {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    @include transition(all 1s);
+    @include transform-style(preserve-3d);
+
+    .front,
+    .back {
+      position: absolute;
+      top: 0;
+      left: 0;
+      backface-visibility: hidden;
+    }
+
+    .back {
+      background: #C02425;
+      height: 250px;
+      width: 250px;
+      @include transform(rotateY(180deg));
+    }
+
+    h2,
+    h2:hover {
+      color:white;
+    }
+  }
+}

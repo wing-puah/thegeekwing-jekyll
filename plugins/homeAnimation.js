@@ -7,7 +7,7 @@
         count = 0,
         animate = setInterval(glitch,150);
 
-    img.src = 'http://res.cloudinary.com/thegeekwing/image/upload/home/wing_image_cover.jpg';
+    img.src = 'https://res.cloudinary.com/thegeekwing/image/upload/home/wing_image_cover.jpg';
     img.onload = function() {
       draw(this);
       animate;

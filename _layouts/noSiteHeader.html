@@ -5,16 +5,17 @@
     {{content}}
   </section>
 
+  {% if page.url contains 'about-wing' %}
+    <footer id="site-footer" class="about-footer">
+      {% include footer-about.html %}
+    </footer>
+  {% elsif page.layout != 'portfolio' %}
+    <footer id="site-footer">
+      {% include footer.html %}
+    </footer>
+  {% endif %}
+
   <script src="{{site.baseurl}}/plugins/base.js" charset="utf-8"></script>
   <script src="{{site.baseurl}}/plugins/loading.js" charset="utf-8"></script>
-
-  {% assign hide = nil %}
-  {% if page.url contains 'portfolio' %}
-    {% assign hide = 'd-none' %}
-  {% endif %}
-  <footer id="site-footer" class="{{hide}}">
-    {% include footer.html %}
-  </footer>
-
 </body>
 </html>

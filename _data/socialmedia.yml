@@ -1,0 +1,13 @@
+socialmedia:
+
+  - link: 'https://www.facebook.com/thegeekwing/'
+    icon: 'fa-facebook-square'
+
+  - link: 'https://twitter.com/wing_phy'
+    icon: 'fa-twitter-square'
+
+  - link: 'https://github.com/wing-puah'
+    icon: 'fa-github'
+
+  - link: 'https://www.linkedin.com/in/puahhuiying/'
+    icon: 'fa-linkedin'

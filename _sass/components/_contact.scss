@@ -1,0 +1,66 @@
+.form-fs {
+  @include notmobile {
+    padding: 0 10%;
+  }
+
+  input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+
+    &[value=Send] {color: white;}
+
+    &:focus {
+      outline: 0;
+    }
+
+    @include notmobile {
+      &[name=name],
+      &[name=_replyto] { width: 46%;}
+      &[type=submit] {
+        @include mobile {width: 100%;}
+        display: block;
+        margin: 30px auto 0;
+        border: 2px solid #C02425;
+        border-radius: 15px;
+        color: #C02425;
+        font-weight: bold;
+        @include notmobile { width: 30%; }
+
+        &:hover {
+          cursor: pointer;
+          background: #C02425;
+          color: white;
+        }
+      }
+    }
+  }
+
+  textarea {
+    color: white;
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid white;
+    overflow: hidden;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  ::placeholder,
+  :-ms-input-placeholder,
+  ::-ms-input-placeholder,
+  ::-moz-placeholder,
+  :-moz-placeholder,
+  ::-webkit-input-placeholder {
+    color: white;
+    @include opacity(1);
+  }
+}
