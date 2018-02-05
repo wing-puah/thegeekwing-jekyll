@@ -58,57 +58,6 @@
   }
 }
 
-.skewed--top,
-.skewed--top-r {
-  @include mobile { padding:100px 0; }
-  position: relative;
-  padding:150px 0;
-  margin-top: -50px;
-  margin-bottom: 100px;
-}
-
-.skewed--top__content,
-.skewed--top-r__content {
-  @include mobile {padding: 20px;}
-  @include notmobile {
-    padding: 0 15%;
-    width: 100%;
-  }
-}
-
-.skewed--top,
-.skewed--top-r__content,
-.skewed--bottom,
-.skewed--bottom-r__content { @include transform(skewY(-6deg)); }
-
-.skewed--top-r,
-.skewed--top__content,
-.skewed--bottom-r,
-.skewed--bottom__content { @include transform(skewY(6deg)); }
-
-.skewed--bottom,
-.skewed--bottom-r {
-  @include mobile { padding: 100px 0; }
-  position: relative;
-  padding:150px 0;
-  margin-top: -100px;
-  margin-bottom: 50px;
-}
-
-.skewed--bottom__content,
-.skewed--bottom-r__content {
-  @include mobile {padding: 20px;}
-  @include notmobile {
-    padding: 0 15%;
-    width: 100%;
-  }
-}
-
-.skewed__first {
-  padding-top: 250px;
-  @include notmobile {height: 120vh;}
-}
-
 .exp {
   @include mobile {margin: 0 15px;}
   position: relative;
@@ -210,7 +159,7 @@
 .about-footer {
   position: relative;
   background:url('https://res.cloudinary.com/thegeekwing/image/upload/v1517668207/about-wing/footer-contact.jpg') center/cover;
-  padding-top: 200px;
+  padding-top: 150px;
   margin-top: -150px;
 
   &:before {

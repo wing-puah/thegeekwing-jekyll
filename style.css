@@ -1766,6 +1766,72 @@ footer {
     filter: alpha(opacity=70);
     opacity: 0.7; }
 
+.skewed--top,
+.skewed--top-r {
+  position: relative;
+  padding: 150px 0;
+  margin-top: -50px;
+  margin-bottom: 100px; }
+  @media (max-width: 768px) {
+    .skewed--top,
+    .skewed--top-r {
+      padding: 100px 0; } }
+
+@media (max-width: 768px) {
+  .skewed--top__content,
+  .skewed--top-r__content {
+    padding: 20px; } }
+@media (min-width: 768px) {
+  .skewed--top__content,
+  .skewed--top-r__content {
+    padding: 0 15%;
+    width: 100%; } }
+
+.skewed--top,
+.skewed--top-r__content,
+.skewed--bottom,
+.skewed--bottom-r__content {
+  -webkit-transform: skewY(-6deg);
+  -moz-transform: skewY(-6deg);
+  -ms-transform: skewY(-6deg);
+  transform: skewY(-6deg); }
+
+.skewed--top-r,
+.skewed--top__content,
+.skewed--bottom-r,
+.skewed--bottom__content {
+  -webkit-transform: skewY(6deg);
+  -moz-transform: skewY(6deg);
+  -ms-transform: skewY(6deg);
+  transform: skewY(6deg); }
+
+.skewed--bottom,
+.skewed--bottom-r {
+  position: relative;
+  padding: 150px 0;
+  margin-top: -100px;
+  margin-bottom: 50px; }
+  @media (max-width: 768px) {
+    .skewed--bottom,
+    .skewed--bottom-r {
+      padding: 100px 0; } }
+
+@media (max-width: 768px) {
+  .skewed--bottom__content,
+  .skewed--bottom-r__content {
+    padding: 20px; } }
+@media (min-width: 768px) {
+  .skewed--bottom__content,
+  .skewed--bottom-r__content {
+    padding: 0 15%;
+    width: 100%; } }
+
+.skewed__first {
+  padding-top: 250px; }
+  @media (min-width: 768px) {
+    .skewed__first {
+      height: 120vh; } }
+
 .nav-pri {
   position: sticky;
   top: 0;
@@ -2206,72 +2272,6 @@ blockquote p {
     font-size: 8.5rem;
     letter-spacing: 1.5rem; } }
 
-.skewed--top,
-.skewed--top-r {
-  position: relative;
-  padding: 150px 0;
-  margin-top: -50px;
-  margin-bottom: 100px; }
-  @media (max-width: 768px) {
-    .skewed--top,
-    .skewed--top-r {
-      padding: 100px 0; } }
-
-@media (max-width: 768px) {
-  .skewed--top__content,
-  .skewed--top-r__content {
-    padding: 20px; } }
-@media (min-width: 768px) {
-  .skewed--top__content,
-  .skewed--top-r__content {
-    padding: 0 15%;
-    width: 100%; } }
-
-.skewed--top,
-.skewed--top-r__content,
-.skewed--bottom,
-.skewed--bottom-r__content {
-  -webkit-transform: skewY(-6deg);
-  -moz-transform: skewY(-6deg);
-  -ms-transform: skewY(-6deg);
-  transform: skewY(-6deg); }
-
-.skewed--top-r,
-.skewed--top__content,
-.skewed--bottom-r,
-.skewed--bottom__content {
-  -webkit-transform: skewY(6deg);
-  -moz-transform: skewY(6deg);
-  -ms-transform: skewY(6deg);
-  transform: skewY(6deg); }
-
-.skewed--bottom,
-.skewed--bottom-r {
-  position: relative;
-  padding: 150px 0;
-  margin-top: -100px;
-  margin-bottom: 50px; }
-  @media (max-width: 768px) {
-    .skewed--bottom,
-    .skewed--bottom-r {
-      padding: 100px 0; } }
-
-@media (max-width: 768px) {
-  .skewed--bottom__content,
-  .skewed--bottom-r__content {
-    padding: 20px; } }
-@media (min-width: 768px) {
-  .skewed--bottom__content,
-  .skewed--bottom-r__content {
-    padding: 0 15%;
-    width: 100%; } }
-
-.skewed__first {
-  padding-top: 250px; }
-  @media (min-width: 768px) {
-    .skewed__first {
-      height: 120vh; } }
-
 .exp {
   position: relative;
   clear: both; }
@@ -2369,7 +2369,7 @@ blockquote p {
 .about-footer {
   position: relative;
   background: url("https://res.cloudinary.com/thegeekwing/image/upload/v1517668207/about-wing/footer-contact.jpg") center/cover;
-  padding-top: 200px;
+  padding-top: 150px;
   margin-top: -150px; }
   .about-footer:before {
     content: '';
@@ -2383,22 +2383,25 @@ blockquote p {
   .about-footer .footer-content {
     position: relative; }
 
-@media (max-width: 768px) {
-  .hireme .reveal-container {
-    display: none;
-    height: 0; } }
-.hireme .content {
-  position: relative; }
-.hireme .img-strip {
-  filter: alpha(opacity=20);
-  opacity: 0.2;
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 40%;
-  height: 100%; }
-  .hireme .img-strip img {
-    max-height: 170px; }
+.hireme {
+  z-index: 5;
+  background: white; }
+  @media (max-width: 768px) {
+    .hireme .reveal-container {
+      display: none;
+      height: 0; } }
+  .hireme .content {
+    position: relative; }
+  .hireme .img-strip {
+    filter: alpha(opacity=20);
+    opacity: 0.2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 100%; }
+    .hireme .img-strip img {
+      max-height: 170px; }
 
 .reveal-container {
   overflow: hidden;

@@ -1,5 +1,7 @@
 .hireme {
-
+  z-index: 5;
+  background: white;
+  
   @include mobile {
     .reveal-container {
       display: none;

@@ -1,16 +1,25 @@
 {% include head.html %}
 <body>
-  {% include site-header.html %}
+  {% if page.permalink != '/about-wing/' and page.layout != 'portfolio' %}
+    {% include site-header.html %}
+  {% endif %}
   {% include navbar.html %}
-  <section class="site-container ofhidden">
+
+  <section class="site-container">
     {{content}}
   </section>
 
+  {% if page.footer == 'contact' %}
+    <footer id="site-footer" class="about-footer">
+      {% include footer-contact.html %}
+    </footer>
+  {% elsif page.layout != 'portfolio' %}
+    <footer id="site-footer">
+      {% include footer.html %}
+    </footer>
+  {% endif %}
+
   <script src="{{site.baseurl}}/plugins/base.js" charset="utf-8"></script>
-
-  <footer class="ofhidden" id="site-footer">
-    {% include footer.html %}
-  </footer>
-
+  <script src="{{site.baseurl}}/plugins/loading.js" charset="utf-8"></script>
 </body>
 </html>

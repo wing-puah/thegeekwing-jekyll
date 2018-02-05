@@ -6,11 +6,11 @@ timeline:
 
   - year: '2011'
     title: 'Working holiday in New Zealand'
-    description: 'Independently plan and organise a 6 months working holiday.'
+    description: 'Independently plan and organise a 6 months working holiday. First started hosting my first personal wordpress blog.'
 
   - year: '2014'
     title: 'Yoga instructor, group fitness instructor and belly dancer'
-    description: 'Taught yoga and fitness classes in companies and CCs. Perform as a belly dancer in various location, from One Altitude to Concorde Hotel to CC cermonies.'
+    description: 'Taught yoga and fitness classes in companies and CCs. Perform as a belly dancer in various location, from One Altitude to Concorde Hotel to CC cermonies. Created my own fitness website.'
 
   - year: '2015'
     title: 'Organise fund raising event<br/> Educator in Marine Life Park'
@@ -18,11 +18,11 @@ timeline:
 
   - year: '2016'
     title: 'Co-founder of Hashtag Enterprise<br/>Personal trainer and pre-school sports coach'
-    description: 'Founded Hashtag Enterprise, an event management company. Ran events such as summer camp, fundraising, Christmas community event at condo, birthday parties and new year parties.'
+    description: 'Founded Hashtag Enterprise, an event management company. Ran events such as summer camp, fundraising, Christmas community event at condo, birthday parties and new year parties. Started developing website under the company.'
 
   - year: '2017'
     title: 'Started The Geek Wing<br/>Facilitator/trainer at ACORN<br/>Co-chair of GCNS Youth Forum 2017'
-    description: 'Develop website and manage event for GCNS Youth Forum. Sports coach. Soft skills trainer and program coordinator.'
+    description: 'Develop my first website with static generator, Jekyll. Develop website and manage event for GCNS Youth Forum. Sports coach. Soft skills trainer and program coordinator.'
 
   - year: '2018'
     title: 'Assisted with Vienna Boys Choir in Singapore'

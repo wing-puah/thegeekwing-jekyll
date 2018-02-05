@@ -11,7 +11,7 @@ deliverables: "Website wireframing<br/>
 Wordpress dashboard customisation<br/>
 Scripting and front-end development<br/>
 Integration with Eventbrite and contact form"
-info: "Delivered fully functional website within 2 weeks, from wireframing, prototyping to integrations with 3rd party software. Management of a week long event, overseeing manpower, logistics and event flow."
+info: "Delivered fully functional website with Wordpress, from wireframing, prototyping to integrations with 3rd party software. Management of a week long event, overseeing manpower, logistics and event flow."
 img1: "portfolio/SVBC_website_1"
 img2: "portfolio/SVBC_website_2"
 img3: "portfolio/SVBC_website_3"

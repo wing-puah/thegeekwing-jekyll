@@ -2,10 +2,10 @@
 title: "Are we preparing our children for the future? 4 major takeaways from EduTECHAsia conference"
 date:  2017-11-12 13:14:01 +0800
 categories:
-  - "Kids development"
+  - "Technology"
 banner: "/blog/2017/11/edutechasia_conference.jpg"
 tags: [future of education, soft skills for kids]
-description: The future is developing quickly. More than ever before, we need to ask ourselves if our education system will be sufficient in providing the necessary resources to ensure future success in our children. 
+description: The future is developing quickly. More than ever before, we need to ask ourselves if our education system will be sufficient in providing the necessary resources to ensure future success in our children.
 ---
 
 ## Our education system
