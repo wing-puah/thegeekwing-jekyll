@@ -5,6 +5,7 @@ categories:
   - "Musings"
 banner: "/blog/2018/02/love-and-heart.jpg"
 tags: [algorithm, programming, lame computation]
+description: Computing the cycle of love - For the unromantics
 ---
 
 It seems adequate to be writing an article on natural selection, post festive-of-love, Valentine's day. Love in society holds an important function to ensure the survivability of human kind, maybe not so much for other species, I don't know. However, to declare that a relationship could be maintained just through the fuzzy word of love is an overstatement.
