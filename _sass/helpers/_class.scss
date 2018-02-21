@@ -12,7 +12,8 @@
   overflow: hidden;
 }
 
-.uppercase {
+.uppercase,
+.text--uppercase {
   text-transform: uppercase;
 }
 
@@ -197,25 +198,6 @@ a .color--white:hover { color: lighten( $greyFont, 20% ); }
   }
 }
 
-.pagination-button {
-  @include mobile {
-    padding: 10px;
-    margin: 5px;
-  }
-  padding: 20px;
-  margin: 10px;
-
-  &:hover {
-    background-color: darken($greyBg, 10%);
-    color: $primaryCol;
-    cursor: pointer;
-  }
-
-  &.active {
-    background-color: $btn-priCol;
-  }
-
-}
 
 .video-wrapper {
   position: relative;
@@ -259,7 +241,7 @@ a:hover .bounce {
 }
 
 .text-align-left {text-align: left;}
-.text--small { font-size: 14px; font-size: 1.4rem; }
+.text--small { font-size: 13px; font-size: 1.3rem; }
 .text--heavy {font-weight: 700;}
 .text--top {z-index: 5;}
 

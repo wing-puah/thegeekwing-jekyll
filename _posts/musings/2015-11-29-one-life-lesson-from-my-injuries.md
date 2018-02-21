@@ -4,6 +4,7 @@ date:  2015-11-29 19:56:21 +0800
 categories:
   - "Musings"
 banner: "/blog/2015/11/knee_injury.jpg"
+description: "I am lying on the bed of the 3rd hospital they send me to. Local anesthesia is injected around my wounds. At 12.08pm, I am in stitches and bandages."
 tags: [reflection, live your dream]
 ---
 ## 24 Novmeber 2015. I crash.

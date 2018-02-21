@@ -4,6 +4,7 @@ date:  2014-09-06 14:36:21 +0800
 categories:
   - "Musings"
 banner: "/blog/2014/09/lonely-guy-death.jpg"
+description: "Each and every day, every morning, we live a little more, and yet we also die a little bit more. But then again, when we die, we never exactly die, as in completely cease to exist. We go back to the earth, we break down, and become part of the earth, part of the river and part of the atmosphere."
 tags: [reflection]
 ---
 ## I just lost a friend.

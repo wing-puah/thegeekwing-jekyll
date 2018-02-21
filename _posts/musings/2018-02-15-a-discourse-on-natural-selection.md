@@ -3,6 +3,7 @@ title:  "A discourse on natural selection"
 date:   2018-02-13 14:36:49 +0800
 categories:
   - "Musings"
+  - "Technology"
 banner: "/blog/2018/02/love-and-heart.jpg"
 tags: [algorithm, programming, lame computation]
 description: Computing the cycle of love - For the unromantics

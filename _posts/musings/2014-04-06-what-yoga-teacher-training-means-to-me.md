@@ -4,6 +4,7 @@ date:  2014-04-06 21:11:25 +0800
 categories:
   - "Musings"
 banner: "/blog/2014/04/yoga-teacher-training-building-rocks.jpg"
+description: "Words like that flitted around the room holding the open-ended queries of the future. But the only thing we were sure of at that time was that we would bid each other goodbye, each with their unique experience of transformation."
 tags: [live your dream, passion]
 ---
 ## 23 march 2014

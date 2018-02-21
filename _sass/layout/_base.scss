@@ -35,14 +35,14 @@ html {
 em {font-style: italic;}
 
 div {
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 p {
   margin-bottom: 20px;
-  font-size: 18px;
-  font-size: 1.8rem;
+  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .site-container,
@@ -105,13 +105,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
-  font-size: 2.4rem;
-  @include notmobile {
-    font-size: 32px;
-    font-size: 3.2rem;
-  }
-
+  font-size: 26px;
+  font-size: 2.6rem;
 }
 
 h3 {
@@ -140,6 +135,10 @@ h3 a,
 h4 a,
 h5 a {
   text-decoration: none;
+
+  &:hover {
+    color: lighten( $secondaryCol, 10% );
+  }
 }
 
 a {
@@ -149,18 +148,16 @@ a {
   &:hover {
     color: lighten( $secondaryCol, 10% );
   }
-
 }
 
 blockquote {
   position: relative;
-  padding: 10px;
   display: grid;
   padding: 20px 40px;
-  margin: 20px;
   font-size: 20px;
   font-style: italic;
   background-color: $greyBg;
+  @include notmobile {margin: 20px;}
 
   &::before {
     content: '';

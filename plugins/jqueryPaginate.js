@@ -47,7 +47,7 @@ $(document).ready(function($){
       var pagination = $('<div class="pagination center-xs my-3 mt-sm-5" />');
 
       // add a "first" button
-      pagination.append('<span class="pagination-button bg-grey rdCorner">&laquo;</span>');
+      pagination.append('<span class="pagination-button">&laquo;</span>');
 
       // add pages inbetween
       for (var i=1; i <= totalPages; i++) {
@@ -69,7 +69,7 @@ $(document).ready(function($){
           }
 
                 // markup for page button
-                var pageBtn = $('<span class="pagination-button page-num bg-grey rdCorner" />');
+                var pageBtn = $('<span class="pagination-button" />');
 
                 // add active class for current page
                 if (i == currentPage) {
@@ -83,7 +83,7 @@ $(document).ready(function($){
             }
 
             // add a "last" button
-            pagination.append($('<span class="pagination-button bg-grey rdCorner">&raquo;</span>'));
+            pagination.append($('<span class="pagination-button">&raquo;</span>'));
 
             return pagination;
         },
@@ -153,5 +153,5 @@ $(document).ready(function($){
     });
   };
 
-  $('.article-loop').paginate(13);
+  $('.article-loop').paginate(8);
 });

@@ -4,6 +4,7 @@ date:   2016-03-26 13:54:35 +0800
 categories:
   - "Lifestyle"
 banner: "/blog/2017/03/barbell.jpg"
+description: "It is the exhilaration that I feel when I lift 40kg off the floor. It’s the feeling that I got when I lift more than I did previously."
 tags: [weight lifting, self-esteem, gym, weight loss, fitness]
 ---
 

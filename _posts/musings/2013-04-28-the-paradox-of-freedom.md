@@ -4,15 +4,18 @@ date:  2013-04-28 05:10:51 +0800
 categories:
   - "Musings"
 banner: "/blog/2013/04/freedom-bird-in-flight.jpg"
+description: "True freedom is about liberaton. And liberation comes from discipline."
 tags: [reflection]
 ---
-**Friend A: Why restrict ourselves so much? Be free like a bird.
+<blockquote>
+Friend A: Why restrict ourselves so much? Be free like a bird. <br/>
 
-Me: Even a bird needs the strength of its wings and the wind to go where it needs to go.**
+Me: Even a bird needs the strength of its wings and the wind to go where it needs to go.
+</blockquote>
 
 ## Freedom is a much abused word.
 
-We think of freedom as the ability to do what we really want to do, say going on a heli-ski holiday on impulse, buying the branded bag, buying the sports car and skipping work the next day just because you don’t feel like doing it. The list just goes on. In our modern lifestyle, it becomes admirable to have this kind of freedom, to be so rich that everything else in the world is just dust to you.
+We think of freedom as the ability to do what we want to do, say going on a heli-ski holiday on impulse, buying the branded bag, buying the sports car and skipping work the next day just because you don’t feel like doing it. The list just goes on. In our modern lifestyle, it becomes admirable to have this kind of freedom, to be so rich that everything else in the world is just dust to you.
 
 But, if we take the same example and look at it deeper, we find that freedom, all kind of freedoms, but in this case, let’s stick to financial freedom, requires discipline and effort. Unless you are born as some mega-billionaire heir or heiress. To get to that level of freedom through the legal way, we need to put in hours of work building the financial portfolio, we need to understand the economy and make wise investment. We also need a job, preferably something that gives us considerable dough, to bring in the seed money to do the things aforementioned.
 
@@ -46,7 +49,7 @@ This would bring us to the subject of contentment.
 
 Contentment is not about being happy with where you are and staying put in life. Contentment is about being grateful with what you have and subsequently, doing what you have to do without attachment to the results. The way things go are not 100 percent within our control.
 
-**If we really analyse the probability of future success, we would regard everything as impossible.**
+**If we analyse the probability of future success, we would regard everything as impossible.**
 
 Because impossible means that it hasn’t been done by people beforehand, thus it hasn’t been valid in history and would be highly subjected to failure. Jane Goodall has been scorned on by countless scientists in her early days but she is now a recgonised primatologist. She could be wrong about primates having a distinct character when she first starts, but she carries on with faith (hard work and discipline too, sounds familiar?) and succeeds in proving herself right.
 

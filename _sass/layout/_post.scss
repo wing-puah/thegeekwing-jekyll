@@ -1,3 +1,14 @@
+// Both archives and single posts
+.post-title {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  color: black;
+  margin: auto;
+  @include notmobile { text-transform: uppercase; }
+}
+
+
+// Single post only
 .post-header {
   position: relative;
 
@@ -10,15 +21,8 @@
       border-style: solid;
     }
   }
-}
 
-.post-title {
-  font-family: "Exo", sans-serif;
-  font-weight: 700;
-  color: black;
-  width: 98%;
-  margin: auto;
-  @include notmobile { text-transform: uppercase; }
+  .post-title {width: 98%;}
 }
 
 .post iframe {
@@ -82,37 +86,92 @@ blockquote p {margin-bottom: 0;}
 
 /*** Archives post: blog and category****/
 #cat-list {
-  .col-sm:last-child {
-    flex: 1 0 100%;
-    max-width: 100%;
-  }
-
   a:hover {
-    h3 {color: lighten(#6d1220,5%);}
+    color: lighten(#6d1220,5%);
     background: darken($grey, 10%);
   }
 
   .active {
-    background: lighten(#6d1220,5%);
-    h3 {color: darken($grey, 10%);}
+    color: #6d1220;
   }
 }
 
-#post-list {
+.article-loop a{
+  color: black;
+}
 
-  .article-loop:first-child {
-    flex: 1 0 100%;
-    max-width: 100%;
+.archive-date {
+  position: relative;
+  padding: 15px 10px;
+
+  &:before,
+  &:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
   }
 
-  .article-loop {
-    &:hover {
-      background-color: lighten( $greyBg, 5% );
+  &:before {
+    top: 0;
+    border-top: 1px solid $grey;
+  }
 
-      > a > img {
-        @include opacity(0.7);
-      }
+  &:after {
+    bottom: 0;
+    border-bottom: 1px solid $grey;
+  }
+}
+
+
+.archive-single-post {
+  position: relative;
+  border-top: 1px solid $grey;
+
+  @include notmobile {
+    &:hover .bg-img{
+      display: block;
     }
   }
 
+  .bg-img {
+    @include opacity(0.2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: none;
+    z-index: -1;
+
+    img {
+      position: relative;
+      top: -25%;
+      width: 100%;
+    }
+  }
+}
+
+.pagination-button {
+  @include mobile {
+    padding: 10px;
+    margin: 5px;
+  }
+
+  color: black;
+  font-weight: 700;
+  font-family: "Exo", sans-serif;
+  padding: 20px;
+  margin: 10px;
+
+  &:hover {
+    background-color: darken($greyBg, 10%);
+    color: $primaryCol;
+    cursor: pointer;
+  }
+
+  &.active {
+    color: $greyFont;
+  }
 }

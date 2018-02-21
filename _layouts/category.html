@@ -2,40 +2,30 @@
 layout: default
 ---
 
-<section class="archive-post-list archive px-2 py-3 py-sm-6">
-  <div class="wrap">
-    <div class="row around-xs" id="cat-list">
-
+<section class="archive-post-list archive px-2 py-3 px-sm-4 py-sm-6">
+  <div id="cat-list" class="p-2 mb-2">
+    <a class="text--heavy p-2" href="{{site.baseurl}}/blog">
+      All
+    </a>
     {% for category in site.categories %}
       {% if category contains page.tag %}
         {% assign class = ' active' %}
       {% else %}
         {% assign class = '' %}
       {% endif %}
-
-      <a class="col-xs-12 col-sm m-1 p-2 center-xs bg-grey rdCorner{{class}}" href="{{site.baseurl}}/category/{{ category | first }}/">
-        <h3 class="mb-0">{{ category | first }}</h3>
+      <a class="text--heavy {{class}} mx-1 mx-sm-3 p-2" href="{{site.baseurl}}/category/{{ category | first }}/">
+        {{ category | first }}
       </a>
     {% endfor %}
-      <a class="col-xs-12 col-sm m-1 p-2 center-xs bg-grey rdCorner" href="{{site.baseurl}}/blog">
-        <h3 class="mb-0">All</h3>
-      </a>
-
-    </div>
-
-    <div class="cat-page">
-      <ul class="row" id="post-list">
-        {% for post in site.categories[page.tag] %}
-        <li class="col-xs-12 col-sm-4 p-2 my-3 article-loop center-xs">
-          <a href="{{site.baseurl}}{{ post.url }}">
-            <img class="img--blog full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
-            {{ post.title }}
-          </a>
-        </li>
-        {% endfor %}
-      </ul>
-    </div>
-
   </div>
+
+  <div class="cat-page">
+    <div id="post-list">
+      {% for post in site.categories[page.tag] %}
+        {% include archive-post-loop.html %}
+      {% endfor %}
+    </div>
+  </div>
+
 </section>
 <script src="/plugins/jqueryPaginate.js" charset="utf-8"></script>

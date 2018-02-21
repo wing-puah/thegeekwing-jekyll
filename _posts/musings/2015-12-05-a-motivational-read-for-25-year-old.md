@@ -4,6 +4,7 @@ date:  2015-12-05 18:56:21 +0800
 categories:
   - "Musings"
 banner: "/blog/2015/12/youth-25.jpg"
+description: "Maybe you still do not have your life together. But you get a glimpse to the social issues: economic crisis, inequality, prejudices and political unrest. You remember saying that you are going to change the world and make the world a better place."
 tags: [reflection, live your dream]
 ---
 ## Life

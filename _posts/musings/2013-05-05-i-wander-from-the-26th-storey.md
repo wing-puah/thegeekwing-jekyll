@@ -4,6 +4,7 @@ date:   2013-05-05 07:36:49 +0800
 categories:
   - "Musings"
 banner: "/blog/2013/04/city-busy-lives.jpg"
+description: "I am high above the people on the streets; they look just like ants marching on the street. And cars, they form a long strand of disconnected metal capsules that sprawl on the highway with an almost equal distance in between."
 tags: [live your dream, passion, finding motivation ]
 ---
 

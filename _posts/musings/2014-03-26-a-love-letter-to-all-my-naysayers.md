@@ -4,6 +4,7 @@ date:  2014-03-26 12:23:47 +0800
 categories:
   - "Musings"
 banner: "/blog/2014/03/naysayers-hoodie-monochrome.jpg"
+description: "I know better now that it is better for me to remain as my own strongest pillar of support. There are times when I look back into my life, and am both amazed and discouraged by it. So I learn that all will be well if I focus on the present, to do what I could to live this moment to the best."
 tags: [reflection, live your dream, finding motivation, passion]
 ---
 ## Dear you,

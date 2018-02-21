@@ -3,16 +3,9 @@ layout: postarchives
 title: "Blog"
 permalink: /blog/
 ---
-<ul class="row my-4 center-xs" id="post-list">
+<div id="post-list">
 {% for post in site.posts %}
   {% assign post = site.posts.first %}
-
-  <li class="col-xs-12 col-sm-4 p-2 my-3 article-loop center-xs">
-    <a href="{{site.baseurl}}{{ post.url }}">
-      <img class="img--blog full-img rdCorner" src="{{site.imgurl}}{{ post.banner }}" alt="">
-      {{ post.title }}
-    </a>
-  </li>
-
+  {% include archive-post-loop.html %}
 {% endfor %}
-</ul>
+</div>

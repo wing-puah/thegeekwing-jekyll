@@ -1,9 +1,10 @@
 ---
 title: "Lets be an artist now"
-date:  2016-02-21 18:54:35 +0800
+date:  2014-02-26 18:54:35 +0800
 categories:
   - "Musings"
 banner: "/blog/2014/02/artist.jpg"
+description: "We spend much of our childhood imagining that we are captains sailing the ferocious sea, the jungle explorers stumbling on the next miracle herb for mankind, or even the sages working to solve the puzzle of the grand web of life."
 tags: [finding motivation, passion, live your dream]
 ---
 ## For this moment, sit alone.

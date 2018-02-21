@@ -4,6 +4,7 @@ date: 2014-01-31 11:36:20 +0800
 categories:
   - "Musings"
 banner: "/blog/2014/01/man-who-travel.jpg"
+description: "He has lots of stories to share, from hitchiking across America to staying with the villagers in Uzbekistan. He could speak in the same sentence of poverty of the world and the villagers' contentment despite the abject living conditions. He might tell you that the world is corrupted but encourages to do your very best for the world. But whatever he say, he say it with passion, even if it is also with contradiction."
 tags: [reflection]
 ---
 ## Have you met a man who travels?

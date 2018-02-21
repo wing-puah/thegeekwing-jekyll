@@ -1,10 +1,11 @@
 ---
 title: "I'm a broke, ohm-chanting and time-altering dragon"
-date:  2016-02-21 18:54:35 +0800
+date:  2014-03-17 18:54:35 +0800
 categories:
   - "Musings"
 banner: "/blog/2014/03/state-of-bliss.jpg"
 tags: [reflection, live your dream, passion]
+description: "I am biologically twenty four, spiritually nutcase, monetary broke, but at least physically and mentally, I feel at my best."
 ---
 ## Monday, Tuesday, Wednesday to Saturday.
 

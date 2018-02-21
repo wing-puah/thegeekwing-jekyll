@@ -4,6 +4,7 @@ date:  2014-06-13 16:26:28 +0800
 categories:
   - "Musings"
 banner: "/blog/2013/12/wing-looking-far-away.jpg"
+description: "Today, I lie on my bed, still broken but open. Open to the truth, open to the fortunes that I have, open to the opportunities that have been bestowed again and again, almost miraculously. And things start to make sense."
 tags: [reflection, finding motivation]
 ---
 ## 3rd week

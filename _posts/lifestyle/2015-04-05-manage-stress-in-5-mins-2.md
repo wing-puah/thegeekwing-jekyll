@@ -4,6 +4,7 @@ date:  2015-04-05 14:22:16 +0800
 categories:
   - "Lifestyle"
 banner: "/blog/2015/08/mindfulness.jpg"
+description: "Manage your stress through breathing and mindfulness techniques"
 tags: [balanced living, yoga, emotional health, mindfulness]
 ---
 Last week, we talk about [2 techniques](/2015/03/25/manage-stress-in-5-mins/) to relieve stress using physical movements.

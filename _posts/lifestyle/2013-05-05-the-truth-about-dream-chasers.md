@@ -4,6 +4,7 @@ date:   2013-05-05 07:36:49 +0800
 categories:
   - "Lifestyle"
 banner: "/blog/2012/05/shadows-and-light.jpg"
+description: "This is to the ones who is different. This is to the ones who has been ridiculed by others for following “stupid” dreams.  This is to the one who believes in justice. This is to the one who is being chided for indulging in life’s fantasy."
 tags: [live your dream, passion ]
 ---
 

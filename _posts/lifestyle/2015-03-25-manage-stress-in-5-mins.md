@@ -4,6 +4,7 @@ date:  2015-03-25 06:40:16 +0800
 categories:
   - "Lifestyle"
 banner: "/blog/2015/04/calm-manage-stress.jpg"
+description: "Manage your stress through mindful movements"
 tags: [balanced living, yoga, emotional health, mindfulness]
 ---
 Do you have endless deadlines to meet? Are you in debt? Do you feel overwhelmed with work and family commitments?

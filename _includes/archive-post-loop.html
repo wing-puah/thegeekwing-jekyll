@@ -1,0 +1,29 @@
+<div class="article-loop">
+  <a href="{{site.baseurl}}{{ post.url }}">
+    <article class="p-2 px-sm-4 py-sm-6 archive-single-post start-xs">
+      <div class="bg-img"><img src="{{site.imgurl}}{{ post.banner }}"/></div>
+
+      <div class="row">
+        <div class="col-sm-3 center-xs mt-sm-4 xs-d-none">
+          <span class="archive-date"><strong>{{ post.date | date_to_string }}</strong></span>
+        </div>
+        <div class="col-xs-12 col-sm-8">
+          <h2 class="mb-0 post-title">
+            {{ post.title }}
+          </h2>
+          <div class="text--small text--uppercase pb-3">
+            {% for category in post.categories %}
+            <span class="pr-3">{{ category }}</span>
+            {% endfor %}
+          </div>
+          {% if post.description %}
+            <p>{{ post.description }}</p>
+          {% else %}
+            <p>{{ post.excerpt }}</p>
+          {% endif %}
+        </div>
+      </div>
+
+    </article>
+  </a>
+</div>
