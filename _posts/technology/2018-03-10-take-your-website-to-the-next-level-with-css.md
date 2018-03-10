@@ -16,7 +16,7 @@ The developers that I meet are usually back end developers. And sometimes when b
 
 ### User-centric design is a discipline by itself.
 
-Websites are becoming more interactive, attractive and innovative. A look at (Awwwards)[https://www.awwwards.com] features an array of fanciful, though not always user-centric, website design.
+Websites are becoming more interactive, attractive and innovative. A look at [Awwwards](https://www.awwwards.com) features an array of fanciful, though not always user-centric, website design.
 
 Users are expecting more nowadays. Here are 5 beautiful CSS tricks (ok, you need some javascript to make it works) that you could use to take your website to the next level.
 

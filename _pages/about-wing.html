@@ -91,7 +91,7 @@ footer: contact
     <h2>Projects</h2>
     <div class="row m-0 px-3 px-sm-0 pt-sm-5">
       {% assign count = 0 %}
-      {% assign sorted_pages = (site.pages |  where: "layout" , "portfolio" | sort: 'date'  | reverse ) %}
+      {% assign sorted_pages = site.pages |  where: "layout" , "portfolio" | sort: 'date'  | reverse  %}
       {% for page in sorted_pages %}
         {% if count < 6 %}
           {% assign count = count | plus: 1 %}
