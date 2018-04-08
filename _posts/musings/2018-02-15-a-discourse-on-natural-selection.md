@@ -50,4 +50,4 @@ Then we multiply the scoreMultiplication array with the weightage stipulated by 
 Finally, we will call upon the whole function to see the results. And it will returns that PersonB is a good match for PersonA.
 <script src="https://gist.github.com/wing-puah/7e70abb1edce6b615827158d0f3fbf94.js?file=display-results"></script>
 
-There, we have it. My thoughts on natural selection with modern day dating. As much as I don't believe in modern day romantic love, I do believe that it is achievable by most individuals if one chooses to work towards it. If you have find your match, don't give up. Maybe you can try to relook into your conditions and weightage chart ;).
+There, we have it. My thoughts on natural selection with modern day dating. As much as I don't believe in modern day romantic love, I do believe that it is achievable by most individuals if one chooses to work towards it. If you haven't find your match, don't give up. Maybe you can try to relook into your conditions and weightage chart ;).
