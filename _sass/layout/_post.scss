@@ -25,10 +25,9 @@
   .post-title {width: 98%;}
 }
 
-.post iframe {
+.post img {
   @include mobile {
-    width: 100%;
-    height: auto;
+    display: none;
   }
 }
 
