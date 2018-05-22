@@ -1,6 +1,6 @@
 ---
 title:  "5 things I learn from watching drag queens competition"
-date:   2018-03-01 15:12:49 +0800
+date:   2018-05-21 15:12:49 +0800
 categories:
   - "Musings"
 banner: "/blog/2018/05/drag-queen.jpg"
