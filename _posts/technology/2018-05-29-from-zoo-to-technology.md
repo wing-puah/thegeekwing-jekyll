@@ -25,11 +25,11 @@ There is no doubt that our show bring joy to people. They love the dynamism and 
 
 However, there is one event that stir the soul of those who are present. It is just like any other show day. Show preparation is executed as per normal except there is a slight adjustment in the show program. We will be including a sniffing act during the show.
 
-What happen is that someone from the audience will pass us his/her belonging to hide in a few of our props. And our brilliant border collie, Major will attempt to find the item. Just when everything is going smoothly, there seems to be something inside the box.
+What happen is that someone from the audience will pass us his/her belonging to hide in a few of our props. And our brilliant border collie, Major will attempt to find the item. Just when everything is going smoothly, there seems to be something else inside the box.
 
 __A letter.__
 
-As my supervisor read it out loud, the stage is silent. It is a wedding proposal. Tears well up in my colleague's eyes. On that day, the animals are not the only stars. We stand rooted for the couple who are on stage. Cheers fill our amphitheatre as a resounding yes come from the lady.
+As my supervisor read it out loud, the stage is silent. It is a wedding proposal. I turn to my colleague beside me, tears well up in her eyes, as we stood watching from behind the stage. On that day, the animals are not the only stars. We stand rooted for the couple who are on stage. Cheers fill our amphitheatre as a resounding yes come from the lady.
 
 Raw. This is one of my most memorable encounter on love while working in the zoo.
 
