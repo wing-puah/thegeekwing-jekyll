@@ -52,6 +52,6 @@ __It is year 2010. Me, when I am young and dreamy.__
 
 What are the chances that fate brings two people to meet on different places after almost a decade?
 
-This is the string that attaches and thread my life together. From the time I'm born, to the time I deviate from my well-trodden path to now.
+This is the part of the thread that attaches my life together. From the time I'm born, to the time I deviate from my well-trodden path to now.
 
-Every seemingly random events in my life start to fall into place as it builds me up in character pieces by pieces. I am but a culmination of the events that string together in my life. Only on hindsight, do we realise how much we have travel. And arm with this knowledge, I am ready to march onwards to my goals.
+Every seemingly random events in my life start to fall into place as it builds me up in character pieces by pieces. I am but a culmination of the events that string together in my life. It is only on hindsight, do we realise how much we have travel. And arm with this knowledge, I am ready to march onwards to my goals.
