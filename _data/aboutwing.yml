@@ -25,8 +25,8 @@ timeline:
     description: 'Develop my first website with static generator, Jekyll. Develop website and manage event for GCNS Youth Forum. Sports coach. Soft skills trainer and program coordinator.'
 
   - year: '2018'
-    title: 'Assisted with Vienna Boys Choir in Singapore'
-    description: 'Develop website and assist in event management for the weeklong event, Singapore Vienna Boys Choir week.'
+    title: 'Assisted with Vienna Boys Choir in Singapore<br/>Project manager at Katalyst'
+    description: 'Develop website and assist in event management for the weeklong event, Singapore Vienna Boys Choir week. Manage various technical projects at blockchain company, Katalyst.'
 
 services:
   - type: 'Web development'

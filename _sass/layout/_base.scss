@@ -82,6 +82,12 @@ ol{
 
 ul{ list-style:none; }
 
+ul.bullet {
+  list-style-type: circle;
+  list-style-position: inside;
+  padding-left: 20px;
+}
+
 blockquote,q{
   quotes:none;
 }

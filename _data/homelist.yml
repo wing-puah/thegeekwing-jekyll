@@ -1,10 +1,10 @@
 work:
 
-  - type: 'Kids & Youth'
-    description: 'Fun activities that integrate holistic development for children of all ages'
+  - type: 'Blockchain'
+    description: 'A tech evangelist and project manager for a blockchain company, Katalyst'
 
-  - type: 'Technology'
-    description: 'Complete and affordable web solutions for your enterprise needs & target audience'
+  - type: 'Web development'
+    description: 'Complete web solutions for your needs & target audience'
 
 
 tech:
@@ -19,4 +19,4 @@ tech:
 
   - name: 'Service/ Product deliverables'
     image: '/home/target.svg'
-    description: 'Wordpress development, front-end development and kids/youth activities plan'
+    description: 'Wordpress development, front-end development and blockchain-related services'
