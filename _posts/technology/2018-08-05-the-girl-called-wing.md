@@ -43,12 +43,15 @@ Regardless, she started planning. She worked 9 to 10 months in the zoo, to save 
 "This is the key to the grand scheme of life. In each travel, I will give myself a challenge. This is an experiment to prove that money will not and shall not be all."
 
 __Japan__
+
 To spend only 500 Singapore dollars in Japan while being there for 7 days. 500 dollars is inclusive of accommodation, entertainment, meals and all other relevant travel related expenses.
 
 __Taiwan__
+
 To spend mindlessly and purchase things as she deems fit in Taipei. No restrictions. She will only be there for 4 days. The point is to experiment on the point that mindless purchase will not make her happy.
 
 __New Zealand__
+
 To gain a new sense of independence. To push herself to accept rejections. Most importantly, to survive. At the back of the head, she hoped that the trip to this magical land will provide answer to life greatest mysteries.
 
 ## End 2011: Back to her reality
@@ -81,4 +84,4 @@ She had to pivot fast. It was too much of a cost and time to head back to univer
 
 The feeling of being on the spot day after day, staring at people having fun. The feeling back in those primary school days. She can't stay on the spot. Just like how she decide to change when she progress to a new environment, she decided to move on, fast.
 
-_This is the beginning of the blog series of Becoming a self-taught developer. Stay tuned for the next few blog series as I revealed how I transit to the tech industry.__
+_This is the beginning of the blog series of Becoming a self-taught developer. Stay tuned for the next few blog series as I revealed how I transit to the tech industry._
