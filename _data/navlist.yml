@@ -12,5 +12,5 @@ subpages:
   - page: "About wing"
     url: "/about-wing/"
 
-  - page: "Hire me"
-    url: "/hire-me/"
+  - page: "Contact"
+    url: "/contact/"
