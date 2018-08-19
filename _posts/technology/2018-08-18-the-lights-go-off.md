@@ -5,7 +5,7 @@ categories:
   - "Technology"
   - "Musings"
 banner: "/blog/2018/08/lights.jpg"
-tags: [website, frontend development, zoo, life lessons, story telling]
+tags: [website, frontend development, life lessons, story telling]
 description: The vicissitudes of Wing as she transit from the sports/training industry the technology industry.  
 ---
 _This is part 2 of  Becoming a self-taught developer series. Read [part 1](/technology/musings/2018/08/05/the-girl-called-wing/) here._
@@ -25,7 +25,7 @@ The trainers gathered for a short debrief after the hour-long session. And it wa
 
 "I feel that it is a little pity. But you are right, guess I just look into it six months from now."
 
-That night, The silence was piercing. As she lied on her bed, staring at the ceiling, she could feel the racing of her heart. Was it too much caffeine after three in the afternoon? To managed the preschool kids in the afternoon and the drowsiness from waking up for early classes, she probably overshot her caffeine intake.
+That night, The silence was piercing. As she lied on her bed, staring at the ceiling, she could feel the racing of her heart. Was it too much caffeine after three in the afternoon? To manage the preschool kids in the afternoon and the drowsiness from waking up for early classes, she probably overshot her caffeine intake.
 
 __Thump. Thump. Thump.__
 
@@ -35,7 +35,7 @@ In the afternoon, two kids argued in class. It wasn't something unusual for her.
 
 If only, situations in life could be solved by crying. Tears are perhaps acting as a social cue to indicate grievance. Was that the case for her? No. She had a choice.
 
-She had a choice between a gap year or studying in university. She has a choice to work in a stable job or to freelance and run her own startup. It was her choice.
+She had a choice between a gap year or studying in university. She had a choice to work in a stable job or to freelance and run her own startup. It was her choice.
 
 A conscious that she made as she believe that she could maximise the earning potential if she stuck on to the teaching field.
 
@@ -54,7 +54,7 @@ Months passed but she couldn't get a stable stream of classes.
 
 "Nobody trust me. I'm way too young. I can't stand in front of executives, some twice my age, to teach them about mindfulness."
 
-__Inhale compassion. Exhale your hatred.__
+__Inhale compassion. Exhale hatred.__
 
 ## 2015. Group fitness instructor certification
 It was a natural extension of her desire to teach and to share her knowledge and to become more relevant. At the same time, she was spending her time picking up belly dancing, performing and organising charity events.   
@@ -62,23 +62,23 @@ It was a natural extension of her desire to teach and to share her knowledge and
 ## 2016. Her first PTE LTD
 At this point in her life, she was fretting over the fluctuations of her monthly income. There will be good months and not so good months. She needed to be able to earn more or to get more clients in order to sustain her lifestyle. She sought out business mentorship and started an events startup.
 
-At the point of time, her Wordpress skills came in handy. The launching of her business was entirely bootstrap. And now, she was opened for business. There were good times, when the company landed their first event client. Subsequently, one of their clients asked about website development.
+At the point of time, her Wordpress skills came in handy. The launching of her business was entirely bootstrap. And now, she was opened for business. There were good moments, the company closed their first deal. Subsequently, one of their clients asked about website development.
 
-She had the bare minimal skills, the time and her company needed the income. So she started to take in web development gig as a business offerings. She started to offer website development to non-profits in order to beef up her portfolio.
+She had the bare minimal skills, the time and her company needed the income. So she started agreed to take on the web development gig as one of the business offerings. She volunteer to develop websites to non-profits in order to beef up her portfolio.
 
-She learned that when running a business and striking website deals, what mattered was the end product and the income generating ability of the website. In the beginning, she had no portfolio, so she charged a subsistence amount for a website. Then she slowly adjusted her rates as her competence level increased.
+She learned that when running a business and striking website deals, what mattered was the end product and the income generating ability of the website. In the beginning, she had no portfolio, so she charged a subsistence amount for a website. Then the confidence and competence rise and she slowly adjusted her rates.
 
 ## 2017. The lights go off
 2017, she was running a startup, coaching, teaching soft skills and learning programming. She was burning like multiple bulbs in a series circuit. Her potential was sipping through but she did not achieve the breakthrough that she was after.
 
-Perhaps, all of them had the potential to burn brightly but not when they were done concurrently. She needed to cut off. Maybe it wasn't time yet for her to make a decision.
+Perhaps, all of them had the potential to burn brightly but not when they were done concurrently. She needed to cut off. She had to make a decision soon.
 
 ### June 2017
 __Programming. Startup. Preschool kids. Soft skills training.__
 
 _1 out of 4. The light need to shine through._
 
-The night. She decided.
+That night, she decided.
 
 _First light off_
 
@@ -92,20 +92,20 @@ The dilemma of soft skills training was that, if she wasn't out there achieving 
 
 _Third_
 
-There was a self-appeasing quality in being able to bring in deals and run the company. Yet the ego could only be viable should the startup be able to translate practical means of living. For years, she had thought that merely by working harder and smarter would she be able to unearth diamonds in her life. Looking forward by quantifying the past records, it was obvious that her startup was not scalable and not viable in the long run. Her precious years of still being able to excused her behaviors as the traits of an explorative young adulthood was drying out.
+There was a self-appeasing quality in being able to bring in deals and run the company. Yet the ego could only be viable should the startup be able to translate practical means of living. For years, she had thought that merely by working harder and smarter would she be able to unearth diamonds in her life. Looking forward by quantifying the past records, it was obvious that her startup was not scalable in the long run. Her precious years of still being able to excused her behaviors as the traits of an explorative young adulthood was drying out.
 
 _Last_
 
-She started blogging on Wordpress at the age of 21. Her website translated to marginal income at the age of 23. All along, all she knew was simple Wordpress related development, CSS, HTML, Javascript and jQuery, all without entirely knowing the fundamentals of programming. All she knew was that a website was essential to spread her thoughts and businesses.
+She started blogging on Wordpress at the age of 21. Her website translated to marginal income at the age of 23. All along, all she knew was simple Wordpress related development, CSS, HTML, Javascript and jQuery, all without entirely knowing the fundamentals of programming. All she knew was that a website was essential to spread her thoughts and businesses. If luck every shone on her life, it had to be this.
 
 
 ## January 2018
 _Shine_
 
-Near the year end of 2016, she had tried sufficiently to determined that if there was one industry that was dynamic, challenging and based on meritocracy, it had to be the technological industry. She started to plan to learn the ropes of the industry. She landed her first web development client in the name of her startup.
+If there was one industry that was dynamic, challenging and based on meritocracy, it had to be the technological industry. She started to plan to learn the ropes of the industry.
 
 __In the grand scheme of things, everything fell into place.__
 
-Because of her events startup, she met her current boss and was hired into a blockchain company, Katalyst. In January 2018, she tender her resignation as a sports coach and a freelance soft skills trainer. She left her startup to focus on building a career in the tech industry. Right now, because of the soft skills and public speaking skills that she had acquired in her previous careers, she continuously sought out opportunities to share her love and journey, one code and one talk at a time.
+Because of her events startup, she met her current boss and was hired into a blockchain company, Katalyst. In January 2018, she tender her resignation as a sports coach and a freelance soft skills trainer. She left her startup to focus on building a career in the tech industry. Right now, because of the soft skills and public speaking skills that she had acquired in her previous careers, she continuously share her findings on her journey, one code, one story and one talk at a time.
 
 _This is the second part of the blog series of Becoming a self-taught developer. In the next blog post, I will be sharing the tools and techniques that I find instrumental throughout my journey._
