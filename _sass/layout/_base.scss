@@ -80,7 +80,10 @@ ol{
   }
 }
 
-ul{ list-style:none; }
+ul {
+  list-style:none;
+  padding-bottom: 20px;
+}
 
 ul.bullet {
   list-style-type: circle;
