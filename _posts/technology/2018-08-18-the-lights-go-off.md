@@ -37,7 +37,7 @@ If only, situations in life could be solved by crying. Tears are perhaps acting 
 
 She had a choice between a gap year or studying in university. She had a choice to work in a stable job or to freelance and run her own startup. It was her choice.
 
-A conscious that she made as she believe that she could maximise the earning potential if she stuck on to the teaching field.
+A conscious act that she made as she believed that she could maximise the earning potential if she stuck on to the teaching field.
 
 ## 2013. Her first partnership
 "Hey wing, I am interested to work with you. Will you like to give a talk at this company? Let's chat over phone", a message was sent through the meetup group that she ran.
@@ -64,7 +64,7 @@ At this point in her life, she was fretting over the fluctuations of her monthly
 
 At the point of time, her Wordpress skills came in handy. The launching of her business was entirely bootstrap. And now, she was opened for business. There were good moments, the company closed their first deal. Subsequently, one of their clients asked about website development.
 
-She had the bare minimal skills, the time and her company needed the income. So she started agreed to take on the web development gig as one of the business offerings. She volunteer to develop websites to non-profits in order to beef up her portfolio.
+She had the bare minimal skills, the time and her company needed the income. So she started agreed to take on the web development gig as one of the business offerings. She volunteered to develop websites to non-profits in order to beef up her portfolio.
 
 She learned that when running a business and striking website deals, what mattered was the end product and the income generating ability of the website. In the beginning, she had no portfolio, so she charged a subsistence amount for a website. Then the confidence and competence rise and she slowly adjusted her rates.
 
@@ -82,7 +82,7 @@ That night, she decided.
 
 _First light off_
 
-She loved her [preschool kids](/musings/2018/03/01/goodbye-kiddos/) but 10 years onwards, she simply couldn't foresee any progress in 10 years time. Even if she was the best preschool coach, she will only be deemed as the sports coach, a rank that she felt even the educators in the sector do not particularly bothered about.
+She loved her [preschool kids](https://www.thegeekwing.com/musings/2018/03/01/goodbye-kiddos/) but 10 years onwards, she simply couldn't foresee any progress in 10 years time. Even if she was the best preschool coach, she will only be deemed as the sports coach, a rank that she felt even the educators in the sector do not particularly bothered about.
 
 Doing it for the children wasn't justification anymore.  
 

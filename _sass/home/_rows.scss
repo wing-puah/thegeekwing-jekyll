@@ -4,18 +4,18 @@
   }
 }
 
-#portrait {
-  @include mobile {display: none;}
-  @include notmobile {
-    height: 85vh;
-    width: 100%;
-  }
-}
-
-.portrait-content {
-  @include notmobile { position: absolute; }
-  top: 0;
-}
+// #portrait {
+//   @include mobile {display: none;}
+//   @include notmobile {
+//     height: 85vh;
+//     width: 100%;
+//   }
+// }
+//
+// .portrait-content {
+//   @include notmobile { position: absolute; }
+//   top: 0;
+// }
 
 #home1 {
   @include mobile {
@@ -27,7 +27,7 @@
   height: 85vh;
   overflow: hidden;
   position: relative;
-
+  background: url('https://res.cloudinary.com/thegeekwing/image/upload/v1543651670/home/wing_home_cover.jpg') center/cover no-repeat;
   &:before {
     content: '';
     position: absolute;

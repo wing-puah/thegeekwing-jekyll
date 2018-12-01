@@ -12,7 +12,7 @@ description: In the tiny red dot, on 13 Sept 1990, an idealistic girl, called Hu
 Summer. Well, it is always summer in the place she was born. Greenery all year round. Cats were strolling and lazing along the pavements. Doctors and nurses were working at the graveyard shift that she was born in. 3am, the umbilical cord was snipped off by the doctor. First cry. Her first day. A girl called Hui Ying was born. Hui, for intelligence and Ying, as a representation for flower.
 
 ## 2002: Primary to Secondary
-Tiny baby grew to a height of about 1.5m. Primary school was a silent period for her. Her good friend left for another school when she was 8 and she slipped into a state of non-existence childhood friends. Nobody really recalled why, but they say her day after day, repeating her daily recess ritual of standing at the same spot. She just looked. Looking at the group of strangers playing among themselves. This was her childhood.
+Tiny baby grew to a height of about 1.5m. Primary school was a silent period for her. Her good friend left for another school when she was 8 and she slipped into a state of non-existence childhood friends. Nobody really recalled why, but they saw her day after day, repeating her daily recess ritual of standing at the same spot. She just looked. Looking at the group of strangers playing among themselves. This was her childhood.
 
 When she graduated from her primary school, she wanted her life to be different.
 
@@ -84,4 +84,4 @@ She had to pivot fast. It was too much of a cost and time to head back to univer
 
 The feeling of being on the spot day after day, staring at people having fun. The feeling back in those primary school days. She can't stay on the spot. Just like how she decide to change when she progress to a new environment, she decided to move on, fast.
 
-_This is the beginning of the blog series of Becoming a self-taught developer. Read [part 2](technology/musings/2018/08/05/the-lights-go-off/) of the blog series as I revealed how I transit to the tech industry._
+_This is the beginning of the blog series of Becoming a self-taught developer. Read [part 2](https://www.thegeekwing.com/technology/musings/2018/08/05/the-lights-go-off/) of the blog series as I revealed how I transit to the tech industry._
