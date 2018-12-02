@@ -4,7 +4,7 @@ layout: portfolio
 banner: "/portfolio/aman-amanah.jpg"
 background: '#214B2C'
 title: "Aman Amanah"
-date: 2018-09-23
+date: 2018-08-21
 genre: "Web development & event registration"
 project: "Web design & development"
 deliverables: "Website revamp<br/>

@@ -4,7 +4,7 @@ layout: portfolio
 banner: "/portfolio/take-charge-seminar.jpg"
 background: '#5a0317'
 title: "Take Charge Seminar"
-date: 2018-09-23
+date: 2018-08-10
 genre: "Wordpress development"
 project: "Web design & development"
 deliverables: "Landing page design & development"
