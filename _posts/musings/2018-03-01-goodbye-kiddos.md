@@ -12,15 +12,15 @@ description: My life lessons as a preschool sports coach.
 
 ## Coach is leaving.
 
-You might be wondering where am I. You might ask about me. And maybe, most likely, in a year or two, you will completely forget about this phase in your life. The teachings, lessons and games will barely hold a smidgen in your mind. You will have more important things to remember. You will have more friends, more games and more life lessons. The troubles that you cause, the tear that you shed and the tantrum you throw. You are going to forget them.
+You might be wondering where am I. You might ask about me. And maybe, most likely, in a year or two, you will completely forget about this phase in your life. The teachings, lessons and games will barely hold a smidgen in your mind. You will have more important things to remember. You will have more friends, more games and more life lessons. The troubles that you cause, the tears that you shed and the tantrums that you throw. You are going to forget them.
 
 ## Coach will miss you.
 
-Like your memories that will surely tuck away beneath the surface, I will too gradually forget your words, your names and finally your faces. Nevertheless, at least for a while, it is going to be weird. At this stage in life, I have thought that I am almost void of emotions. Happiness, sadness, excitement, grieve, all but just different perspectives to the situation. I feel genuinely upset that I'm leaving, even if it all for the better.
+Like your memories that will surely be tucked away beneath the surface, I will too gradually forget your words, your names and finally your faces. Nevertheless, at least for a while, it is going to be weird. At this stage in life, I have thought that I am almost void of emotions. Happiness, sadness, excitement, grieve, all but different perspectives to the situation. I feel genuinely upset that I'm leaving, even if it all for the better.
 
 Tearing away. It feels like a little of me just die. Rotten and buried.
 
-## Emotion don't triumph over logic.
+## Emotions don't triumph over logic.
 
 Maybe. Maybe I am not always this way. If I am in my [early twenties](https://www.thegeekwing.com/musings/2017/03/26/a-letter-to-myself-in-my-early-twenties/), I could have stuck with you for a bit longer perhaps. The belief system is different and all that matters are the fight for what you feel strongly in.
 
@@ -50,6 +50,6 @@ Feelings are temporal but legacy could potentially be long-lasting.
 
 That's why I'm leaving. I leaving because I don't want to miss who I could be.
 
-**Goodbye kiddo. I love you guys. I really do.**
+**Goodbye kiddos. I love you guys. I really do.**
 
 _Love, Once Coach Ying_

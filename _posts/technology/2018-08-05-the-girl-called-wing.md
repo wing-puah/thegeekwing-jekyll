@@ -84,4 +84,4 @@ She had to pivot fast. It was too much of a cost and time to head back to univer
 
 The feeling of being on the spot day after day, staring at people having fun. The feeling back in those primary school days. She can't stay on the spot. Just like how she decide to change when she progress to a new environment, she decided to move on, fast.
 
-_This is the beginning of the blog series of Becoming a self-taught developer. Read [part 2](https://www.thegeekwing.com/technology/musings/2018/08/05/the-lights-go-off/) of the blog series as I revealed how I transit to the tech industry._
+_This is the beginning of the blog series of Becoming a self-taught developer. Read [part 2](https://www.thegeekwing.com/technology/musings/2018/08/17/the-lights-go-off/) of the blog series as I revealed how I transit to the tech industry._
