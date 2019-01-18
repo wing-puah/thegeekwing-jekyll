@@ -4,19 +4,3 @@
   <p>And some techies find it hard to manage the expectations and deliverables for their clients.</p>
   <p>My past experience of being an educator, sports coach, fitness instructor, project coordinator and web developer makes me a perfect bridge to speak to people in the team in the language they are comfortable in. Most importantly, I'm here to ensure the quality and timeliness of your project and its' deliverables.</p>
 </div>
-<div class="row around-xs work" id="tg-row">
-  {% assign count = 0 %}
-  {% for role in site.data.homelist.work %}
-  {% assign count = count | plus: 1 %}
-
-  <div class="col-xs-12 col-sm pb-3 p-sm-3 appear">
-    <div class="row middle-xs center-xs full-height ofhidden work-item" id="tg-{{count}}">
-      <div class="color--primary box-fade full-width py-3">
-        <h2 class="mb-0">{{role.type}}</h2>
-        <p class="mb-0 pl-1 pr-1">{{role.description}}</p>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-
-</div>
